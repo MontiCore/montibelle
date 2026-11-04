@@ -1,0 +1,6 @@
+session "bundle_System_HLR_mergex" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_System_HLR_mergex_Input
+        def_System_HLR_mergex_Output
+

@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "EmptyAutOneState.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "EmptyAutOneState.Output",
+      "channelNames": [
+        "EmptyAutOneState.Output.channel_EmptyAutOneState_o_val"
+      ],
+      "timingName": "EVENT",
+      "theory": "bundle_EmptyAutOneState.def_EmptyAutOneState_Output"
+    }
+  ]
+}

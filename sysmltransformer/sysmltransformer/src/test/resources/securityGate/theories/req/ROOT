@@ -1,0 +1,5 @@
+session "req_SecurityOfGate" (generated requirement) = "component" +
+    sessions "SecurityGate_HWL" "data_inc" "user" "sps_SecurityGate_LLR" "bundle_SecurityGate_LLR"
+    theories
+        req_SecurityOfGate
+

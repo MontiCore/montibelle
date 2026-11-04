@@ -1,0 +1,169 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: webapp-sa
+  namespace: default
+
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: web-app-role-rolebinding
+subjects:
+  - kind: ServiceAccount
+    name: webapp-sa
+roleRef:
+  kind: Role
+  name: web-app-role
+  apiGroup: rbac.authorization.k8s.io
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: default
+  name: web-app-role
+rules:
+  - apiGroups: [
+        "",
+        "extensions",
+        "apps",
+        "networking.k8s.io",
+        "batch",
+        "storage.k8s.io",
+      ]
+    resources:
+      [
+        "pods",
+        "pods/exec",
+        "deployments",
+        "ingresses",
+        "services",
+        "jobs",
+        "persistentvolumeclaims",
+      ]
+    verbs: ["get", "watch", "list", "create", "update", "patch", "delete"]
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: montibelle
+  labels:
+    service: webserver
+spec:
+  selector:
+    matchLabels:
+      app: montibelle
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: montibelle
+    spec:
+      serviceAccountName: webapp-sa
+      imagePullSecrets:
+        - name: rwth-git-registry
+      containers:
+        - image: webapp:1.3.0
+          name: montibelle
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 5000
+              protocol: TCP
+          resources:
+            requests:
+              memory: "2000Mi"
+              cpu: "1000m"
+            limits:
+              memory: "4000Mi"
+              cpu: "2000m"
+          volumeMounts:
+            - name: db-volume
+              mountPath: /kubeApp/instance/database.db
+              subPath: database.db
+        - image: webapp:1.3.0
+          name: webapp-watchdog
+          imagePullPolicy: IfNotPresent
+          command: ["python3", "watchdog.py"]
+          resources:
+            requests:
+              memory: "250Mi"
+              cpu: "250m"
+            limits:
+              memory: "500Mi"
+              cpu: "500m"
+      volumes:
+        - name: db-volume
+          hostPath:
+            path: /mwe
+            type: DirectoryOrCreate
+            
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: montibelle-service
+spec:
+  type: NodePort
+  selector:
+    app: montibelle
+  ports:
+    - protocol: TCP
+      port: 5000
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: delete-old-jobs-sa
+  namespace: default
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: my-completed-jobs-cleaner-role
+  namespace: default
+rules:
+  - apiGroups: ["batch"]
+    resources: ["jobs"]
+    verbs: ["list", "delete"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: my-completed-jobs-cleaner-rolebinding
+  namespace: default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: my-completed-jobs-cleaner-role
+subjects:
+  - kind: ServiceAccount
+    name: delete-old-jobs-sa
+    namespace: default
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: montibelle-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: "nginx"
+  rules:
+    - host: 
+      http:
+        paths:
+          - path: /()(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: montibelle-service
+                port:
+                  number: 5000

@@ -1,0 +1,8 @@
+../bundle
+../automaton/MultipleInitialStates
+../automaton/MultipleParameters
+../automaton/EventAutomatonInvariant
+../automaton/Event
+../specification
+../composition
+../requirement

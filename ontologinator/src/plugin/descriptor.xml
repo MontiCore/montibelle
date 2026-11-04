@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceDescriptor
+  critical="false"
+  date="2025-02-22+17:55"
+  description="@descr@"
+  homePage="https://www.se-rwth.de/projects/#MontiBelle"
+  id="@id@"
+  mdVersionMax="higher"
+  mdVersionMin="2021x"
+  name="@name@"
+  product="CustomPlugin"
+  type="@type@">
+
+  <version human="@version@" internal="1" resource="10"/>
+  <provider name="RWTH Aachen" />
+
+  <edition>Enterprise</edition>
+  <edition>Architect</edition>
+  <edition>Standard</edition>
+  <edition>Professional Java</edition>
+  <edition>Professional C++</edition>
+  <edition>Professional C#</edition>
+  <edition>Professional ArcStyler</edition>
+  <edition>Reader</edition>
+  <edition>OptimalJ</edition>
+
+  <installation>
+    <file from="plugins/montibelle.ontology/*.*"
+          to="plugins/montibelle.ontology/*.*" />
+    <file from="data/resourcemanager/MDR_Plugin_ontologinator_3001_descriptor.xml"
+          to="data/resourcemanager/MDR_Plugin_ontologinator_3001_descriptor.xml" />
+  </installation>
+</resourceDescriptor>

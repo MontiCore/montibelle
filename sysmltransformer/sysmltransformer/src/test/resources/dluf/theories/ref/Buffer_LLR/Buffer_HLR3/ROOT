@@ -1,0 +1,5 @@
+session "ref_Buffer_LLR_refines_Buffer_HLR3" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "sps_Buffer_HLR3" "sps_Buffer_LLR"
+    theories
+        ref_Buffer_LLR_rough_Buffer_HLR3
+

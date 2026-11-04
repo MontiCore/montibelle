@@ -1,0 +1,153 @@
+chapter MontiBelle
+
+session "inc" (mustWork) in "00.inc" = "HOLCF" +
+  description "Bundles common functionality"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  sessions
+    "HOL-Eisbach"
+  theories
+    LNat
+    LNatcodegen
+    SetPcpo
+    Prelude
+    TSynDatatype
+    EventDatatype
+    TOneDatatype
+    TryTac
+    Codegen
+    Gfp
+    Causality
+    Classes
+
+session "automaton" (mustWork) in "01.automaton" = "inc" +
+  description "General Automaton"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    Automaton
+    AutomatonCausality
+    DeterministicAutomaton
+    Executable
+    Steps
+    Nda2DaSet
+    AutForRel
+  theories [document=false]
+    AREC
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+    "chan.PNG" "componentex.PNG"
+
+session "automaton_testing" (mustWork) in "01.automaton/Testing/" = "automaton" +
+  description "Automaton and Context refinement"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories [quick_and_dirty]
+    AutComp
+    SimpleComp
+    RefinementContext
+    Effect
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+    "chan.PNG" "componentex.PNG"
+
+
+session "stream" (mustWork) in "02.stream" = "automaton" +
+  description "FOCUS streams, an infinite list of messages"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    Stream
+    EventStream
+    StreamFilter
+    StreamFilterWhile
+    StreamFoot
+    StreamIterate
+    StreamOther
+    StreamWhile
+    StreamAutomaton
+    DocTable
+    StreamAutomaton
+  theories [document=false]
+    TimedStreamFunction
+    StreamCodegen
+    EventStreamCodegen
+    StreamWhileCodegen
+    TsynStream
+    TOneStream
+    StreamLtl
+    EventStreamMore
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+    "chan.PNG" "componentex.PNG"
+
+session "bundle" (mustWork) in "04.bundle" = "stream" +
+  description "Bundle multiple streams together. Each stream can be accessed using
+    an identifier called Channel. Type-information is pertained"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  sessions
+    user
+  theories
+    Channel
+    SBElement
+    SB
+    SBFin
+    DocTable
+  theories [document=false]
+    TSBFunction
+    ChannelConverterTypes
+    SBExtend
+    Timeconverter
+    SBCodegen
+    MsgWithChan
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+    "chan.PNG" "componentex.PNG"
+
+session "spf" (mustWork) in "05.spf" = "bundle" +
+  description "Composition of Stream Processing Functions + Weak-Causal and Strong-Causal Components"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    SPF
+    SPFComp
+    SPFCodegen
+    DocTable
+	TSPFfunction
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+    "composition.PNG"
+
+session "sps" (mustWork) in "06.sps" = "spf" +
+  description "Stream Processing Functions Specification, used to model non-deterministic components"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    SPS
+    SPSComp
+    SPSFun
+    SPSIO
+    DocTable
+  theories [document=false]
+    TSPSFun
+    InvRefinement
+    USimulation
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "component" (mustWork) in "07.component" = "sps" +
+  description "Theories for defining differently timed components, executing them and Locales for creating automaton based components"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  sessions
+    eventcomponent
+    tscomponent
+  theories
+    BundleMergeTs
+    BundleMergeExec
+    EventExecLocale
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "ontologies" (mustWork) in "10.demo" = "HOL" +
+  description "Theories for defining and analyzing ontologies"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  sessions
+    "HOL-Eisbach"
+  theories
+    ClassDiagramAnalyses
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"

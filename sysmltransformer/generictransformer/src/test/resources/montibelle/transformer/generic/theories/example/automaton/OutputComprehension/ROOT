@@ -1,0 +1,8 @@
+session "OutputComprehension" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    OutputComprehension_States
+    OutputComprehension
+

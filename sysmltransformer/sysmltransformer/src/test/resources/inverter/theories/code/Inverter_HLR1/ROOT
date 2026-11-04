@@ -1,0 +1,6 @@
+session "code_Inverter_HLR1" (generated code) = "sps" +
+    sessions "data_inc" "user" "bundle_Inverter_HLR1"
+    theories
+        code_Inverter_HLR1_Input
+        code_Inverter_HLR1_Output
+

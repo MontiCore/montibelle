@@ -1,0 +1,9 @@
+session "NoInput" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    NoInput_States
+    NoInput
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

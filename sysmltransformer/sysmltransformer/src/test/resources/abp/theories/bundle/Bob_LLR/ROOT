@@ -1,0 +1,6 @@
+session "bundle_Bob_LLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Bob_LLR_Input
+        def_Bob_LLR_Output
+

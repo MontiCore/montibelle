@@ -1,0 +1,5 @@
+session "sps_System_HLR_dluf" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_System_HLR_dluf" "sps_System_HLR_dluf_InputMap" "sps_System_HLR_dluf_OutputMap" "sps_DLUF_HLR1"
+    theories
+        def_System_HLR_dluf
+

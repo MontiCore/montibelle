@@ -1,0 +1,8 @@
+session "sps_Merge_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Merge_LLR"
+    theories
+        def_Merge_LLR
+        def_Merge_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

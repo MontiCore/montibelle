@@ -1,0 +1,2 @@
+session "test_session" =
+  sessions "import1" "import2"

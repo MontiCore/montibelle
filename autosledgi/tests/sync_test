@@ -1,0 +1,44 @@
+01-18 17:14 asyncio    DEBUG    Using selector: KqueueSelector
+01-18 17:14 prove      DEBUG    Gathered all theories: {'/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy'}
+01-18 17:14 client_server DEBUG    [out] server "as_nwdbfylagm" = 127.0.0.1:55950 (password "67e98ff5-2647-4dc9-8102-521dfdd6ce9e")
+01-18 17:14 client_server DEBUG    [out] OK {"isabelle_id":"1ac2416e8432","isabelle_name":"Isabelle2022"}
+01-18 17:14 client_server DEBUG    [in]: session_start {"session": "HOLCF", "include_session": false, "verbose": true, "options": ["quick_and_dirty=true"]}
+01-18 17:14 client_server DEBUG    [out] OK {"task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 prove      INFO     Session Pure/Pure
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session Pure/Pure","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 prove      INFO     Session Misc/Tools
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session Misc/Tools","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 client_server DEBUG    [out] 105
+01-18 17:14 prove      INFO     Session HOL/HOL (main)
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOL (main)","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 client_server DEBUG    [out] 120
+01-18 17:14 prove      INFO     Session HOL/HOL-Library (main timing)
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOL-Library (main timing)","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 client_server DEBUG    [out] 114
+01-18 17:14 prove      INFO     Session HOL/HOLCF (main timing)
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOLCF (main timing)","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 client_server DEBUG    [out] 109
+01-18 17:14 prove      INFO     Starting session HOLCF ...
+01-18 17:14 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Starting session HOLCF ...","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 client_server DEBUG    [out] 177
+01-18 17:14 client_server DEBUG    [out] FINISHED {"session_id":"6b30bed5-e556-4f12-9d02-21d766818c94","tmp_dir":"/tmp/isabelle-mathias/server_session8897820189444619534","task":"43906a1d-ba3a-4b83-8e5a-bf7f2c4b050a"}
+01-18 17:14 prove      INFO     Session started.
+01-18 17:14 prove      INFO     Processing theory resources/tmp/simple/BadContext.thy
+01-18 17:14 prove      INFO     Proving lemma 1/1
+01-18 17:14 prove      DEBUG    Injecting line 7 with 'sledgehammer [timeout=1]'
+01-18 17:14 client_server DEBUG    [in]: use_theories {"session_id": "6b30bed5-e556-4f12-9d02-21d766818c94", "theories": ["/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext"]}
+01-18 17:14 client_server DEBUG    [out] OK {"task":"61b0e78e-97b4-4524-8c25-525fb98e6111"}
+01-18 17:14 client_server DEBUG    [out] 167
+01-18 17:14 client_server DEBUG    Theory Draft.BadContext: 99%
+01-18 17:14 client_server DEBUG    [out] NOTE {"percentage":99,"task":"61b0e78e-97b4-4524-8c25-525fb98e6111","message":"theory Draft.BadContext 99%","kind":"writeln","session":"","theory":"Draft.BadContext"}
+01-18 17:14 client_server DEBUG    [out] 169
+01-18 17:14 client_server DEBUG    Theory Draft.BadContext: 100%
+01-18 17:14 client_server INFO     Finished loading theories
+01-18 17:14 client_server DEBUG    [out] NOTE {"percentage":100,"task":"61b0e78e-97b4-4524-8c25-525fb98e6111","message":"theory Draft.BadContext 100%","kind":"writeln","session":"","theory":"Draft.BadContext"}
+01-18 17:14 client_server DEBUG    [out] 1057
+01-18 17:14 client_server DEBUG    [out] FINISHED {"ok":false,"errors":[{"kind":"error","message":"Bad context for command \"sorry\"\\<^here> -- using reset state","pos":{"line":9,"offset":127,"end_offset":132,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}}],"nodes":[{"messages":[{"kind":"warning","message":"No proof state","pos":{"line":8,"offset":83,"end_offset":95,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}},{"kind":"error","message":"Bad context for command \"sorry\"\\<^here> -- using reset state","pos":{"line":9,"offset":127,"end_offset":132,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}}],"exports":[],"status":{"percentage":100,"unprocessed":0,"running":0,"finished":12,"failed":1,"total":14,"consolidated":true,"canceled":false,"ok":false,"warned":1},"theory_name":"Draft.BadContext","node_name":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}],"task":"61b0e78e-97b4-4524-8c25-525fb98e6111"}
+01-18 17:14 prove      INFO     There is no goal to solve. We are done here.
+01-18 17:14 client_server DEBUG    [in]: session_stop {"session_id": "6b30bed5-e556-4f12-9d02-21d766818c94"}
+01-18 17:14 client_server DEBUG    [out] OK {"task":"b2f1fbd4-8ee6-4581-8e68-23caf3551c15"}
+01-18 17:14 client_server DEBUG    [out] FINISHED {"ok":true,"return_code":0,"task":"b2f1fbd4-8ee6-4581-8e68-23caf3551c15"}
+01-18 17:14 client_server DEBUG    [in]: shutdown

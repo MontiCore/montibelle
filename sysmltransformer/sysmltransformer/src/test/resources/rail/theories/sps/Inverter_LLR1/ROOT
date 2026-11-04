@@ -1,0 +1,8 @@
+session "sps_Inverter_LLR1" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Inverter_LLR1"
+    theories
+        def_Inverter_LLR1
+        def_Inverter_LLR1_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

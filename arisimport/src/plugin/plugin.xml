@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+  id="@id@"
+  name="@name@"
+  version="@version@"
+  ownClassloader = "true"
+  class-lookup = "LocalFirst"
+  provider-name="RWTH-Aachen"
+  class="de.montibelle.arisimport.MDPlugin">
+  <requires>
+    <api version="1.2"/>
+  </requires>
+  <runtime>
+    <library name="@jar@"/>
+  </runtime>
+</plugin>

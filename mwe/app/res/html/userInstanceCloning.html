@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ stack_title }} - Cloning repository..
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='instanceContainer.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid vh-100 d-flex flex-column">
+
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">{{ stack_title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbar" class="justify-content-end collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="row flex-grow-1 bg-light" style="padding-top: 55px;">
+    <div class="col flex-fill">
+      <div style="display: flex; justify-content: center; padding-top: 10%;">
+
+        <div class="flex-column align-items-center">
+          <div class="row">
+            <h3>Setting up your instance. This will take a moment..</h3>
+          </div>
+          <div class="row" style="justify-content: center;">
+            <div class="spinner-grow text-primary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    setTimeout(triggerReadyCheck(), 5000);
+
+    function triggerReadyCheck() {
+      $.get('{{ url_for("clone_state") }}?id={{deployment_name}}', readyCheckCallback);
+    }
+
+    function readyCheckCallback(data, textStatus) {
+      if (data == "False" || data == "not found") {
+        window.location.replace('{{ url_for("userinstance_preparing", deployment_name=deployment_name) }}' + '?openCloned=True')
+      } else {
+        setTimeout(triggerReadyCheck(), 5000);
+      }
+    }
+
+  </script>
+
+
+
+
+</div>
+
+
+{% endblock %}

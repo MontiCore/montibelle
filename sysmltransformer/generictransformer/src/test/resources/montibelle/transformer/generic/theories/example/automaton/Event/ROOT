@@ -1,0 +1,12 @@
+session "Event" (testing) = "eventcomponent" +
+  options [quick_and_dirty=true]
+  sessions
+    io
+    MultipleParameters
+    component
+  theories
+    Event
+    Event_gen
+  export_files (in "../../../../simulator/export") [2]
+    "*:**scalaExec.scala"
+

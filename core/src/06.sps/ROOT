@@ -1,0 +1,11 @@
+chapter MontiBelle
+
+session "spslocale" (mustWork) in "locale" = "sps" +
+  description "Locales used for proving compositional refinements. Used by the generated code."
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="document%document,lemma%lemma,lemmas%lemmas",show_question_marks = true]
+  theories
+    WrappedSPSComp
+    WrappedSPSCompConvert
+    WrappedSPSCompInstanceConvert
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"

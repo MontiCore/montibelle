@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR1" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_HLR1"
+    theories
+        def_SecureProtocol_HLR1
+

@@ -1,0 +1,6 @@
+- session: DummySession
+  theory: DummyTheory
+  hwl:
+    - !Substitute
+      session: hwl_Dummy
+      theory: hwl_Dummy

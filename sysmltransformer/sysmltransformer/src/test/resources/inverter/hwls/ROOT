@@ -1,0 +1,12 @@
+session "top" (system) = "eventcomponent" + 
+  sessions
+    sps_Inverter_LLR1
+    sps_Inverter_LLR2
+    SeLFiE
+    PSL
+    TBC
+    Abduction
+    Smart_Isabelle
+    generator
+  theories
+    Fake

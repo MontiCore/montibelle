@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"System_HLR.Output","symbols":[{"kind":"montibelle.focus._symboltable.BundleSymbol","name":"System_HLR.Output","fullName":"System_HLR.Output","channelNames":["channel_System_HLR_link_data"],"timingName":"EVENT","codeTheory":"null","theory":"bundle_System_HLR.def_System_HLR_Output"}]}

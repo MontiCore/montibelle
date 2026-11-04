@@ -1,0 +1,3 @@
+session "sps_Composition_part_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_PartDefinition" "bundle_Composition_part"
+

@@ -1,0 +1,5 @@
+session "user" (generated system) = "inc" +
+    options [quick_and_dirty=true]
+    theories
+        Datatypes
+

@@ -1,0 +1,5 @@
+session "ref_Inverter_HLR2_refines_Inverter_HLR1" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "sps_Inverter_HLR1" "sps_Inverter_HLR2"
+    theories
+        ref_Inverter_HLR2_rough_Inverter_HLR1
+

@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"channel_System_LLR_mergex_output_data","symbols":[{"kind":"montibelle.focus._symboltable.ChannelSymbol","name":"channel_System_LLR_mergex_output_data","fullName":"channel_System_LLR_mergex_output_data","localName":"channel_mergex_output_data","typeName":"PacketEVENT","pattern":"channel_mergex_output_data_pattern"}]}

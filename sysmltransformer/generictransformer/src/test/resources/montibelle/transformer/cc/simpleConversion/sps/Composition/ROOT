@@ -1,0 +1,5 @@
+session "sps_Composition" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Composition" "sps_Composition_connector" "sps_Composition_part"
+    theories
+        def_Composition
+

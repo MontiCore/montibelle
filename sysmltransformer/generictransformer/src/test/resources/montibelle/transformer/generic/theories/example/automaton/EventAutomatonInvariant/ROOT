@@ -1,0 +1,11 @@
+session "EventAutomatonInvariant" (testing) = "tscomponent" +
+  sessions
+    io
+    eventcomponent
+    component
+    liftedstreams
+  theories
+    EventAutomatonInvariant_States
+    EventAutomatonInvariant
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

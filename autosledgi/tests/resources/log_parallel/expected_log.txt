@@ -1,0 +1,72 @@
+autosledgi.prove INFO     Parallel mode will be used.
+autosledgi.prove INFO     Session Pure/Pure
+autosledgi.prove INFO     Session Misc/Tools
+autosledgi.prove INFO     Session HOL/HOL (main)
+autosledgi.prove INFO     Session HOL/HOL-Library (main timing)
+autosledgi.prove INFO     Session HOL/HOLCF (main timing)
+autosledgi.prove INFO     Session Pure/Pure
+autosledgi.prove INFO     Session Misc/Tools
+autosledgi.prove INFO     Session HOL/HOL (main)
+autosledgi.prove INFO     Session HOL/HOL-Library (main timing)
+autosledgi.prove INFO     Session HOL/HOLCF (main timing)
+autosledgi.prove INFO     Starting session HOLCF ...
+autosledgi.prove INFO     Session started.
+autosledgi.prove INFO     Progress: 0% 
+autosledgi.prove INFO     Processing theory tests\resources\tmp\log_parallel\log_lemmas.thy
+autosledgi.prove INFO     Iteration 1: Processing 6 annotation(s).
+autosledgi.isabelle.client_server INFO     Processing theories %.. ({'Draft.log_lemmas': })
+autosledgi.isabelle.client_server INFO     Finished processing theories. 
+autosledgi.prove INFO     Annotation 1 (line 15):
+autosledgi.prove INFO     (1) 1 proof(s) found.
+autosledgi.prove INFO     (1) Chose cvc5 proof (time 0): ['by simp']
+autosledgi.prove INFO     (1) Proof for current subgoal inserted.
+autosledgi.prove INFO     (1) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 16.7%
+autosledgi.prove INFO     Annotation 2 (originally line 19, now 21):
+autosledgi.prove INFO     (2) 1 proof(s) found. 
+autosledgi.prove INFO     (2) Chose cvc5 proof (time 0): ['apply simp']
+autosledgi.prove INFO     (2) Proof for current subgoal inserted.
+autosledgi.prove INFO     (2) Subgoal solved.
+autosledgi.prove INFO     Progress: 25.0%
+autosledgi.prove INFO     Annotation 3 (originally line 22, now 26):
+autosledgi.prove INFO     (3) 1 proof(s) found. 
+autosledgi.prove INFO     (3) Chose cvc5 proof (time 0): ['by (simp add: x_def)']
+autosledgi.prove INFO     (3) Proof for current subgoal inserted.
+autosledgi.prove INFO     (3) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 41.7%
+autosledgi.prove INFO     Annotation 4 (originally line 26, now 32):
+autosledgi.prove INFO     (4) 2 proof(s) found.
+autosledgi.prove INFO     (4) Chose zipperposition proof (time 0): ['apply (simp add: y_def)']
+autosledgi.prove INFO     (4) Proof for current subgoal inserted.
+autosledgi.prove INFO     (4) Subgoal solved.
+autosledgi.prove INFO     Progress: 50.0%
+autosledgi.prove INFO     Annotation 5 (originally line 29, now 37):
+autosledgi.prove INFO     (5) 1 proof(s) found. 
+autosledgi.prove INFO     (5) Chose cvc5 proof (time 0): ['by simp']
+autosledgi.prove INFO     (5) Proof for current subgoal inserted.
+autosledgi.prove INFO     (5) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 66.7%
+autosledgi.prove INFO     Annotation 6 (originally line 32, now 42):
+autosledgi.prove INFO     (6) 1 proof(s) found.
+autosledgi.prove INFO     (6) Chose cvc5 proof (time 0): ['by (simp add: z_def)']
+autosledgi.prove INFO     (6) Proof for current subgoal inserted.
+autosledgi.prove INFO     (6) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 83.3%
+autosledgi.prove INFO     Iteration 2: Processing 2 annotation(s).
+autosledgi.isabelle.client_server INFO     Processing theories %.. ({'Draft.log_lemmas': })
+autosledgi.isabelle.client_server INFO     Finished processing theories.
+autosledgi.prove INFO     Annotation 1 (line 23):
+autosledgi.prove INFO     (1) 2 proof(s) found.
+autosledgi.prove INFO     (1) Chose cvc5 proof (time 0): ['by simp']
+autosledgi.prove INFO     (1) Proof for current subgoal inserted.
+autosledgi.prove INFO     (1) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 91.7%
+autosledgi.prove INFO     Annotation 2 (originally line 34, now 36):
+autosledgi.prove INFO     (2) 2 proof(s) found.
+autosledgi.prove INFO     (2) Chose zipperposition proof (time 0): ['by simp']
+autosledgi.prove INFO     (2) Proof for current subgoal inserted.
+autosledgi.prove INFO     (2) Detected finished proof. Cleaning up.
+autosledgi.prove INFO     Progress: 100.0%
+autosledgi.prove INFO     No lines left to prove.
+autosledgi.prove INFO     Processing Time: s
+autosledgi.prove INFO     Shutting down...

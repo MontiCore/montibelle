@@ -1,0 +1,26 @@
+package montibelle.backbone;
+
+
+classdiagram Workspace {
+
+  class Parameters {
+
+    String sourceUri;
+
+    String targetUri;
+
+    <<Opt>> String hwlUri;
+
+  }
+
+  interface Workspace {
+
+    String register(Parameters parameters);
+
+    Parameters retrieve(String id);
+
+    void remove(String id);
+
+  }
+
+}

@@ -1,0 +1,6 @@
+- session: req_SecurityOfGate
+  theory: req_SecurityOfGate
+  hwl:
+  - !Prologue
+    session: SecurityGate_HWL
+    theory: SecurityGate_HWL

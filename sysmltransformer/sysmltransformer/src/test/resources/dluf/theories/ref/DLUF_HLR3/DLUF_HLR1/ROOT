@@ -1,0 +1,5 @@
+session "ref_DLUF_HLR3_refines_DLUF_HLR1" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "sps_DLUF_HLR1" "sps_DLUF_HLR3" "ref_DLUF_HLR3_refines_DLUF_HLR2" "ref_DLUF_HLR2_refines_DLUF_HLR1"
+    theories
+        ref_DLUF_HLR3_rough_DLUF_HLR1
+

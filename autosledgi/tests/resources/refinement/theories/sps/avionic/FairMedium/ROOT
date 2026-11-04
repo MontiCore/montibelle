@@ -1,0 +1,10 @@
+session "sps_avionic_FairMedium" (generated) = "component" +
+    options [quick_and_dirty=true]
+    sessions "data_inc" "user" "expressions" "liftedstreams" "bundle_avionic_UnfairMedium"
+    theories
+        def_avionic_FairMedium
+        def_avionic_FairMedium_gen
+        def_avionic_FairMedium_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

@@ -1,0 +1,9 @@
+session "MultipleParameters" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    MultipleParameters_States
+    MultipleParameters
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

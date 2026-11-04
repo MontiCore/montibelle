@@ -1,0 +1,5 @@
+session "sps_Inverter_HLR1" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Inverter_HLR1"
+    theories
+        def_Inverter_HLR1
+

@@ -1,0 +1,8 @@
+session "sps_LambdasAddition" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_LambdasAddition"
+    theories
+        def_LambdasAddition
+        def_LambdasAddition_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

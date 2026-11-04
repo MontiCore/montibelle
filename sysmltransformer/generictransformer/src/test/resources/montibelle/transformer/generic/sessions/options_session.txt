@@ -1,0 +1,2 @@
+session "test_session" =
+  options [option1, option2 = value]

@@ -1,0 +1,6 @@
+session "bundle_PartDefinition" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_PartDefinition_Input
+        def_PartDefinition_Output
+

@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"channel_Inverter_i_val","symbols":[{"kind":"montibelle.focus._symboltable.ChannelSymbol","name":"channel_Inverter_i_val","fullName":"channel_Inverter_i_val","localName":"channel_i_val","typeName":"boolSYNC","pattern":"channel_i_val_pattern"}]}

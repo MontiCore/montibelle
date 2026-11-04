@@ -1,0 +1,6 @@
+session "bundle_RoughComponent" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_RoughComponent_Input
+        def_RoughComponent_Output
+

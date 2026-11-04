@@ -1,0 +1,5 @@
+session "data_inc" (testing) = "bundle" +
+  sessions
+    bundlelocale
+  theories
+    Data_inc

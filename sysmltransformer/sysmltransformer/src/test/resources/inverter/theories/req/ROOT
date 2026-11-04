@@ -1,0 +1,5 @@
+session "req_Requirement" (generated requirement) = "component" +
+    sessions "data_inc" "user" "sps_Inverter_LLR1" "code_Inverter_LLR1" "code_Inverter_HLR1"
+    theories
+        Requirement
+

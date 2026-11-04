@@ -1,0 +1,24 @@
+session "expressions" in "expressions" = "inc" + 
+  theories
+    TSynExpressions
+    EventExpressions
+    UntimedExpressions
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "liftedstreams" in "liftedstreams" = "stream" + 
+  theories
+    EventLiftedStream
+	  TsynLiftedStream
+	  UntimedLiftedStream
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "generator" (mustWork) = "spslocale" +
+  sessions
+    bundlelocale
+  theories
+    ArchRef
+    SPSConvRef
+  document_files (in "../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"

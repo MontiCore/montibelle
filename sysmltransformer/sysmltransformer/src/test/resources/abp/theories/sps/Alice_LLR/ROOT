@@ -1,0 +1,8 @@
+session "sps_Alice_LLR" (generated system) = "component" +
+    sessions "expressions" "bundle_Alice_LLR"
+    theories
+        def_Alice_LLR
+        def_Alice_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

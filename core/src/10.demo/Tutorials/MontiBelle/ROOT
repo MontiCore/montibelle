@@ -1,0 +1,13 @@
+chapter Training
+
+session "user" in user = "inc" +
+  theories
+    Datatypes
+	
+session "training" = "automaton" +
+  description "Training"
+  theories [quick_and_dirty]
+    training
+    training_automaton
+  document_files (in "../../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"    	

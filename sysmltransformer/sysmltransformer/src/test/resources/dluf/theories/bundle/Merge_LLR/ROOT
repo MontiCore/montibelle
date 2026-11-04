@@ -1,0 +1,6 @@
+session "bundle_Merge_LLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Merge_LLR_Input
+        def_Merge_LLR_Output
+

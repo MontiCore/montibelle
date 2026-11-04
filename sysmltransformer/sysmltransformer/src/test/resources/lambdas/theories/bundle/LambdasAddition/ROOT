@@ -1,0 +1,6 @@
+session "bundle_LambdasAddition" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_LambdasAddition_Input
+        def_LambdasAddition_Output
+

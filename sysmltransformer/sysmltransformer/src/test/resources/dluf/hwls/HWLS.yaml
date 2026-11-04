@@ -1,0 +1,13 @@
+- session: ref_Buffer_LLR_refines_Buffer_HLR3
+  theory: ref_Buffer_LLR_rough_Buffer_HLR3
+  hwl:
+  - !Prologue
+    session: hwl_Buffer
+    theory: hwl_Buffer
+
+- session: ref_Capacity_LLR_refines_Capacity_HLR3
+  theory: ref_Capacity_LLR_rough_Capacity_HLR3
+  hwl:
+  - !Prologue
+    session: hwl_Capacity
+    theory: hwl_Capacity

@@ -1,0 +1,14 @@
+session "sps_automaton_Event" (testing) = "eventcomponent" +
+  options [quick_and_dirty=true]
+  sessions
+    io
+    component
+    expressions
+    liftedstreams
+  theories
+    def_automaton_Event
+    def_automaton_Event_gen
+	  Event_States
+  export_files (in "export") [2]
+    "*:**scalaExec.scala"
+

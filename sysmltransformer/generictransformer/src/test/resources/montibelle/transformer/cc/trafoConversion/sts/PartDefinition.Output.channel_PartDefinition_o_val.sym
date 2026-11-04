@@ -1,0 +1,24 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "PartDefinition.Output.channel_PartDefinition_o_val",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "PartDefinition.Output.channel_PartDefinition_o_val",
+      "localName": "channel_o_val",
+      "pattern": "channel_o_val_pattern",
+      "timingName": "EVENT",
+      "type": {
+        "kind": "de.monticore.types.check.SymTypeOfObject",
+        "objName": "bool"
+      },
+      "typeName": "PartDefinition.Output.channel_PartDefinition_o_val.boolEVENT"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelTypeSymbol",
+      "name": "PartDefinition.Output.channel_PartDefinition_o_val.boolEVENT",
+      "type": "bool",
+      "timingName": "EVENT"
+    }
+  ]
+}

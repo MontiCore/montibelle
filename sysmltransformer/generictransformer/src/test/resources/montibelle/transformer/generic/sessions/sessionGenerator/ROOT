@@ -1,0 +1,30 @@
+session "composition" (generated system) = "tscomponent" +
+    sessions "data_inc" "user" "io" "connector" "instance"
+    theories
+        SerialComposition
+
+session "io" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        Instance1Input
+        Instance1Output
+        Instance2Input
+        Instance2Output
+        Connector2Input
+        Connector2Output
+        SerialFeedback
+
+session "connector" (generated system) = "tscomponent" +
+    sessions "data_inc" "user" "io"
+    theories
+        Connectors_Serial
+
+session "instance" (generated system) = "tscomponent" +
+    sessions "data_inc" "user" "io" "connector" "specification"
+    theories
+        SpecificationInstance
+        SpecificationInstance2
+
+session "specification" (generated system) = "tscomponent" +
+    sessions "data_inc" "user"
+

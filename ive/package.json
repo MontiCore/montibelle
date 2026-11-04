@@ -1,0 +1,377 @@
+{
+  "name": "ive",
+  "displayName": "IVE",
+  "description": "",
+  "version": "1.3.9",
+  "icon": "res/icons/ive.png",
+  "publisher": "SE RWTH",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other",
+    "Extension Packs"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/main/ts/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "ive",
+          "title": "Integrated Verification Environment",
+          "icon": "res/icons/ive.svg"
+        }
+      ]
+    },
+    "views": {
+      "ive": [
+        {
+          "id": "modelsView",
+          "name": "Models"
+        },
+        {
+          "id": "proofView",
+          "name": "Proof Obligations"
+        },
+        {
+          "id": "theoriesView",
+          "name": "Theories",
+          "when": "config.ive.theoriesView.enabled"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "modelsView",
+        "contents": "No models in workspace found.\n[Add a Model](command:ive.models.addFile)\n[Configure Workspace](command:ive.workspace.openSourceSetting)"
+      },
+      {
+        "view": "proofView",
+        "contents": "No proofs detected."
+      },
+      {
+        "view": "theoriesView",
+        "contents": "No theories to display."
+      }
+    ],
+    "commands": [
+      {
+        "command": "ive.workspace.openSourceSetting",
+        "title": "Open setting to 'Mark as Source'"
+      },
+      {
+        "command": "ive.workspace.markAsSource",
+        "title": "Mark as Source"
+      },
+      {
+        "command": "ive.workspace.markAsTarget",
+        "title": "Mark as Target"
+      },
+      {
+        "command": "ive.workspace.markAsHwls",
+        "title": "Mark as HWLs"
+      },
+      {
+        "command": "ive.models.transform",
+        "title": "Transform",
+        "icon": {
+          "light": "res/icons/light/transform.svg",
+          "dark": "res/icons/dark/transform.svg"
+        }
+      },
+      {
+        "command": "ive.proofs.refresh",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "ive.models.refresh",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "ive.theories.refresh",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "ive.proofs.openTheory",
+        "title": "Open Theory",
+        "icon": "$(file-code)"
+      },
+      {
+        "command": "ive.proofs.verify",
+        "title": "Verify",
+        "icon": "$(run)",
+        "enablement": "(viewItem != proven) && (viewItem != blocked) && (viewItem != disproven)"
+      },
+      {
+        "command": "ive.proofs.verify.all",
+        "title": "Verify All",
+        "icon": "$(run)"
+      },
+      {
+        "command": "ive.proofs.verify.stop",
+        "title": "Stop Verification",
+        "icon": "$(stop)"
+      },
+      {
+        "command": "ive.hwl.addPrologue",
+        "title": "Add Prologue-HWL"
+      },
+      {
+        "command": "ive.hwl.addEpilogue",
+        "title": "Add Epilogue-HWL"
+      },
+      {
+        "command": "ive.hwl.remove",
+        "title": "Remove HWL"
+      },
+      {
+        "command": "ive.models.addFile",
+        "title": "New File"
+      },
+      {
+        "command": "ive.models.addComponent",
+        "title": "New Component"
+      },
+      {
+        "command": "ive.models.addRootPackage",
+        "title": "Add package",
+        "icon": "$(add)"
+      },
+      {
+        "command": "ive.models.addPackage",
+        "title": "New Package"
+      },
+      {
+        "command": "ive.models.delete",
+        "title": "Delete"
+      }
+    ],
+    "configuration": {
+      "title": "IVE",
+      "properties": {
+        "ive.showWelcome": {
+          "type": "boolean",
+          "markdownDescription": "Show the IVE welcome screen after extension startup.",
+          "default": true
+        },
+        "ive.showAIMontibelle": {
+          "type": "boolean",
+          "markdownDescription": "Show the AI MontiBelle webview after extension startup.",
+          "default": false
+        },
+        "ive.workspace.modelLocation": {
+          "type": "string",
+          "markdownDescription": "Location of model files, relative to the workspace root.",
+          "default": "source"
+        },
+        "ive.workspace.compilationTarget": {
+          "type": "string",
+          "markdownDescription": "Target location for compiled resource, relative to the workspace root.",
+          "default": "target"
+        },
+        "ive.workspace.handWrittenArtifacts": {
+          "type": "string",
+          "markdownDescription": "Location of hand-written resources, relative to the workspace root.",
+          "default": "hwls"
+        },
+        "ive.dependencies.backboneServer.aMode": {
+          "type": "string",
+          "markdownDescription": "Mode of operation for the Backbone server.",
+          "enum": [
+            "Local Java Application",
+            "Docker Image",
+            "Connect to Running Server"
+          ],
+          "markdownEnumDescriptions": [
+            "Downloads and runs locally as java application. Desired version is specified in `#ive.dependencies.backboneServer.cVersion#`. Requires Java, Python, and Isabelle.",
+            "Pulls and runs locally as docker image. Desired version is specified in `#ive.dependencies.backboneServer.cVersion#`. Requires Docker.",
+            "Connects to an running server. The address is specified by `#ive.dependencies.backboneServer.bAddress#`."
+          ],
+          "default": "Local Java Application"
+        },
+        "ive.dependencies.backboneServer.bAddress": {
+          "type": "string",
+          "markdownDescription": "Address of the Backbone server. Used when `#ive.dependencies.backboneServer.aMode#` is set to `Connect to Running Server`.",
+          "default": "http://localhost:8080",
+          "pattern": "^(?<protocol>.+):\\/\\/(?<hostname>.+):(?<port>[1-9][0-9]*)$",
+          "patternErrorMessage": "Must be of the form `<protocol>://<hostname>:<port>`."
+        },
+        "ive.dependencies.backboneServer.cVersion": {
+          "type": "string",
+          "markdownDescription": "Version of the Backbone server. Used when `#ive.dependencies.backboneServer.aMode#` is set to `Local Java Application` or `Docker Image`.",
+          "default": "3.0.21",
+          "pattern": "^(?<semver>[1-9][0-9]*\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*))(-(?<snapshot>.*))?$",
+          "patternErrorMessage": "Must be of the form `<major>.<minor>.<patch>(-<timestamp>)?`."
+        },
+        "ive.dependencies.backboneServer.transformer.version": {
+          "type": "string",
+          "markdownDescription": "Version of the transformer used in the Backbone server.",
+          "default": "2.2.6",
+          "pattern": "^(?<semver>[1-9][0-9]*\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*))(-(?<snapshot>.*))?$",
+          "patternErrorMessage": "Must be of the form `<major>.<minor>.<patch>(-<timestamp>)?`."
+        },
+        "ive.dependencies.backboneServer.proofFinding.backend": {
+          "type": "string",
+          "markdownDescription": "Location of the knowledge base for automatic proof finding. Used when `#ive.dependencies.backboneServer.aMode#` was set to `Local Java Application`.",
+          "default": "lib/core/src"
+        },
+        "ive.dependencies.backboneServer.proofFinding.timeout": {
+          "type": "integer",
+          "markdownDescription": "Timeout scale for automatic proof finding.",
+          "default": 5
+        },
+        "ive.theoriesView.enabled": {
+          "type": "boolean",
+          "markdownDescription": "Activate the theories view",
+          "default": false
+        }
+      }
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "ive.workspace.markAsSource",
+          "when": "explorerResourceIsFolder"
+        },
+        {
+          "command": "ive.workspace.markAsTarget",
+          "when": "explorerResourceIsFolder"
+        },
+        {
+          "command": "ive.workspace.markAsHwls",
+          "when": "explorerResourceIsFolder"
+        }
+      ],
+      "view/title": [
+        {
+          "when": "view == modelsView",
+          "command": "ive.models.addRootPackage",
+          "group": "navigation"
+        },
+        {
+          "when": "view == modelsView",
+          "command": "ive.models.transform",
+          "group": "navigation"
+        },
+        {
+          "when": "view == modelsView",
+          "command": "ive.models.refresh",
+          "group": "navigation"
+        },
+        {
+          "when": "view == theoriesView",
+          "command": "ive.theories.refresh",
+          "group": "navigation"
+        },
+        {
+          "when": "view == proofView",
+          "command": "ive.proofs.refresh",
+          "group": "navigation"
+        },
+        {
+          "when": "view == proofView && false",
+          "command": "ive.proofs.verify.all",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "ive.proofs.openTheory",
+          "when": "view == proofView",
+          "group": "inline@0"
+        },
+        {
+          "command": "ive.proofs.verify",
+          "when": "view == proofView && (viewItem != running)",
+          "group": "inline@1"
+        },
+        {
+          "command": "ive.proofs.verify.stop",
+          "when": "view == proofView && (viewItem == running)",
+          "group": "inline@1"
+        },
+        {
+          "command": "ive.hwl.addPrologue",
+          "when": "view == theoriesView"
+        },
+        {
+          "command": "ive.hwl.addEpilogue",
+          "when": "view == theoriesView && viewItem != hwl"
+        },
+        {
+          "command": "ive.hwl.remove",
+          "when": "view == theoriesView && viewItem == hwl"
+        },
+        {
+          "command": "ive.models.addFile",
+          "when": "view == modelsView && viewItem == package"
+        },
+        {
+          "command": "ive.models.addComponent",
+          "when": "view == modelsView && viewItem == package"
+        },
+        {
+          "command": "ive.models.addPackage",
+          "when": "view == modelsView && viewItem == package"
+        },
+        {
+          "command": "ive.models.delete",
+          "when": "view == modelsView && viewItem != package"
+        }
+      ],
+      "editor/title/context": [
+        {
+          "command": "ive.hwl.addPrologue",
+          "when": "view == theoriesView"
+        },
+        {
+          "command": "ive.hwl.addEpilogue",
+          "when": "view == theoriesView"
+        },
+        {
+          "command": "ive.hwl.remove",
+          "when": "view == theoriesView"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./ && node ./scripts/BackboneVersionCheck.js",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/ts/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.68.0",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vscode/test-electron": "^2.1.4",
+    "eslint": "^7.22.0",
+    "glob": "^7.1.4",
+    "mocha": "^6.2.3",
+    "typescript": "^3.9.10"
+  },
+  "extensionPack": [
+    "makarius.isabelle2020",
+    "phr0s.bib",
+    "siegebell.prettify-symbols-mode"
+  ],
+  "dependencies": {
+    "@montibelle/backbone-rpc-client": "3.0.21",
+    "circularbuffer": "^0.1.1",
+    "log4js": "~6.1.0",
+    "vscode-languageclient": "^7.0.0"
+  }
+}

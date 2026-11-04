@@ -1,0 +1,6 @@
+session "code_Capacity_HLR3" (generated code) = "sps" +
+    sessions "data_inc" "user" "bundle_Capacity_HLR3"
+    theories
+        code_Capacity_HLR3_Input
+        code_Capacity_HLR3_Output
+

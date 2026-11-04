@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_PartDefinition",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_PartDefinition",
+      "fullName": "sps_PartDefinition",
+      "path": [
+        "sps",
+        "PartDefinition"
+      ]
+    }
+  ]
+}

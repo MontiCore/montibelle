@@ -1,0 +1,5 @@
+package test;
+
+stream Expected {
+  o: true, false, false, false, false;
+}

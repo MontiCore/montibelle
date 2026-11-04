@@ -1,0 +1,11 @@
+session "specification" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+    sps
+    spf
+  theories
+    EventBasedSpecification
+    ParametrizedSpecification
+    Specification
+

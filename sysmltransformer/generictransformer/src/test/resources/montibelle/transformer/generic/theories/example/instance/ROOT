@@ -1,0 +1,8 @@
+session "instance" (testing) = "specification" +
+  sessions
+    io
+    connector
+  theories
+    SpecificationInstance
+    SpecificationInstance2
+    SpecificationInstance3

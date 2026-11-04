@@ -1,0 +1,12 @@
+Event
+Event2
+Event3
+EventAutomatonInvariant
+Guard
+MultipleInitialStates
+MultipleParameters
+NoInitialOutput
+NoInput
+NoTransition
+OutputComprehension
+VariableComprehension

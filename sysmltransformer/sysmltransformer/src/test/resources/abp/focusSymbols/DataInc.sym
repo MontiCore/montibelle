@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"DataInc","symbols":[{"kind":"montibelle.focus._symboltable.DataIncSymbol","name":"DataInc","fullName":"DataInc","channelTypes":["boolSYNC","nattimesboolSYNC","stringSYNC","stringtimesboolSYNC"],"theory":"data_inc.Data_inc"}]}
