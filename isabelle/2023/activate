@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# NAME
+#     activate - Configure Isabelle to use a local folder for build artifacts
+#
+# SYNOPSIS
+#     activate [<ISABELLE_PROJECT_HOME=$PWD/.isabelle>]
+#
+# DESCRIPTION
+#     Sets "$ISABELLE_PROJECT_HOME/.isabelle" as project home which results in
+#     heaps being built into "$ISABELLE_PROJECT_HOME/.isabelle/heaps" and 
+#     browser_info into "$ISABELLE_PROJECT_HOME/.isabelle/browser_info" 
+#
+# OPTIONS
+#     - ISABELLE_PROJECT_HOME
+#           Counterpart to Isabelle's ISABELLE_HOME and ISABELLE_USER_HOME, this
+#           represents a project-specific location for Isabelle's build
+#           artifacts
+
+# Location of the project home
+HOME_PROJECT=${1-"$PWD/.isabelle"}
+
+# Location of the user home
+HOME_USER=$(isabelle getenv -b ISABELLE_HOME_USER)
+
+# Replace existing or append at end of file
+sed -i -e '/^ISABELLE_HEAPS=/{'`                        # Find using regex (^ = from start)                `\
+`  `'h;'`                                            # if found, copy to [h]old space                   `\
+`  `'s@=.*@='"${ISABELLE_HEAPS}"'@;};'`              # [s]ubstitute, s@pattern@replacement@flags        `\
+`  `'${'`                                            # at end of file                                   `\
+`  `'x;'`                                            # e[x]change hold- and pattern space               `\
+`  `'/^$/{'`                                         # check (pattern space) to be empty (regex ^$)     `\
+`  `'s@@ISABELLE_HEAPS='"${HOME_PROJECT}"'/heaps@;'` # if empty, [s]ubstitute (in pattern)              `\
+`  `'H;};'`                                          # then append pattern to hold space                `\
+`  `'x;}' "${HOME_USER}/etc/settings"`               # e[x]change back (hold to pattern, i.e., to file) `
+
+sed -i -e '/^ISABELLE_BROWSER_INFO=/{'\
+`  `'h;'\
+`  `'s@=.*@='"${ISABELLE_BROWSER_INFO}"'@;};'\
+`  `'${'\
+`  `'x;'\
+`  `'/^$/{'\
+`  `'s@@ISABELLE_BROWSER_INFO='"${HOME_PROJECT}"'/browser_info@;'\
+`  `'H;};'\
+`  `'x;}' "${HOME_USER}/etc/settings"
