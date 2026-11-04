@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_MIRMIS.def_MIRMIS_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_MIRMIS.def_MIRMIS_Output",
+      "fullName": "bundle_MIRMIS.def_MIRMIS_Output",
+      "filename": "def_MIRMIS_Output",
+      "sessionName": "bundle_MIRMIS"
+    }
+  ]
+}

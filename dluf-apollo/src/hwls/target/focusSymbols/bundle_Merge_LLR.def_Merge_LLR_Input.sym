@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Merge_LLR.def_Merge_LLR_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Merge_LLR.def_Merge_LLR_Input",
+      "fullName": "bundle_Merge_LLR.def_Merge_LLR_Input",
+      "filename": "def_Merge_LLR_Input",
+      "sessionName": "bundle_Merge_LLR"
+    }
+  ]
+}

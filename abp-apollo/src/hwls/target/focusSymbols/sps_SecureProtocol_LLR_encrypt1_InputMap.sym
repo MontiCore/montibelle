@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_LLR_encrypt1_InputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_LLR_encrypt1_InputMap",
+      "fullName": "sps_SecureProtocol_LLR_encrypt1_InputMap",
+      "path": [
+        "sps",
+        "SecureProtocol_LLR",
+        "encrypt1",
+        "InputMap"
+      ]
+    }
+  ]
+}

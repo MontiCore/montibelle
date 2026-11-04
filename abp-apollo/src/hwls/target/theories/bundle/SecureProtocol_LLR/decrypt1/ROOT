@@ -1,0 +1,6 @@
+session "bundle_SecureProtocol_LLR_decrypt1" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_SecureProtocol_LLR_decrypt1_Input
+        def_SecureProtocol_LLR_decrypt1_Output
+

@@ -1,0 +1,7 @@
+session "code_Lambdas" (generated code) = "component" +
+    sessions "data_inc" "user" "sps_Lambdas" "bundle_Lambdas"
+    theories
+        code_Lambdas
+        code_Lambdas_Input
+        code_Lambdas_Output
+

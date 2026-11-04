@@ -1,0 +1,5 @@
+session "sps_CometInterceptorSystem_HLR_spacecrafta" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_CometInterceptorSystem_HLR_spacecrafta" "sps_CometInterceptorSystem_HLR_spacecrafta_InputMap" "sps_CometInterceptorSystem_HLR_spacecrafta_OutputMap" "sps_SpacecraftA_HLR"
+    theories
+        def_CometInterceptorSystem_HLR_spacecrafta
+

@@ -1,0 +1,6 @@
+session "bundle_Eve2_HLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Eve2_HLR_Input
+        def_Eve2_HLR_Output
+

@@ -1,0 +1,9 @@
+session "NoInitialOutput" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    NoInitialOutput_States
+    NoInitialOutput
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

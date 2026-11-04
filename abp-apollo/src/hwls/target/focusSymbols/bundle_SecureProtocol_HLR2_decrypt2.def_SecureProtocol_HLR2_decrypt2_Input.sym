@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_HLR2_decrypt2.def_SecureProtocol_HLR2_decrypt2_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SecureProtocol_HLR2_decrypt2.def_SecureProtocol_HLR2_decrypt2_Input",
+      "fullName": "bundle_SecureProtocol_HLR2_decrypt2.def_SecureProtocol_HLR2_decrypt2_Input",
+      "filename": "def_SecureProtocol_HLR2_decrypt2_Input",
+      "sessionName": "bundle_SecureProtocol_HLR2_decrypt2"
+    }
+  ]
+}

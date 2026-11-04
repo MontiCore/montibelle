@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"Datatypes","symbols":[{"kind":"montibelle.focus._symboltable.DatatypesSymbol","name":"Datatypes","fullName":"Datatypes","userDefinedStructs":["Access_Point","Train","Railway_Network","SetColor","OpenUp","Enters"],"userDefinedEnums":["Reject","Section"],"channelTypes":["boolEVENT"],"theory":"user.Datatypes"}]}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_Bob_LLR_refines_Bob_HLR.ref_Bob_LLR_rough_Bob_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "ref_Bob_LLR_refines_Bob_HLR.ref_Bob_LLR_rough_Bob_HLR",
+      "fullName": "ref_Bob_LLR_refines_Bob_HLR.ref_Bob_LLR_rough_Bob_HLR",
+      "filename": "ref_Bob_LLR_rough_Bob_HLR",
+      "sessionName": "ref_Bob_LLR_refines_Bob_HLR"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+test Event {
+  subject: automaton.Event;
+
+  input {
+    beInChannel: <true, Tick, false, Tick>;
+  }
+  expected {
+    beOutChannel: <Tick, true, Tick, false, false, Tick, false>;
+  }
+}

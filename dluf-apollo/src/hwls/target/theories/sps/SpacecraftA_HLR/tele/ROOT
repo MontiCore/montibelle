@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_HLR_tele" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_HLR_tele" "sps_SpacecraftA_HLR_tele_InputMap" "sps_SpacecraftA_HLR_tele_OutputMap" "sps_TelecommandAndTelemetry_HLR"
+    theories
+        def_SpacecraftA_HLR_tele
+

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DLDF_LLR_connector.def_DLDF_LLR_connector_DLDF_LLR_connector_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_DLDF_LLR_connector.def_DLDF_LLR_connector_DLDF_LLR_connector_Input",
+      "fullName": "bundle_DLDF_LLR_connector.def_DLDF_LLR_connector_DLDF_LLR_connector_Input",
+      "filename": "def_DLDF_LLR_connector_DLDF_LLR_connector_Input",
+      "sessionName": "bundle_DLDF_LLR_connector"
+    }
+  ]
+}

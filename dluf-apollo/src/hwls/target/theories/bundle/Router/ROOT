@@ -1,0 +1,6 @@
+session "bundle_Router" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Router_Input
+        def_Router_Output
+

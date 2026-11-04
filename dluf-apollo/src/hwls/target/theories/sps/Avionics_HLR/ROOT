@@ -1,0 +1,5 @@
+session "sps_Avionics_HLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Avionics_HLR" "sps_Avionics_HLR_connector" "sps_Avionics_HLR_router" "sps_Avionics_HLR_sorter" "sps_Avionics_HLR_mergex" "sps_Avionics_HLR_dldf"
+    theories
+        def_Avionics_HLR
+

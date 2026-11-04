@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Router",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Router",
+      "fullName": "sps_Router",
+      "path": [
+        "sps",
+        "Router"
+      ]
+    }
+  ]
+}

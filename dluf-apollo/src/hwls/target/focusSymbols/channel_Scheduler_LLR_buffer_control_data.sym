@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Scheduler_LLR_buffer_control_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Scheduler_LLR_buffer_control_data",
+      "fullName": "channel_Scheduler_LLR_buffer_control_data",
+      "localName": "channel_buffer_control_data",
+      "typeName": "CtrlEnumEVENT",
+      "pattern": "channel_buffer_control_data_pattern"
+    }
+  ]
+}

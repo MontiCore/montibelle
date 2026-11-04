@@ -1,0 +1,5 @@
+session "sps_Avionics_HLR_sorter_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Avionics_HLR_sorter" "bundle_Sorter"
+    theories
+        def_Avionics_HLR_sorter_InputMap
+

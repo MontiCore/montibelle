@@ -1,0 +1,5 @@
+session "sps_System_LLR_mergex_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Merge_LLR" "bundle_System_LLR_mergex"
+    theories
+        def_System_LLR_mergex_OutputMap
+

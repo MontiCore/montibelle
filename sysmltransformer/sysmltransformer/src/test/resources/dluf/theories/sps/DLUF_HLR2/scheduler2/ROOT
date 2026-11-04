@@ -1,0 +1,5 @@
+session "sps_DLUF_HLR2_scheduler2" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_DLUF_HLR2_scheduler2" "sps_DLUF_HLR2_scheduler2_InputMap" "sps_DLUF_HLR2_scheduler2_OutputMap" "sps_Scheduler_HLR2"
+    theories
+        def_DLUF_HLR2_scheduler2
+

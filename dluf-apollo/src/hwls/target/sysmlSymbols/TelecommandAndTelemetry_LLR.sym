@@ -1,0 +1,262 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_LLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "TelecommandAndTelemetry_LLR",
+      "fullName": "TelecommandAndTelemetry_LLR",
+      "directRefinements": [
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "TelecommandAndTelemetry_HLR"
+        }
+      ],
+      "requirementType": "MIXED",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "router",
+            "fullName": "TelecommandAndTelemetry_LLR.router",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Router"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "sorter",
+            "fullName": "TelecommandAndTelemetry_LLR.sorter",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Sorter"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "mergex",
+            "fullName": "TelecommandAndTelemetry_LLR.mergex",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Merge_LLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "dldf",
+            "fullName": "TelecommandAndTelemetry_LLR.dldf",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "DLDF_LLR"
+              }
+            ],
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "cap1",
+                  "fullName": "TelecommandAndTelemetry_LLR.dldf.cap1",
+                  "in": true
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "cap2",
+                  "fullName": "TelecommandAndTelemetry_LLR.dldf.cap2",
+                  "in": true
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "cap3",
+                  "fullName": "TelecommandAndTelemetry_LLR.dldf.cap3",
+                  "in": true
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "cap4",
+                  "fullName": "TelecommandAndTelemetry_LLR.dldf.cap4",
+                  "in": true
+                }
+              ]
+            }
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundIn",
+            "fullName": "TelecommandAndTelemetry_LLR.groundIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b1In",
+            "fullName": "TelecommandAndTelemetry_LLR.b1In",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b2In",
+            "fullName": "TelecommandAndTelemetry_LLR.b2In",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "cocaIn",
+            "fullName": "TelecommandAndTelemetry_LLR.cocaIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "maniacIn",
+            "fullName": "TelecommandAndTelemetry_LLR.maniacIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "dfpIn",
+            "fullName": "TelecommandAndTelemetry_LLR.dfpIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "mirmisIn",
+            "fullName": "TelecommandAndTelemetry_LLR.mirmisIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundOut",
+            "fullName": "TelecommandAndTelemetry_LLR.groundOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b1Out",
+            "fullName": "TelecommandAndTelemetry_LLR.b1Out",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b2Out",
+            "fullName": "TelecommandAndTelemetry_LLR.b2Out",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "cocaOut",
+            "fullName": "TelecommandAndTelemetry_LLR.cocaOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "maniacOut",
+            "fullName": "TelecommandAndTelemetry_LLR.maniacOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "dfpOut",
+            "fullName": "TelecommandAndTelemetry_LLR.dfpOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "mirmisOut",
+            "fullName": "TelecommandAndTelemetry_LLR.mirmisOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          }
+        ]
+      }
+    }
+  ]
+}

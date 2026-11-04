@@ -1,0 +1,5 @@
+session "sps_Avionics_HLR_mergex" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_Avionics_HLR_mergex" "sps_Avionics_HLR_mergex_InputMap" "sps_Avionics_HLR_mergex_OutputMap" "sps_Merge_LLR"
+    theories
+        def_Avionics_HLR_mergex
+

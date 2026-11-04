@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"Inverter","symbols":[{"kind":"montibelle.focus._symboltable.SpecificationSymbol","name":"Inverter","fullName":"Inverter","predicatesLen":1,"theory":"sps_Inverter.def_Inverter","strong":true,"inputName":"Inverter.Input","outputName":"Inverter.Output"}]}

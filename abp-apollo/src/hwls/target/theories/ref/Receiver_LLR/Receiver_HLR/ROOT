@@ -1,0 +1,5 @@
+session "ref_Bob_LLR_refines_Bob_HLR" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "sps_Bob_HLR" "sps_Bob_LLR"
+    theories
+        ref_Receiver_LLR_refines_Receiver_HLR
+

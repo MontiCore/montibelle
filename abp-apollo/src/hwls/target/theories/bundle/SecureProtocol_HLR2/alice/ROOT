@@ -1,0 +1,6 @@
+session "bundle_SecureProtocol_HLR2_alice" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_SecureProtocol_HLR2_alice_Input
+        def_SecureProtocol_HLR2_alice_Output
+

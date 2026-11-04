@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DLDF_HLR3.ref.DLDF_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "DLDF_HLR3.ref.DLDF_LLR",
+      "fullName": "DLDF_HLR3.ref.DLDF_LLR",
+      "theory": "ref_DLDF_LLR_refines_DLDF_HLR3.ref_DLDF_LLR_rough_DLDF_HLR3"
+    }
+  ]
+}

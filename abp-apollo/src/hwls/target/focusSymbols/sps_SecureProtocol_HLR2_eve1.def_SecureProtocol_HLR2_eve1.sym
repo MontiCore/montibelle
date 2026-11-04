@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_eve1.def_SecureProtocol_HLR2_eve1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SecureProtocol_HLR2_eve1.def_SecureProtocol_HLR2_eve1",
+      "fullName": "sps_SecureProtocol_HLR2_eve1.def_SecureProtocol_HLR2_eve1",
+      "filename": "def_SecureProtocol_HLR2_eve1",
+      "sessionName": "sps_SecureProtocol_HLR2_eve1"
+    }
+  ]
+}

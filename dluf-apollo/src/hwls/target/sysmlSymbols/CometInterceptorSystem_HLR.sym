@@ -1,0 +1,73 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometInterceptorSystem_HLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "CometInterceptorSystem_HLR",
+      "fullName": "CometInterceptorSystem_HLR",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "spacecrafta",
+            "fullName": "CometInterceptorSystem_HLR.spacecrafta",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "SpacecraftA_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "b1",
+            "fullName": "CometInterceptorSystem_HLR.b1",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "ProbeB1"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "b2",
+            "fullName": "CometInterceptorSystem_HLR.b2",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "ProbeB2"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundIn",
+            "fullName": "CometInterceptorSystem_HLR.groundIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundOut",
+            "fullName": "CometInterceptorSystem_HLR.groundOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          }
+        ]
+      }
+    }
+  ]
+}

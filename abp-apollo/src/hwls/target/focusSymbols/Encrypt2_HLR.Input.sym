@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Encrypt2_HLR.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Encrypt2_HLR.Input",
+      "fullName": "Encrypt2_HLR.Input",
+      "channelNames": [
+        "channel_Encrypt2_HLR_input_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Encrypt2_HLR.def_Encrypt2_HLR_Input"
+    }
+  ]
+}

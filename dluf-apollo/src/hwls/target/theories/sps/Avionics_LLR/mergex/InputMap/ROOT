@@ -1,0 +1,5 @@
+session "sps_Avionics_LLR_mergex_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Avionics_LLR_mergex" "bundle_Merge_LLR"
+    theories
+        def_Avionics_LLR_mergex_InputMap
+

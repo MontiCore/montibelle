@@ -1,0 +1,5 @@
+session "sps_Composition_part" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_Composition_part" "sps_Composition_part_InputMap" "sps_Composition_part_OutputMap" "sps_PartDefinition"
+    theories
+        def_Composition_part
+

@@ -1,0 +1,15 @@
+session "top" (system) = "eventcomponent" +
+  sessions
+    SeLFiE
+    PSL
+    TBC
+    Abduction
+    Smart_Isabelle
+    generator
+    sps_SecurityGate_LLR
+  theories
+    Fake
+
+session "SecurityGate_HWL" (system) in "SecurityGate" = "sps_SecurityGate_LLR" +
+  theories
+    SecurityGate_HWL

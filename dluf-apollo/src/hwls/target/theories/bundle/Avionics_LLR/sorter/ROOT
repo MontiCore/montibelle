@@ -1,0 +1,6 @@
+session "bundle_Avionics_LLR_sorter" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Avionics_LLR_sorter_Input
+        def_Avionics_LLR_sorter_Output
+

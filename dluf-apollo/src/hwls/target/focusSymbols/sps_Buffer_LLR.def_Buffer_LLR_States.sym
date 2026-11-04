@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Buffer_LLR.def_Buffer_LLR_States",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Buffer_LLR.def_Buffer_LLR_States",
+      "fullName": "sps_Buffer_LLR.def_Buffer_LLR_States",
+      "filename": "def_Buffer_LLR_States",
+      "sessionName": "sps_Buffer_LLR"
+    }
+  ]
+}

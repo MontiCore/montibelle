@@ -1,0 +1,8 @@
+title = Live Sledgehammer server output
+module = lib/hammer_stream.jar
+requirements = \
+  env:ISABELLE_SCALA_JAR
+sources = \
+  src/hammer_stream.scala
+services = \
+  hammer_stream.Server_Commands

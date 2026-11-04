@@ -1,0 +1,54 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Decrypt1_HLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Decrypt1_HLR",
+      "fullName": "Decrypt1_HLR",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Decrypt1_HLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Decrypt1_HLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlconstraints._symboltable.RequirementUsageSymbol",
+            "name": "MsgProcessing",
+            "fullName": "Decrypt1_HLR.MsgProcessing",
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "Decryption",
+                  "fullName": "Decrypt1_HLR.MsgProcessing.Decryption"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

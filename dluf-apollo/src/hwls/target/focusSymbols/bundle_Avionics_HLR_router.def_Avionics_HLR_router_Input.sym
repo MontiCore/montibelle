@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Avionics_HLR_router.def_Avionics_HLR_router_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Avionics_HLR_router.def_Avionics_HLR_router_Input",
+      "fullName": "bundle_Avionics_HLR_router.def_Avionics_HLR_router_Input",
+      "filename": "def_Avionics_HLR_router_Input",
+      "sessionName": "bundle_Avionics_HLR_router"
+    }
+  ]
+}

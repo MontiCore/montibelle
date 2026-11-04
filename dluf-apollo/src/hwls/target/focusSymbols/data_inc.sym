@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "data_inc",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "data_inc",
+      "fullName": "data_inc",
+      "path": [
+        "inc"
+      ]
+    }
+  ]
+}

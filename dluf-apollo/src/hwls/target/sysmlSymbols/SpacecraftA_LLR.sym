@@ -1,0 +1,149 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "SpacecraftA_LLR",
+      "fullName": "SpacecraftA_LLR",
+      "directRefinements": [
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "SpacecraftA_HLR"
+        }
+      ],
+      "requirementType": "MIXED",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "coca",
+            "fullName": "SpacecraftA_LLR.coca",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "CometCamera"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "maniac",
+            "fullName": "SpacecraftA_LLR.maniac",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "MANiaC"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "dfp",
+            "fullName": "SpacecraftA_LLR.dfp",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "DFP"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "mirmis",
+            "fullName": "SpacecraftA_LLR.mirmis",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "MIRMIS"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "tele",
+            "fullName": "SpacecraftA_LLR.tele",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "TelecommandAndTelemetry_LLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundIn",
+            "fullName": "SpacecraftA_LLR.groundIn",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b1In",
+            "fullName": "SpacecraftA_LLR.b1In",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b2In",
+            "fullName": "SpacecraftA_LLR.b2In",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "groundOut",
+            "fullName": "SpacecraftA_LLR.groundOut",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b1Out",
+            "fullName": "SpacecraftA_LLR.b1Out",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "b2Out",
+            "fullName": "SpacecraftA_LLR.b2Out",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          }
+        ]
+      }
+    }
+  ]
+}

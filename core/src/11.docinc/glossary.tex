@@ -1,0 +1,434 @@
+
+\newacronym[description={A reflexive, transitive and antisymmetric relation}]{po}{po}{partial order}
+\newacronym[description={Combination of multiple elements}]{sbe}{sbElem}{stream bundle element}
+\newacronym[description={Combination of multiple streams}]{sb}{SB}{stream bundle}
+\newacronym[description={Continuous function from bundle to bundle}]{spf}{SPF}{stream-processing function}
+\newacronym[description={Set of stream-processing functions, used to describe non-deterministic behaviour}]{sps}{SPS}{stream processing specification}
+
+\newacronym[description={A partial order in which every chain has a least upper bound}]{cpo}{cpo}{complete partial order}
+
+\newacronym[description={A complete partial order with a bottom element}]{pcpo}{pcpo}{pointed complete partial order}
+
+\newacronym[description={Used to define the semantic of recursive definitions}]{lfp}{lfp}{least fix point}
+
+\newacronym[description={Natural numbers extended with an infinity-element}]{lnat}{lNat}{lazy natural number}
+
+\newacronym[description={Attempts to solve subgoals using existing lemmas and tactics}]{atp}{ATP}{automatic theorem prover}
+
+\newacronym[description={Automated theorem prover with logic, e.g. using strategies}]{psl}{PSL}{proof strategy language}
+
+\newacronym[description={Automaton which behaves non-deterministic}]{NDA}{NDA}{non-deterministic automaton}
+
+\newacronym[description={Automaton which behavior is determined by its input}]{DA}{DA}{deterministic automaton}
+
+\newacronym[description={High-Level Requirements are modeled as Specification}]{HLR}{HLR}{High-Level Requirements}
+
+\newacronym[description={Low-Level Requirements are modeled as (Non-) deterministic automaton}]{LLR}{LLR}{Low-Level Requirements}
+
+\newacronym[description={Automaton based on MontiArc}]{MAA}{MAA}{MontiArc Automaton}
+
+\newacronym[description={A conceptual model to describe and represent system architectures}]{ADL}{ADL}{architecture description language}
+
+\newacronym[description={General-purpose functional programming language}]{ml}{ML}{meta language}
+
+\newacronym[description={Formal specification language}]{ocl}{OCL}{object constraint language}
+
+\newglossaryentry{admissible}
+{
+    name=admissible,
+    description={A predicate is admissible if it holds for the lub of a chain whenever it holds for the elements of the chain}
+}
+
+\newglossaryentry{transformer}
+{
+    name=transformer,
+    description={The tool developed at the chair of software engineering at the RWTH Aachen which transforms MontiArc Code (Automatons/Specifications) into Isabelle Code.}
+}
+
+\newglossaryentry{strategy}
+{
+    name=strategy,
+    description={A logical plan to accomplish a goal},
+    plural=strategies
+}
+
+\newglossaryentry{flybywireconcept}
+{
+    name={fly-by-wire concept},
+    description={System which replaces mechanical flight control with an electronic one}
+}
+
+\newglossaryentry{behavior}
+{
+    name={behavior},
+    description={The reaction of a component to the input. In the context of I/O automatons, the mapping from input to output}
+}
+
+\newglossaryentry{generator}
+{
+    name={generator},
+    description={The tool developed at the SE Chair to generate Isabelle Code from MontiArc Code}
+}
+
+\newglossaryentry{internetofthings}
+{
+    name={Internet of Things},
+    description={A collective term for technologies that allow physical and virtual objects to communicate with each other - even without human interaction}
+}
+
+\newglossaryentry{automaton}
+{
+    name=automaton,
+    description={Parent set of non-deterministic and deterministic automatons}
+}
+
+\newglossaryentry{realizable}
+{
+    name=realizable,
+    description={The fact, that a concrete implementation exists}
+}
+
+\newglossaryentry{theoremprover}
+{
+    name={theorem prover},
+    description={A computer program that supports the user in proving mathematical theorems}
+}
+
+\newglossaryentry{predicate}
+{
+    name={predicate},
+    description={Formal expression of a specification}
+}
+
+\newglossaryentry{total}
+{
+    name={total},
+    description={Concerning automata, it never has undefined behavior}
+}
+
+\newglossaryentry{tuple}
+{
+    name={tuple},
+    description={Ordered arrangement of elements}
+}
+
+\newglossaryentry{record}
+{
+    name={record},
+    description={A Record is isomorph to tuple types. It has labeled fields}
+}
+
+\newglossaryentry{lambda-calculus}
+{
+    name={lambda-calculus},
+    description={Simple notation for functions, forms functions by astraction}
+}
+
+\newglossaryentry{concatenation}
+{
+    name={concatenation},
+    description={Joining streams end-to-end}
+}
+
+\newglossaryentry{statictypechecking}
+{
+    name={static type checking},
+    description={Verifies the type safety of a program based on source code analysis}
+}
+
+\newglossaryentry{channel}
+{
+    name={channel},
+    description={Identifier for the input/output history of a program}
+}
+
+\newglossaryentry{component}
+{
+    name={component},
+    description={Part of the decomposed overall system}
+}
+
+\newglossaryentry{objectorientedlanguage}
+{
+    name={object-oriented language},
+    description={Programming paradigm using the concept of objects, which contain data. Most languages are class-based, meaning objects are instances of classes}
+}
+
+\newglossaryentry{overloading}
+{
+    name={overloading},
+    description={Multiple functions with the same name, but different implementations}
+}
+
+\newglossaryentry{class}
+{
+    name={class},
+    description={An extensible code template for objects}
+}
+
+\newglossaryentry{interface}
+{
+    name={interface},
+    description={Abstract type that specifys behavior that classes must implement}
+}
+
+\newglossaryentry{implementation}
+{
+    name={implementation},
+    description={A realization of a specification}
+}
+
+\newglossaryentry{underspecification}
+{
+    name={underspecification},
+    description={The fact that a component contains multiple behaviors. This is used, when the intended behavior is not yet fully specified}
+}
+
+\newglossaryentry{montiarcspecification}
+{
+    name={MontiArc Specification},
+    description={Represents the HLR layer in the MontiArc Framework}
+}
+
+\newglossaryentry{montiarcautomaton}
+{
+    name={MontiArc Automaton},
+    description={An automaton described using the MontiArc Framework}
+}
+
+\newglossaryentry{consistencyproof}
+{
+    name={consistency proof},
+    description={Proof of the consistency of the HLR by providing an implementation in the LLR. These are consistent per construction}
+}
+
+\newglossaryentry{transitionfunction}
+{
+    name={transition function},
+    description={Transition function that assigns a new state and output to each input based on a state}
+}
+
+\newglossaryentry{initialoutput}
+{
+    name={initial output},
+    description={The first output of an automaton}
+}
+
+\newglossaryentry{initialstate}
+{
+    name={initial state},
+    description={The state, in which the automaton starts processing}
+}
+
+\newglossaryentry{chaoscompletion}
+{
+    name={chaos completion},
+    description={Assigns any reactions to a partial automaton in undefined cases}
+}
+
+\newglossaryentry{locale}
+{
+    name={locale},
+    description={Approach for realizing parametric theories}
+}
+
+\newglossaryentry{semantic}
+{
+    name={semantic},
+    description={Exact meaning of terms in languages}
+}
+
+\newglossaryentry{atomiccomponent}
+{
+    name={atomic component},
+    description={Component realized by an single automaton}
+}
+
+\newglossaryentry{serialcomposition}
+{
+    name={serial composition},
+    description={Consecutive execution of two components}
+}
+
+\newglossaryentry{feedbackcomposition}
+{
+    name={feedback composition},
+    description={Return connection within a component. The output is also the input of a component}
+}
+
+\newglossaryentry{pair}
+{
+    name={pair},
+    description={A tuple with exactly two data fields}
+}
+
+\newglossaryentry{polymorphic}
+{
+    name={polymorphic},
+    description={In terms of programming languages, using a single symbol to represent multiple, different types}
+}
+
+\newglossaryentry{simplifier}
+{
+    name={simplifier},
+    description={A tool which tries to resolve complicated terms step by step into simpler representations}
+}
+
+
+\newglossaryentry{contradiction}
+{
+    name={contradiction},
+    description={Logical incompatibility between two or more propositions}
+}
+
+\newglossaryentry{parameter}
+{
+    name={parameter},
+    description={Variable that makes it possible to instantiate an underlying logic only at the time of application}
+}
+
+\newglossaryentry{singleton}
+{
+    name={singleton},
+    description={In terms of sets, a set, which contains exactly one element (the cardinality is one)}
+}
+
+\newglossaryentry{complete}
+{
+    name={complete},
+    description={An automaton with defined behavior in all cases}
+}
+
+\newglossaryentry{verification}
+{
+    name={verification},
+    description={Independent procedures to check that a specification fulfills the intended purpose}
+}
+
+\newglossaryentry{invariant}
+{
+    name={invariant},
+    description={Logical assertion which is always held to be true in certain execution steps}
+}
+
+\newglossaryentry{induction}
+{
+    name={induction},
+    description={Mathematical method of reasoning}
+}
+
+\newglossaryentry{Isabelle}
+{
+    name={Isabelle},
+    description={Automated theorem prover}
+}
+
+\newglossaryentry{context}
+{
+    name={context},
+    description={Virtual environment providing minimal facts used for further functions}
+}
+
+\newglossaryentry{MontiArc}
+{
+    name=MontiArc,
+    description={Framework for modeling and simulation of software architectures that is developed using MontiCore}
+}
+
+\newglossaryentry{deterministic}
+{
+    name=deterministic,
+    description={Behaviour is determined by input}
+}
+
+\newglossaryentry{nondeterministic}
+{
+    name=non-deterministic,
+    description={Behaviour is not completely determined by input}
+}
+
+\newglossaryentry{prefixOrder}
+{
+    name=prefix order,
+    description={}
+}
+
+\newglossaryentry{bot}
+{
+    name=bottom,
+    description={Least element in a complete partial order}
+}
+
+\newglossaryentry{isar}
+{
+    name=isar,
+    description={A proof language in Isabelle. Designed to be similar to handwritten proofs}
+}
+
+\newglossaryentry{tstream}
+{
+    name=Tstream,
+    description={Timed Stream. Every time step may contain a finite number of messages}
+}
+
+\newglossaryentry{chain}
+{
+    name=chain,
+    description={Totally ordered set with minimal element}
+}
+
+\newglossaryentry{discr}
+{
+    name=discrete partial order,
+    description={A partial order on $=$}
+}
+
+\newglossaryentry{mono}
+{
+    name=monotonic,
+    description={The order is preserved after application of the function}
+}
+
+\newglossaryentry{continuous}
+{
+    name=continuous,
+    description={The least upper bound is preserved after application of the function}
+}
+
+
+\newglossaryentry{seqComp}
+{
+    name=sequential,
+    description={Special kind of composition. The output of the first component is the input of the second component}
+}
+
+\newglossaryentry{parComp}
+{
+    name=parallel,
+    description={Special kind of composition. The two components do not share channels}
+}
+
+\newglossaryentry{feedComp}
+{
+    name=feedback,
+    description={Special kind of composition. Output channels are used as input of the same component}
+}
+
+\newglossaryentry{genComp}
+{
+    name=general,
+    description={Most general composition, can describe every system}
+}
+
+\newglossaryentry{setter}
+{
+    name=setter,
+    description={Setter function that constructs either a sbElem or a SBs}
+}
+
+\newglossaryentry{getter}
+{
+    name=getter,
+    description={Getter function that destructs a sbElem or SB}
+}
+

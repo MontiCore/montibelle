@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_tele_OutputMap.def_SpacecraftA_LLR_tele_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SpacecraftA_LLR_tele_OutputMap.def_SpacecraftA_LLR_tele_OutputMap",
+      "fullName": "sps_SpacecraftA_LLR_tele_OutputMap.def_SpacecraftA_LLR_tele_OutputMap",
+      "filename": "def_SpacecraftA_LLR_tele_OutputMap",
+      "sessionName": "sps_SpacecraftA_LLR_tele_OutputMap"
+    }
+  ]
+}

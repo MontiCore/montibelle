@@ -1,0 +1,6 @@
+session "bundle_SpacecraftA_HLR_mirmis" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_SpacecraftA_HLR_mirmis_Input
+        def_SpacecraftA_HLR_mirmis_Output
+

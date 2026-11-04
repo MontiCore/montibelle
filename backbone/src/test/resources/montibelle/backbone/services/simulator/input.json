@@ -1,0 +1,12 @@
+{
+  "automatonFQN":"automaton.Event",
+  "inputParameter":{
+    "seed1": 1,
+    "seed2": 1,
+    "seed3": 1,
+    "seed4": 1
+  },
+  "input":{
+    "beInChannel":[true, null, false, null]
+  }
+}

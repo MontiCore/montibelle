@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "PartDefinition.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "PartDefinition.Output",
+      "fullName": "PartDefinition.Output",
+      "channelNames": [
+        "PartDefinition.Output.channel_PartDefinition_o"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_PartDefinition.def_PartDefinition_Output"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Bob_LLR.def_Bob_LLR_States",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Bob_LLR.def_Bob_LLR_States",
+      "fullName": "sps_Bob_LLR.def_Bob_LLR_States",
+      "filename": "def_Bob_LLR_States",
+      "sessionName": "sps_Bob_LLR"
+    }
+  ]
+}

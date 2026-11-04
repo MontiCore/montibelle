@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Avionics_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_Avionics_LLR",
+      "fullName": "bundle_Avionics_LLR",
+      "path": [
+        "bundle",
+        "Avionics_LLR"
+      ]
+    }
+  ]
+}

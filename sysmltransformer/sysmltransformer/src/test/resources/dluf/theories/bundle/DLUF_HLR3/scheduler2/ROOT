@@ -1,0 +1,6 @@
+session "bundle_DLUF_HLR3_scheduler2" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_DLUF_HLR3_scheduler2_Input
+        def_DLUF_HLR3_scheduler2_Output
+

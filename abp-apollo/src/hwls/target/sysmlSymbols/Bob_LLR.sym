@@ -1,0 +1,102 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Bob_LLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Bob_LLR",
+      "fullName": "Bob_LLR",
+      "directRefinements": [
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "Bob_HLR"
+        }
+      ],
+      "requirementType": "LLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "init_ctrl",
+            "fullName": "Bob_LLR.init_ctrl",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "boolean"
+              }
+            ],
+            "in": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Bob_LLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "control",
+            "fullName": "Bob_LLR.control",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Booleans"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Bob_LLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlstates._symboltable.StateUsageSymbol",
+            "name": "init_ctrlacityAutomaton",
+            "fullName": "Bob_LLR.init_ctrlacityAutomaton",
+            "exhibited": true,
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "c",
+                  "fullName": "Bob_LLR.init_ctrlacityAutomaton.c",
+                  "types": [
+                    {
+                      "kind": "de.monticore.types.check.SymTypePrimitive",
+                      "primitiveName": "nat"
+                    }
+                  ],
+                  "in": true
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlstates._symboltable.StateUsageSymbol",
+                  "name": "Send",
+                  "fullName": "Bob_LLR.init_ctrlacityAutomaton.Send"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlstates._symboltable.StateUsageSymbol",
+                  "name": "Block",
+                  "fullName": "Bob_LLR.init_ctrlacityAutomaton.Block"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_MANiaC.def_MANiaC",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_MANiaC.def_MANiaC",
+      "fullName": "sps_MANiaC.def_MANiaC",
+      "filename": "def_MANiaC",
+      "sessionName": "sps_MANiaC"
+    }
+  ]
+}

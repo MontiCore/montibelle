@@ -1,0 +1,46 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_HLR.Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Avionics_HLR.Feedback",
+      "fullName": "Avionics_HLR.Feedback",
+      "channelNames": [
+        "channel_Avionics_HLR_dldf_input1_data",
+        "channel_Avionics_HLR_dldf_input2_data",
+        "channel_Avionics_HLR_dldf_input3_data",
+        "channel_Avionics_HLR_dldf_input4_data",
+        "channel_Avionics_HLR_mergex_input1_data",
+        "channel_Avionics_HLR_mergex_input2_data",
+        "channel_Avionics_HLR_mergex_input3_data",
+        "channel_Avionics_HLR_mergex_input4_data",
+        "channel_Avionics_HLR_router_input_data",
+        "channel_Avionics_HLR_sorter_b1In_data",
+        "channel_Avionics_HLR_sorter_b2In_data",
+        "channel_Avionics_HLR_sorter_cocaIn_data",
+        "channel_Avionics_HLR_sorter_dfpIn_data",
+        "channel_Avionics_HLR_sorter_maniacIn_data",
+        "channel_Avionics_HLR_sorter_mirmisIn_data",
+        "channel_Avionics_HLR_router_b1Out_data",
+        "channel_Avionics_HLR_router_b2Out_data",
+        "channel_Avionics_HLR_router_cocaOut_data",
+        "channel_Avionics_HLR_router_dfpOut_data",
+        "channel_Avionics_HLR_router_maniacOut_data",
+        "channel_Avionics_HLR_router_mirmisOut_data",
+        "channel_Avionics_HLR_sorter_prio1_data",
+        "channel_Avionics_HLR_sorter_prio2_data",
+        "channel_Avionics_HLR_sorter_prio3_data",
+        "channel_Avionics_HLR_sorter_prio4_data",
+        "channel_Avionics_HLR_mergex_output_data",
+        "channel_Avionics_HLR_dldf_output1_data",
+        "channel_Avionics_HLR_dldf_output2_data",
+        "channel_Avionics_HLR_dldf_output3_data",
+        "channel_Avionics_HLR_dldf_output4_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Avionics_HLR.def_Avionics_HLR_Feedback"
+    }
+  ]
+}

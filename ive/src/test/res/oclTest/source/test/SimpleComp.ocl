@@ -1,0 +1,14 @@
+package test;
+
+import simplePack.SimpleCompCD.*;
+import java.DefaultTypes.*;
+
+ocl SimpleComp {
+
+  context SimpleComp comp inv Final :
+
+      (forall i in Integer:
+        (comp.boolPort == true) || (comp.boolPort == false)
+      );
+
+}

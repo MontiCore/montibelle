@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_SecureProtocol_LLR_decrypt2_input_val",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_SecureProtocol_LLR_decrypt2_input_val",
+      "fullName": "channel_SecureProtocol_LLR_decrypt2_input_val",
+      "localName": "channel_decrypt2_input_val",
+      "typeName": "boolEVENT",
+      "pattern": "channel_decrypt2_input_val_pattern"
+    }
+  ]
+}

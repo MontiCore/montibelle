@@ -1,0 +1,4 @@
+session "user" (testing) = "inc" +
+  options [quick_and_dirty=true]
+  theories
+    Datatypes

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2.def_SecureProtocol_HLR2",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SecureProtocol_HLR2.def_SecureProtocol_HLR2",
+      "fullName": "sps_SecureProtocol_HLR2.def_SecureProtocol_HLR2",
+      "filename": "def_SecureProtocol_HLR2",
+      "sessionName": "sps_SecureProtocol_HLR2"
+    }
+  ]
+}

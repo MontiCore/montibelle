@@ -1,0 +1,27 @@
+
+session "io" (testing) = "data_inc" +
+  description "Session für alle Bundles. Kann leider nicht 'bundle' heissen wegen core."
+  options [quick_and_dirty=true]
+  theories
+    Input
+    Output
+    EmptyBundle
+    EventInput
+    EventOutput
+    EventInput_gen
+    EventOutput_gen
+    Instance1Input
+    Instance1Output
+    Instance2Input
+    Instance2Output
+    Instance3Input
+    Instance3Output
+    Connector1Input
+    Connector2Output
+    Connector2Input
+    Connector2Output
+    Connector3Input
+    Connector3Output
+    Feedback
+    SerialFeedback
+    FeedbackFeedback

@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "MANiaC",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "MANiaC",
+      "fullName": "MANiaC",
+      "assumptionsLen": 1,
+      "theory": "sps_MANiaC.def_MANiaC",
+      "strong": true,
+      "inputName": "MANiaC.Input",
+      "outputName": "MANiaC.Output"
+    }
+  ]
+}

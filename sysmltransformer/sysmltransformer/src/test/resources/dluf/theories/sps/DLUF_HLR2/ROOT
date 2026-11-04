@@ -1,0 +1,5 @@
+session "sps_DLUF_HLR2" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_DLUF_HLR1" "sps_DLUF_HLR2_connector" "sps_DLUF_HLR2_scheduler1" "sps_DLUF_HLR2_scheduler2" "sps_DLUF_HLR2_scheduler3" "sps_DLUF_HLR2_scheduler4" "bundle_DLUF_HLR2"
+    theories
+        def_DLUF_HLR2
+

@@ -1,0 +1,5 @@
+session "sps_BoolInverter" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_BoolInverter"
+    theories
+        def_BoolInverter
+

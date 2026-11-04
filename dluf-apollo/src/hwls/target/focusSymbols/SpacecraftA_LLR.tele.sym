@@ -1,0 +1,136 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR.tele",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_TelecommandAndTelemetry_HLR_groundIn_data",
+        "channel_TelecommandAndTelemetry_HLR_b1In_data",
+        "channel_TelecommandAndTelemetry_HLR_b2In_data",
+        "channel_TelecommandAndTelemetry_HLR_cocaIn_data",
+        "channel_TelecommandAndTelemetry_HLR_maniacIn_data",
+        "channel_TelecommandAndTelemetry_HLR_dfpIn_data",
+        "channel_TelecommandAndTelemetry_HLR_mirmisIn_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_tele_InputMap.def_SpacecraftA_LLR_tele_InputMap",
+      "inputName": "SpacecraftA_LLR.tele.Input",
+      "outputName": "TelecommandAndTelemetry_HLR.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_LLR_tele_groundOut_data",
+        "channel_SpacecraftA_LLR_tele_b1Out_data",
+        "channel_SpacecraftA_LLR_tele_b2Out_data",
+        "channel_SpacecraftA_LLR_tele_cocaOut_data",
+        "channel_SpacecraftA_LLR_tele_maniacOut_data",
+        "channel_SpacecraftA_LLR_tele_dfpOut_data",
+        "channel_SpacecraftA_LLR_tele_mirmisOut_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_tele_OutputMap.def_SpacecraftA_LLR_tele_OutputMap",
+      "inputName": "TelecommandAndTelemetry_HLR.Output",
+      "outputName": "SpacecraftA_LLR.tele.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_groundIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_groundIn_data",
+      "value": "channel_SpacecraftA_LLR_tele_groundIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_b1In_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_b1In_data",
+      "value": "channel_SpacecraftA_LLR_tele_b1In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_b2In_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_b2In_data",
+      "value": "channel_SpacecraftA_LLR_tele_b2In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_cocaIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_cocaIn_data",
+      "value": "channel_SpacecraftA_LLR_tele_cocaIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_maniacIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_maniacIn_data",
+      "value": "channel_SpacecraftA_LLR_tele_maniacIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_dfpIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_dfpIn_data",
+      "value": "channel_SpacecraftA_LLR_tele_dfpIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_mirmisIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_mirmisIn_data",
+      "value": "channel_SpacecraftA_LLR_tele_mirmisIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_groundOut_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_groundOut_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_groundOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_b1Out_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_b1Out_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_b1Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_b2Out_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_b2Out_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_b2Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_cocaOut_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_cocaOut_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_cocaOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_maniacOut_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_maniacOut_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_maniacOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_dfpOut_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_dfpOut_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_dfpOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_mirmisOut_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_mirmisOut_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_mirmisOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_LLR.tele",
+      "fullName": "SpacecraftA_LLR.tele",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "TelecommandAndTelemetry_LLR",
+      "theory": "sps_SpacecraftA_LLR_tele.def_SpacecraftA_LLR_tele",
+      "strong": true,
+      "inputName": "SpacecraftA_LLR.tele.Input",
+      "outputName": "SpacecraftA_LLR.tele.Output"
+    }
+  ]
+}

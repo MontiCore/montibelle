@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "code_Buffer_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "code_Buffer_LLR",
+      "fullName": "code_Buffer_LLR",
+      "path": [
+        "code",
+        "Buffer_LLR"
+      ]
+    }
+  ]
+}

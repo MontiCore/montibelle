@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR2_encrypt1_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Encrypt1_HLR" "bundle_SecureProtocol_HLR2_encrypt1"
+    theories
+        def_SecureProtocol_HLR2_encrypt1_OutputMap
+

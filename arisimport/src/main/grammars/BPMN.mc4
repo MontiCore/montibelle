@@ -1,0 +1,85 @@
+grammar BPMN extends Aris {
+
+  @Override
+  token Name =
+      ( 'a'..'z' | 'A'..'Z' | '_' | '$' )
+      ( 'a'..'z' | 'A'..'Z' | '_' | '0'..'9' | '$' | '-' )*
+      ( ' ' ('&'' ')? ( 'a'..'z' | 'A'..'Z' | '_' | '$' | '[' )
+                      ( 'a'..'z' | 'A'..'Z' | '_' | '0'..'9' | '$' | '-' | ']' )* )* ;
+
+  Email =
+    (Name || "." )+ "@" (Name || "." )+ {noSpace()}?;
+
+  start Model;
+
+  Model = ModelInformation Diagram+;
+
+  ModelInformation =
+     "Model information"
+     "Date:" Date
+    ("Model:" Name)? ;
+
+  symbol scope Diagram =
+    Digits "." {noSpace()}? Name
+    Properties
+    Objects
+    Graphic;
+
+  Properties =
+    Digits ".1." {noSpace()}? "Properties"
+    "Type"               ("BPMN process" | "BPMN subprocess")
+    "Group"              group:Name
+    "Last change"        DateTime
+    "Last user"          Email;
+
+  Objects =
+    Digits ".2." {noSpace()}? "Objects"
+    Object*;
+
+  symbol Object =
+    Digits ".2." Digits "." {noSpace()}? Name
+    "Properties"
+    "Type"               type:Name
+    "Group"              group:Name
+    Description?
+    "Last change"        DateTime
+    "Last user"          Email
+    ObjectType?
+    "Relationships"
+    "Relationship type" "Object name" "Object type"
+    Relationship* ;
+
+  Description =
+    "Description/Definition" Name;
+
+  interface ObjectType;
+
+  Event implements ObjectType =
+    "Event definition"  "none";
+
+  Task implements ObjectType =
+    "Activity type"     "Task"
+    "Task type"         "Abstract task";
+
+  Subprocess implements ObjectType =
+    "Activity type"     "Subprocess"
+    "Subprocess type"   "Subprocess";
+
+  interface Relationship;
+
+  Outgoing implements Relationship =
+    ("activates" | "leads to" | "creates" | "is predecessor of")
+    name:Name@Object type:Name;
+
+  Incoming implements Relationship =
+    ("is activated by" | "is assigned to" | "is created by" | "follows"
+    | "is dependent on")
+    name:Name@Object type:Name;
+
+  Association implements Relationship =
+    "is associated with"
+    name:Name@Object type:Name;
+
+  Graphic = Digits ".3." {noSpace()}? "Graphic";
+
+}

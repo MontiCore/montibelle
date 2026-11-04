@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_HLR3_connector.def_DLDF_HLR3_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_DLDF_HLR3_connector.def_DLDF_HLR3_connector",
+      "fullName": "sps_DLDF_HLR3_connector.def_DLDF_HLR3_connector",
+      "filename": "def_DLDF_HLR3_connector",
+      "sessionName": "sps_DLDF_HLR3_connector"
+    }
+  ]
+}

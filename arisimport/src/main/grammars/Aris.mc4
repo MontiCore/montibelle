@@ -1,0 +1,19 @@
+component grammar Aris
+    extends de.monticore.MCBasics,
+            de.monticore.literals.MCCommonLiterals {
+
+  Date =
+    month:Digits "/" day:Digits "/" year:Digits;
+
+  enum MONTH =
+    "Jan" | "Feb" | "Mar" | "Apr" | "Mai" | "Jun" | "Jul" | "Aug" | "Sep" |
+    "Oct" | "Nov" | "Dez";
+
+  enum MERIDIEM =
+    "AM" | "PM";
+
+  DateTime =
+    month:MONTH day:Digits year:Digits
+    hour:Digits ":" minute:Digits ":" second:Digits meridiem:MERIDIEM;
+
+}

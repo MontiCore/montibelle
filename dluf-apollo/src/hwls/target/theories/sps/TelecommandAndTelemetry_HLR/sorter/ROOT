@@ -1,0 +1,5 @@
+session "sps_TelecommandAndTelemetry_HLR_sorter" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_TelecommandAndTelemetry_HLR_sorter" "sps_TelecommandAndTelemetry_HLR_sorter_InputMap" "sps_TelecommandAndTelemetry_HLR_sorter_OutputMap" "sps_Sorter"
+    theories
+        def_TelecommandAndTelemetry_HLR_sorter
+

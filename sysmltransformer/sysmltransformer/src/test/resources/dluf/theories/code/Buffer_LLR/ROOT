@@ -1,0 +1,5 @@
+session "code_Buffer_LLR" (generated code) = "component" +
+    sessions "data_inc" "user" "code_Buffer_HLR3" "sps_Buffer_LLR"
+    theories
+        code_Buffer_LLR
+

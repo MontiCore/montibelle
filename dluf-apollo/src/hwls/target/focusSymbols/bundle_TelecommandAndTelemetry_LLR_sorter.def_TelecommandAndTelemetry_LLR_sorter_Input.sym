@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_TelecommandAndTelemetry_LLR_sorter.def_TelecommandAndTelemetry_LLR_sorter_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_TelecommandAndTelemetry_LLR_sorter.def_TelecommandAndTelemetry_LLR_sorter_Input",
+      "fullName": "bundle_TelecommandAndTelemetry_LLR_sorter.def_TelecommandAndTelemetry_LLR_sorter_Input",
+      "filename": "def_TelecommandAndTelemetry_LLR_sorter_Input",
+      "sessionName": "bundle_TelecommandAndTelemetry_LLR_sorter"
+    }
+  ]
+}

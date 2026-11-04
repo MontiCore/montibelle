@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_TelecommandAndTelemetry_HLR_sorter_prio3_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_sorter_prio3_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_sorter_prio3_data",
+      "localName": "channel_sorter_prio3_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_sorter_prio3_data_pattern"
+    }
+  ]
+}

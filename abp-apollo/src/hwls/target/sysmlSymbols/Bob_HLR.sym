@@ -1,0 +1,83 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Bob_HLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Bob_HLR",
+      "fullName": "Bob_HLR",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "init_ctrl",
+            "fullName": "Bob_HLR.init_ctrl",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "boolean"
+              }
+            ],
+            "in": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Bob_HLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "control",
+            "fullName": "Bob_HLR.control",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Booleans"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Bob_HLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlconstraints._symboltable.RequirementUsageSymbol",
+            "name": "MsgProcessing",
+            "fullName": "Bob_HLR.MsgProcessing",
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "ValidInput",
+                  "fullName": "Bob_HLR.MsgProcessing.ValidInput"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "Availability",
+                  "fullName": "Bob_HLR.MsgProcessing.Availability"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

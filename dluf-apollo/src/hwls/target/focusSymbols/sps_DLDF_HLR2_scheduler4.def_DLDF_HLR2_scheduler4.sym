@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_HLR2_scheduler4.def_DLDF_HLR2_scheduler4",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_DLDF_HLR2_scheduler4.def_DLDF_HLR2_scheduler4",
+      "fullName": "sps_DLDF_HLR2_scheduler4.def_DLDF_HLR2_scheduler4",
+      "filename": "def_DLDF_HLR2_scheduler4",
+      "sessionName": "sps_DLDF_HLR2_scheduler4"
+    }
+  ]
+}

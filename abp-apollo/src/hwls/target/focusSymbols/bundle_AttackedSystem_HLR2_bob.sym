@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_HLR2_bob",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_AttackedSystem_HLR2_bob",
+      "fullName": "bundle_AttackedSystem_HLR2_bob",
+      "path": [
+        "bundle",
+        "AttackedSystem_HLR2",
+        "bob"
+      ]
+    }
+  ]
+}

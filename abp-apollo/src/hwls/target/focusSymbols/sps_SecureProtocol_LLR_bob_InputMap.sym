@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_LLR_bob_InputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_LLR_bob_InputMap",
+      "fullName": "sps_SecureProtocol_LLR_bob_InputMap",
+      "path": [
+        "sps",
+        "SecureProtocol_LLR",
+        "bob",
+        "InputMap"
+      ]
+    }
+  ]
+}

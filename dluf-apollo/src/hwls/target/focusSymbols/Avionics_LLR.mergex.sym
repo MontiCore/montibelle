@@ -1,0 +1,73 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_LLR.mergex",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Merge_LLR_input1_data",
+        "channel_Merge_LLR_input2_data",
+        "channel_Merge_LLR_input3_data",
+        "channel_Merge_LLR_input4_data"
+      ],
+      "theory": "sps_Avionics_LLR_mergex_InputMap.def_Avionics_LLR_mergex_InputMap",
+      "inputName": "Avionics_LLR.mergex.Input",
+      "outputName": "Merge_LLR.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_Avionics_LLR_mergex_output_data"
+      ],
+      "theory": "sps_Avionics_LLR_mergex_OutputMap.def_Avionics_LLR_mergex_OutputMap",
+      "inputName": "Merge_LLR.Output",
+      "outputName": "Avionics_LLR.mergex.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Merge_LLR_input1_data",
+      "fullName": "channel_Merge_LLR_input1_data",
+      "value": "channel_Avionics_LLR_mergex_input1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Merge_LLR_input2_data",
+      "fullName": "channel_Merge_LLR_input2_data",
+      "value": "channel_Avionics_LLR_mergex_input2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Merge_LLR_input3_data",
+      "fullName": "channel_Merge_LLR_input3_data",
+      "value": "channel_Avionics_LLR_mergex_input3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Merge_LLR_input4_data",
+      "fullName": "channel_Merge_LLR_input4_data",
+      "value": "channel_Avionics_LLR_mergex_input4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_LLR_mergex_output_data",
+      "fullName": "channel_Avionics_LLR_mergex_output_data",
+      "value": "channel_Merge_LLR_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "Avionics_LLR.mergex",
+      "fullName": "Avionics_LLR.mergex",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "Merge_LLR",
+      "theory": "sps_Avionics_LLR_mergex.def_Avionics_LLR_mergex",
+      "strong": true,
+      "inputName": "Avionics_LLR.mergex.Input",
+      "outputName": "Avionics_LLR.mergex.Output"
+    }
+  ]
+}

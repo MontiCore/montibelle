@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_maniac.def_SpacecraftA_LLR_maniac",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SpacecraftA_LLR_maniac.def_SpacecraftA_LLR_maniac",
+      "fullName": "sps_SpacecraftA_LLR_maniac.def_SpacecraftA_LLR_maniac",
+      "filename": "def_SpacecraftA_LLR_maniac",
+      "sessionName": "sps_SpacecraftA_LLR_maniac"
+    }
+  ]
+}

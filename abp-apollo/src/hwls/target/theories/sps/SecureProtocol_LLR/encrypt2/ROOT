@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_LLR_encrypt2" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_LLR_encrypt2" "sps_SecureProtocol_LLR_encrypt2_InputMap" "sps_SecureProtocol_LLR_encrypt2_OutputMap" "sps_Encrypt2_HLR"
+    theories
+        def_SecureProtocol_LLR_encrypt2
+

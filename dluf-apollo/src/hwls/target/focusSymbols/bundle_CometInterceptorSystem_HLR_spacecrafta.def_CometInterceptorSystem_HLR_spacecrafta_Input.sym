@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_CometInterceptorSystem_HLR_spacecrafta.def_CometInterceptorSystem_HLR_spacecrafta_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_CometInterceptorSystem_HLR_spacecrafta.def_CometInterceptorSystem_HLR_spacecrafta_Input",
+      "fullName": "bundle_CometInterceptorSystem_HLR_spacecrafta.def_CometInterceptorSystem_HLR_spacecrafta_Input",
+      "filename": "def_CometInterceptorSystem_HLR_spacecrafta_Input",
+      "sessionName": "bundle_CometInterceptorSystem_HLR_spacecrafta"
+    }
+  ]
+}

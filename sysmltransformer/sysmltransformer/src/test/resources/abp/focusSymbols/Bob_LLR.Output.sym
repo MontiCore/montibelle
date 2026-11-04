@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"Bob_LLR.Output","symbols":[{"kind":"montibelle.focus._symboltable.BundleSymbol","name":"Bob_LLR.Output","fullName":"Bob_LLR.Output","channelNames":["channel_Bob_LLR_control_val","channel_Bob_LLR_output_val"],"timingName":"SYNC","codeTheory":"code_Bob_LLR.code_Bob_LLR_Output","theory":"bundle_Bob_LLR.def_Bob_LLR_Output"}]}

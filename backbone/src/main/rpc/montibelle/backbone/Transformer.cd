@@ -1,0 +1,11 @@
+package montibelle.backbone;
+
+classdiagram Transformer {
+
+  interface Transformer {
+
+    String transform(String workspaceId, String transformerVersion);
+
+  }
+
+}

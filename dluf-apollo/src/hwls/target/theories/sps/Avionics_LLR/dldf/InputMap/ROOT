@@ -1,0 +1,5 @@
+session "sps_Avionics_LLR_dldf_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Avionics_LLR_dldf" "bundle_DLDF_HLR1"
+    theories
+        def_Avionics_LLR_dldf_InputMap
+

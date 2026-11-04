@@ -1,0 +1,170 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_LLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "SecureProtocol_LLR",
+      "fullName": "SecureProtocol_LLR",
+      "directRefinements": [
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "SecureProtocol_HLR2"
+        },
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "SecureProtocol_HLR1"
+        }
+      ],
+      "requirementType": "MIXED",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "alice",
+            "fullName": "SecureProtocol_LLR.alice",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Alice_HLR"
+              }
+            ],
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlbasis._symboltable.AnonymousReferenceSymbol",
+                  "name": "init_ctrl",
+                  "fullName": "SecureProtocol_LLR.alice.init_ctrl",
+                  "in": true
+                }
+              ]
+            }
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "encrypt1",
+            "fullName": "SecureProtocol_LLR.encrypt1",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Encrypt1_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "eve1",
+            "fullName": "SecureProtocol_LLR.eve1",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Eve1_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "decrypt1",
+            "fullName": "SecureProtocol_LLR.decrypt1",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Decrypt1_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "bob",
+            "fullName": "SecureProtocol_LLR.bob",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Bob_LLR"
+              }
+            ],
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlbasis._symboltable.AnonymousReferenceSymbol",
+                  "name": "init_ctrl",
+                  "fullName": "SecureProtocol_LLR.bob.init_ctrl",
+                  "in": true
+                }
+              ]
+            }
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "encrypt2",
+            "fullName": "SecureProtocol_LLR.encrypt2",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Encrypt2_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "eve2",
+            "fullName": "SecureProtocol_LLR.eve2",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Eve2_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "decrypt2",
+            "fullName": "SecureProtocol_LLR.decrypt2",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Decrypt2_HLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "init_ctrl_AB",
+            "fullName": "SecureProtocol_LLR.init_ctrl_AB",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "boolean"
+              }
+            ],
+            "in": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "SecureProtocol_LLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "SecureProtocol_LLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data"
+              }
+            ],
+            "strong": true
+          }
+        ]
+      }
+    }
+  ]
+}

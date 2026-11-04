@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_TelecommandAndTelemetry_LLR_router_OutputMap.def_TelecommandAndTelemetry_LLR_router_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_TelecommandAndTelemetry_LLR_router_OutputMap.def_TelecommandAndTelemetry_LLR_router_OutputMap",
+      "fullName": "sps_TelecommandAndTelemetry_LLR_router_OutputMap.def_TelecommandAndTelemetry_LLR_router_OutputMap",
+      "filename": "def_TelecommandAndTelemetry_LLR_router_OutputMap",
+      "sessionName": "sps_TelecommandAndTelemetry_LLR_router_OutputMap"
+    }
+  ]
+}

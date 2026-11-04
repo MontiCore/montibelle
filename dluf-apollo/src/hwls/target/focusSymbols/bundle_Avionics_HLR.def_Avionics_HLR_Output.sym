@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Avionics_HLR.def_Avionics_HLR_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Avionics_HLR.def_Avionics_HLR_Output",
+      "fullName": "bundle_Avionics_HLR.def_Avionics_HLR_Output",
+      "filename": "def_Avionics_HLR_Output",
+      "sessionName": "bundle_Avionics_HLR"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_SecureProtocol_LLR_alice_control_val",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_SecureProtocol_LLR_alice_control_val",
+      "fullName": "channel_SecureProtocol_LLR_alice_control_val",
+      "localName": "channel_alice_control_val",
+      "typeName": "boolEVENT",
+      "pattern": "channel_alice_control_val_pattern"
+    }
+  ]
+}

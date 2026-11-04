@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Buffer_HLR3.ref.Buffer_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "Buffer_HLR3.ref.Buffer_LLR",
+      "fullName": "Buffer_HLR3.ref.Buffer_LLR",
+      "theory": "ref_Buffer_LLR_refines_Buffer_HLR3.ref_Buffer_LLR_rough_Buffer_HLR3"
+    }
+  ]
+}

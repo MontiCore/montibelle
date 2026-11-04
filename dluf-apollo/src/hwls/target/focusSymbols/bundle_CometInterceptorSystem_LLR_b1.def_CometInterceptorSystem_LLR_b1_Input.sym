@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_CometInterceptorSystem_LLR_b1.def_CometInterceptorSystem_LLR_b1_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_CometInterceptorSystem_LLR_b1.def_CometInterceptorSystem_LLR_b1_Input",
+      "fullName": "bundle_CometInterceptorSystem_LLR_b1.def_CometInterceptorSystem_LLR_b1_Input",
+      "filename": "def_CometInterceptorSystem_LLR_b1_Input",
+      "sessionName": "bundle_CometInterceptorSystem_LLR_b1"
+    }
+  ]
+}

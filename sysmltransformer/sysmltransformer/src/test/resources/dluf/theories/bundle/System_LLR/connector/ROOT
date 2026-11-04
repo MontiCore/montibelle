@@ -1,0 +1,6 @@
+session "bundle_System_LLR_connector" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_System_LLR_connector_System_LLR_connector_Input
+        def_System_LLR_connector_System_LLR_connector_Output
+

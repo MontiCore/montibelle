@@ -1,0 +1,5 @@
+session "sps_DLDF_LLR_scheduler1" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_DLDF_LLR_scheduler1" "sps_DLDF_LLR_scheduler1_InputMap" "sps_DLDF_LLR_scheduler1_OutputMap" "sps_Scheduler_LLR"
+    theories
+        def_DLDF_LLR_scheduler1
+

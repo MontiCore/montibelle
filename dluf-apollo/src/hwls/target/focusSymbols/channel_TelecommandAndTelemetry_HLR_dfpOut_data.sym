@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+      "localName": "channel_dfpOut_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_dfpOut_data_pattern"
+    }
+  ]
+}

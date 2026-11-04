@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Bob_HLR_output_val",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Bob_HLR_output_val",
+      "fullName": "channel_Bob_HLR_output_val",
+      "localName": "channel_output_val",
+      "typeName": "natEVENT",
+      "pattern": "channel_output_val_pattern"
+    }
+  ]
+}

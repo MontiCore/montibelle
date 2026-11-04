@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_SecureProtocol_HLR2_refines_SecureProtocol_HLR1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_SecureProtocol_HLR2_refines_SecureProtocol_HLR1",
+      "fullName": "ref_SecureProtocol_HLR2_refines_SecureProtocol_HLR1",
+      "path": [
+        "ref",
+        "SecureProtocol_HLR2",
+        "SecureProtocol_HLR1"
+      ]
+    }
+  ]
+}

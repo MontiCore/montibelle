@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_TelecommandAndTelemetry_LLR_dldf",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_TelecommandAndTelemetry_LLR_dldf",
+      "fullName": "sps_TelecommandAndTelemetry_LLR_dldf",
+      "path": [
+        "sps",
+        "TelecommandAndTelemetry_LLR",
+        "dldf"
+      ]
+    }
+  ]
+}

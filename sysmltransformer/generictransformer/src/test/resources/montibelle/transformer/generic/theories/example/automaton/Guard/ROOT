@@ -1,0 +1,13 @@
+session "Guard" (testing) = "tscomponent" +
+  sessions
+    io
+    inc
+    stream
+    expressions
+    liftedstreams
+  theories
+    Guard
+    Guard_States
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"
+

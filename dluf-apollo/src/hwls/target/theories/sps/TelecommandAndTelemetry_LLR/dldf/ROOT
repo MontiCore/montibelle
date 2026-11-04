@@ -1,0 +1,5 @@
+session "sps_TelecommandAndTelemetry_LLR_dldf" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_TelecommandAndTelemetry_LLR_dldf" "sps_TelecommandAndTelemetry_LLR_dldf_InputMap" "sps_TelecommandAndTelemetry_LLR_dldf_OutputMap" "sps_DLDF_LLR"
+    theories
+        def_TelecommandAndTelemetry_LLR_dldf
+

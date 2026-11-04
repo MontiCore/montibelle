@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_ProbeB1.def_ProbeB1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_ProbeB1.def_ProbeB1",
+      "fullName": "sps_ProbeB1.def_ProbeB1",
+      "filename": "def_ProbeB1",
+      "sessionName": "sps_ProbeB1"
+    }
+  ]
+}

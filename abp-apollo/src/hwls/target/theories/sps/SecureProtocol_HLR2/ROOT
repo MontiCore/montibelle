@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR2" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_HLR1" "sps_SecureProtocol_HLR2_connector" "sps_SecureProtocol_HLR2_alice" "sps_SecureProtocol_HLR2_encrypt1" "sps_SecureProtocol_HLR2_eve1" "sps_SecureProtocol_HLR2_decrypt1" "sps_SecureProtocol_HLR2_bob" "sps_SecureProtocol_HLR2_encrypt2" "sps_SecureProtocol_HLR2_eve2" "sps_SecureProtocol_HLR2_decrypt2" "bundle_SecureProtocol_HLR2"
+    theories
+        def_SecureProtocol_HLR2
+

@@ -1,0 +1,37 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Buffer_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.StateVariableSymbol",
+      "name": "old_packets",
+      "fullName": "old_packets"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.StateVariableSymbol",
+      "name": "new_packets",
+      "fullName": "new_packets"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.StateSpaceSymbol",
+      "name": "Buffer_LLR.States",
+      "fullName": "Buffer_LLR.States",
+      "variableNames": [
+        "old_packets",
+        "new_packets"
+      ],
+      "theory": "sps_Buffer_LLR.def_Buffer_LLR_States"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.EventAutomatonSymbol",
+      "name": "Buffer_LLR",
+      "fullName": "Buffer_LLR",
+      "theory": "sps_Buffer_LLR.def_Buffer_LLR",
+      "inputName": "Buffer_HLR3.Input",
+      "outputName": "Buffer_HLR3.Output",
+      "finite": true,
+      "codeTheoryName": "code_Buffer_LLR.code_Buffer_LLR",
+      "statespaceName": "Buffer_LLR.States"
+    }
+  ]
+}

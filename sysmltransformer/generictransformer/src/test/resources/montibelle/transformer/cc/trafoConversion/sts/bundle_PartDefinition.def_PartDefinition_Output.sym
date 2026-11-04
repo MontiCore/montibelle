@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_PartDefinition.def_PartDefinition_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_PartDefinition.def_PartDefinition_Output",
+      "fullName": "bundle_PartDefinition.def_PartDefinition_Output",
+      "fFilename": "def_PartDefinition_Output",
+      "sessionName": "bundle_PartDefinition",
+      "elementName": "PartDefinition.Output"
+    }
+  ]
+}

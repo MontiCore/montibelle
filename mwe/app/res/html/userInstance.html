@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ stack_title }}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='instanceContainer.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid vh-100 d-flex flex-column">
+
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">{{ stack_title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbar" class="justify-content-end collapse navbar-collapse">
+          <ul class="navbar-nav">
+            {% if deployment_infos["stack"] in ["sysml", "inverter"] %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('userinstance_reset', deployment_name=deployment_infos['id']) }}">Reset Environment</a>
+            </li>
+            {% endif %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+                      
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Clone git repository</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Repository:</label>
+              <input type="text" placeholder="https://github.com/MontiCore/monticore.git" class="form-control"
+                id="git-repo">
+            </div>
+            <input class="form-check-deletion" onclick="clickCheckbox();" type="checkbox" value="" id="check-deletion">
+            <label class="form-check-label" for="check-deletion">
+              I know that all existing project data will be deleted.
+            </label>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+          <button type="button" id="clone-btn" class="btn btn-success" onclick="clone()" disabled>Clone</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% if deployment_infos["status"] == "Running" %}
+  <div class="row flex-grow-1 bg-light" style="padding-top: 55px;">
+    <iframe sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+      style="padding-left: 0; padding-right: 0;" class="col flex-fill" src="{{ deployment_infos['link'] }}"></iframe>
+
+  </div>
+
+  <script src="{{ url_for('.static', filename='overrideCodeserverActivitybar.js') }}"></script>
+  <script>
+      (function () {
+        const reloadFlagKey = 'activitybarOverrideReloaded';
+        const shouldReload = !sessionStorage.getItem(reloadFlagKey);
+
+        if (!window.overrideCodeserverActivitybar) {
+          return;
+        }
+
+        window.overrideCodeserverActivitybar()
+          .then(() => {
+            if (shouldReload) {
+              sessionStorage.setItem(reloadFlagKey, 'true');
+              window.location.reload();
+            }
+          })
+          .catch((e) => {
+            console.error("Failed to override codeserver sidebar:", e);
+          });
+      }());
+  </script>
+
+  <script>
+    triggerKeepAlive();
+    setTimeout(readyCheck, 5000);
+    readyCheck()
+
+    function clickCheckbox() {
+      var checked = document.getElementById("check-deletion").checked;
+      if (checked) {
+        document.getElementById("clone-btn").disabled = false
+      } else {
+        document.getElementById("clone-btn").disabled = true
+      }
+    }
+
+    function triggerKeepAlive() {
+      $.get('{{ url_for("keep_alive") }}?id={{ deployment_infos["id"] }}', keepAliveCallback);
+    }
+
+    function keepAliveCallback(data, textStatus) {
+      setTimeout(triggerKeepAlive, 1000 * 60);
+    }
+
+
+    function triggerReadyCheck() {
+      $.get('{{ url_for("instance_state") }}?id={{deployment_infos["id"]}}', readyCheckCallback);
+    }
+
+    function readyCheck() {
+      var myRequest = new Request('{{ deployment_infos["link"] }}');
+
+      fetch(myRequest).then(function (response) {
+        if (response.status != 200) {
+          window.location.replace('{{ url_for("userinstance_preparing", deployment_name=deployment_infos["id"], stack=deployment_infos["stack"]) }}')
+        } else {
+          setTimeout(readyCheck, 1000);
+        }
+      });
+    }
+
+  </script>
+
+  {% elif deployment_infos["status"] != "Running" %}
+
+  <script>
+    window.location.replace('{{ url_for("userinstance_preparing", deployment_name=deployment_infos["id"], stack=deployment_infos["stack"]) }}')
+  </script>
+
+  {% endif %}
+
+</div>
+
+{% endblock %}

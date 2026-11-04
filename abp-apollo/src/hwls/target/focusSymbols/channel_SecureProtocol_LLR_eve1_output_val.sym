@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_SecureProtocol_LLR_eve1_output_val",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_SecureProtocol_LLR_eve1_output_val",
+      "fullName": "channel_SecureProtocol_LLR_eve1_output_val",
+      "localName": "channel_eve1_output_val",
+      "typeName": "Data_Bool_TupleEVENT",
+      "pattern": "channel_eve1_output_val_pattern"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Buffer_HLR3",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Buffer_HLR3",
+      "fullName": "Buffer_HLR3",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Buffer_HLR3.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "control",
+            "fullName": "Buffer_HLR3.control",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Ctrl"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Buffer_HLR3.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlconstraints._symboltable.RequirementUsageSymbol",
+            "name": "NonStarvation",
+            "fullName": "Buffer_HLR3.NonStarvation",
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "InfLongTimeframe",
+                  "fullName": "Buffer_HLR3.NonStarvation.InfLongTimeframe"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "MessageInEachInterval",
+                  "fullName": "Buffer_HLR3.NonStarvation.MessageInEachInterval"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "alwaysTransmit",
+                  "fullName": "Buffer_HLR3.NonStarvation.alwaysTransmit"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "outputSubsetInput",
+                  "fullName": "Buffer_HLR3.NonStarvation.outputSubsetInput"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

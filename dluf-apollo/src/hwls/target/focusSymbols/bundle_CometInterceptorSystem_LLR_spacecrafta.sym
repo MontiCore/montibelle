@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_CometInterceptorSystem_LLR_spacecrafta",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_CometInterceptorSystem_LLR_spacecrafta",
+      "fullName": "bundle_CometInterceptorSystem_LLR_spacecrafta",
+      "path": [
+        "bundle",
+        "CometInterceptorSystem_LLR",
+        "spacecrafta"
+      ]
+    }
+  ]
+}

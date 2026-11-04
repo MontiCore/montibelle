@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"BoolInverter","symbols":[{"kind":"montibelle.focus._symboltable.SpecificationSymbol","name":"BoolInverter","fullName":"BoolInverter","predicatesLen":1,"theory":"sps_BoolInverter.def_BoolInverter","strong":true,"inputName":"BoolInverter.Input","outputName":"BoolInverter.Output"}]}

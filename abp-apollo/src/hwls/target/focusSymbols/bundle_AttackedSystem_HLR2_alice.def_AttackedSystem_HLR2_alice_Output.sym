@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_HLR2_alice.def_AttackedSystem_HLR2_alice_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_AttackedSystem_HLR2_alice.def_AttackedSystem_HLR2_alice_Output",
+      "fullName": "bundle_AttackedSystem_HLR2_alice.def_AttackedSystem_HLR2_alice_Output",
+      "filename": "def_AttackedSystem_HLR2_alice_Output",
+      "sessionName": "bundle_AttackedSystem_HLR2_alice"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_LLR_bob.def_AttackedSystem_LLR_bob_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_AttackedSystem_LLR_bob.def_AttackedSystem_LLR_bob_Input",
+      "fullName": "bundle_AttackedSystem_LLR_bob.def_AttackedSystem_LLR_bob_Input",
+      "filename": "def_AttackedSystem_LLR_bob_Input",
+      "sessionName": "bundle_AttackedSystem_LLR_bob"
+    }
+  ]
+}

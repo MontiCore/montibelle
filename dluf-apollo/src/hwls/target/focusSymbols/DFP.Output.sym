@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DFP.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "DFP.Output",
+      "fullName": "DFP.Output",
+      "channelNames": [
+        "channel_DFP_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_DFP.def_DFP_Output"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_LLR.router.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "TelecommandAndTelemetry_LLR.router.Output",
+      "fullName": "TelecommandAndTelemetry_LLR.router.Output",
+      "channelNames": [
+        "channel_TelecommandAndTelemetry_LLR_router_b1Out_data",
+        "channel_TelecommandAndTelemetry_LLR_router_b2Out_data",
+        "channel_TelecommandAndTelemetry_LLR_router_cocaOut_data",
+        "channel_TelecommandAndTelemetry_LLR_router_dfpOut_data",
+        "channel_TelecommandAndTelemetry_LLR_router_maniacOut_data",
+        "channel_TelecommandAndTelemetry_LLR_router_mirmisOut_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_TelecommandAndTelemetry_LLR_router.def_TelecommandAndTelemetry_LLR_router_Output"
+    }
+  ]
+}

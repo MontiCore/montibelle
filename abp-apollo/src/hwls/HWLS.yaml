@@ -1,0 +1,399 @@
+- session: ref_AttackedSystem_HLR2_refines_AttackedSystem_HLR1
+  theory: ref_AttackedSystem_HLR2_rough_AttackedSystem_HLR1
+  hwl:
+  - !Prologue
+    session: lemmas
+    theory: hwl_refinement
+
+- session: user
+  theory: Datatypes.thy
+  hwl:
+    - !Substitute
+      session: user_substitute
+      theory: Datatypes.thy
+
+- session: sps_Alice_HLR
+  theory: def_Alice_HLR.thy
+  hwl:
+    - !Substitute
+      session: sps_Alice_HLR_substitute
+      theory: def_Alice_HLR.thy
+
+- session: sps_Bob_HLR
+  theory: def_Bob_HLR.thy
+  hwl:
+    - !Substitute
+      session: sps_Bob_HLR_substitute
+      theory: def_Bob_HLR.thy
+
+- session: sps_Eve2_HLR
+  theory: def_Eve2_HLR.thy
+  hwl:
+    - !Substitute
+      session: sps_Eve2_HLR_substitute
+      theory: def_Eve2_HLR.thy
+
+- session: sps_Eve1_HLR
+  theory: def_Eve1_HLR.thy
+  hwl:
+    - !Substitute
+      session: sps_Eve1_HLR_substitute
+      theory: def_Eve1_HLR.thy
+
+- session: sps_AttackedSystem_HLR1
+  theory: def_AttackedSystem_HLR1.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR1_substitute
+      theory: def_AttackedSystem_HLR1.thy
+
+- session: sps_ThreeByThree
+  theory: def_ThreeByThree.thy
+  hwl:
+    - !Substitute
+      session: sps_ThreeByThree_substitute
+      theory: def_ThreeByThree.thy
+
+- session: sps_System_HLR2_bob_OutputMap
+  theory: def_System_HLR2_bob_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_bob_OutputMap_substitute
+      theory: def_System_HLR2_bob_OutputMap.thy
+
+- session: sps_System_HLR2_bob_InputMap
+  theory: def_System_HLR2_bob_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_bob_InputMap_substitute
+      theory: def_System_HLR2_bob_InputMap.thy
+
+- session: sps_System_HLR2
+  theory: def_System_HLR2.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_substitute
+      theory: def_System_HLR2.thy
+
+- session: sps_System_HLR2_alice_OutputMap
+  theory: def_System_HLR2_alice_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_alice_OutputMap_substitute
+      theory: def_System_HLR2_alice_OutputMap.thy
+
+- session: sps_System_HLR2_alice_InputMap
+  theory: def_System_HLR2_alice_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_alice_InputMap_substitute
+      theory: def_System_HLR2_alice_InputMap.thy
+
+- session: sps_System_HLR2_connector
+  theory: def_System_HLR2_connector.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR2_connector_substitute
+      theory: def_System_HLR2_connector.thy
+
+- session: sps_System_HLR1
+  theory: def_System_HLR1.thy
+  hwl:
+    - !Substitute
+      session: sps_System_HLR1_substitute
+      theory: def_System_HLR1.thy
+
+- session: sps_AttackedSystem_HLR2
+  theory: def_AttackedSystem_HLR2.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_substitute
+      theory: def_AttackedSystem_HLR2.thy
+
+- session: sps_AttackedSystem_HLR2_eve2_OutputMap
+  theory: def_AttackedSystem_HLR2_eve2_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_eve2_OutputMap_substitute
+      theory: def_AttackedSystem_HLR2_eve2_OutputMap.thy
+
+- session: sps_AttackedSystem_HLR2_eve2_InputMap
+  theory: def_AttackedSystem_HLR2_eve2_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_eve2_InputMap_substitute
+      theory: def_AttackedSystem_HLR2_eve2_InputMap.thy
+
+- session: sps_AttackedSystem_HLR2_bob_OutputMap
+  theory: def_AttackedSystem_HLR2_bob_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_bob_OutputMap_substitute
+      theory: def_AttackedSystem_HLR2_bob_OutputMap.thy
+
+- session: sps_AttackedSystem_HLR2_bob_InputMap
+  theory: def_AttackedSystem_HLR2_bob_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_bob_InputMap_substitute
+      theory: def_AttackedSystem_HLR2_bob_InputMap.thy
+
+- session: sps_AttackedSystem_HLR2_alice_OutputMap
+  theory: def_AttackedSystem_HLR2_alice_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_alice_OutputMap_substitute
+      theory: def_AttackedSystem_HLR2_alice_OutputMap.thy
+
+- session: sps_AttackedSystem_HLR2_alice_InputMap
+  theory: def_AttackedSystem_HLR2_alice_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_alice_InputMap_substitute
+      theory: def_AttackedSystem_HLR2_alice_InputMap.thy
+
+- session: sps_AttackedSystem_HLR2_eve1_OutputMap
+  theory: def_AttackedSystem_HLR2_eve1_OutputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_eve1_OutputMap_substitute
+      theory: def_AttackedSystem_HLR2_eve1_OutputMap.thy
+
+- session: sps_AttackedSystem_HLR2_eve1_InputMap
+  theory: def_AttackedSystem_HLR2_eve1_InputMap.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_eve1_InputMap_substitute
+      theory: def_AttackedSystem_HLR2_eve1_InputMap.thy
+
+- session: sps_AttackedSystem_HLR2_connector
+  theory: def_AttackedSystem_HLR2_connector.thy
+  hwl:
+    - !Substitute
+      session: sps_AttackedSystem_HLR2_connector_substitute
+      theory: def_AttackedSystem_HLR2_connector.thy
+
+- session: bundle_Alice_HLR
+  theory: def_Alice_HLR_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_Alice_HLR_substitute
+      theory: def_Alice_HLR_Output.thy
+
+- session: bundle_Alice_HLR
+  theory: def_Alice_HLR_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_Alice_HLR_substitute
+      theory: def_Alice_HLR_Input.thy
+
+- session: bundle_Bob_HLR
+  theory: def_Bob_HLR_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_Bob_HLR_substitute
+      theory: def_Bob_HLR_Input.thy
+
+- session: bundle_Bob_HLR
+  theory: def_Bob_HLR_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_Bob_HLR_substitute
+      theory: def_Bob_HLR_Output.thy
+
+- session: bundle_Eve2_HLR
+  theory: def_Eve2_HLR_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_Eve2_HLR_substitute
+      theory: def_Eve2_HLR_Output.thy
+
+- session: bundle_Eve2_HLR
+  theory: def_Eve2_HLR_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_Eve2_HLR_substitute
+      theory: def_Eve2_HLR_Input.thy
+
+- session: bundle_Eve1_HLR
+  theory: def_Eve1_HLR_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_Eve1_HLR_substitute
+      theory: def_Eve1_HLR_Input.thy
+
+- session: bundle_Eve1_HLR
+  theory: def_Eve1_HLR_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_Eve1_HLR_substitute
+      theory: def_Eve1_HLR_Output.thy
+
+- session: bundle_ThreeByThree
+  theory: def_ThreeByThree_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_ThreeByThree_substitute
+      theory: def_ThreeByThree_Output.thy
+
+- session: bundle_ThreeByThree
+  theory: def_ThreeByThree_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_ThreeByThree_substitute
+      theory: def_ThreeByThree_Input.thy
+
+- session: bundle_System_HLR2_bob
+  theory: def_System_HLR2_bob_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_bob_substitute
+      theory: def_System_HLR2_bob_Output.thy
+
+- session: bundle_System_HLR2_bob
+  theory: def_System_HLR2_bob_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_bob_substitute
+      theory: def_System_HLR2_bob_Input.thy
+
+- session: bundle_System_HLR2_alice
+  theory: def_System_HLR2_alice_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_alice_substitute
+      theory: def_System_HLR2_alice_Input.thy
+
+- session: bundle_System_HLR2_alice
+  theory: def_System_HLR2_alice_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_alice_substitute
+      theory: def_System_HLR2_alice_Output.thy
+
+- session: bundle_System_HLR2
+  theory: def_System_HLR2_Feedback.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_substitute
+      theory: def_System_HLR2_Feedback.thy
+
+- session: bundle_System_HLR2_connector
+  theory: def_System_HLR2_connector_System_HLR2_connector_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_connector_substitute
+      theory: def_System_HLR2_connector_System_HLR2_connector_Input.thy
+
+- session: bundle_System_HLR2_connector
+  theory: def_System_HLR2_connector_System_HLR2_connector_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR2_connector_substitute
+      theory: def_System_HLR2_connector_System_HLR2_connector_Output.thy
+
+- session: bundle_System_HLR1
+  theory: def_System_HLR1_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR1_substitute
+      theory: def_System_HLR1_Output.thy
+
+- session: bundle_System_HLR1
+  theory: def_System_HLR1_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_System_HLR1_substitute
+      theory: def_System_HLR1_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_eve2
+  theory: def_AttackedSystem_HLR2_eve2_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_eve2_substitute
+      theory: def_AttackedSystem_HLR2_eve2_Output.thy
+
+- session: bundle_AttackedSystem_HLR2_eve2
+  theory: def_AttackedSystem_HLR2_eve2_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_eve2_substitute
+      theory: def_AttackedSystem_HLR2_eve2_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_bob
+  theory: def_AttackedSystem_HLR2_bob_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_bob_substitute
+      theory: def_AttackedSystem_HLR2_bob_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_bob
+  theory: def_AttackedSystem_HLR2_bob_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_bob_substitute
+      theory: def_AttackedSystem_HLR2_bob_Output.thy
+
+- session: bundle_AttackedSystem_HLR2
+  theory: def_AttackedSystem_HLR2_Feedback.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_substitute
+      theory: def_AttackedSystem_HLR2_Feedback.thy
+
+- session: bundle_AttackedSystem_HLR2_alice
+  theory: def_AttackedSystem_HLR2_alice_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_alice_substitute
+      theory: def_AttackedSystem_HLR2_alice_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_alice
+  theory: def_AttackedSystem_HLR2_alice_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_alice_substitute
+      theory: def_AttackedSystem_HLR2_alice_Output.thy
+
+- session: bundle_AttackedSystem_HLR2_eve1
+  theory: def_AttackedSystem_HLR2_eve1_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_eve1_substitute
+      theory: def_AttackedSystem_HLR2_eve1_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_eve1
+  theory: def_AttackedSystem_HLR2_eve1_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_eve1_substitute
+      theory: def_AttackedSystem_HLR2_eve1_Output.thy
+
+- session: bundle_AttackedSystem_HLR2_connector
+  theory: def_AttackedSystem_HLR2_connector_AttackedSystem_HLR2_connector_Input.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_connector_substitute
+      theory: def_AttackedSystem_HLR2_connector_AttackedSystem_HLR2_connector_Input.thy
+
+- session: bundle_AttackedSystem_HLR2_connector
+  theory: def_AttackedSystem_HLR2_connector_AttackedSystem_HLR2_connector_Output.thy
+  hwl:
+    - !Substitute
+      session: bundle_AttackedSystem_HLR2_connector_substitute
+      theory: def_AttackedSystem_HLR2_connector_AttackedSystem_HLR2_connector_Output.thy
+
+- session: inc
+  theory: Data_inc.thy
+  hwl:
+    - !Substitute
+      session: inc_substitute
+      theory: Data_inc.thy
+
+- session: ref_AttackedSystem_HLR2_AttackedSystem_HLR1
+  theory: ref_AttackedSystem_HLR2_rough_AttackedSystem_HLR1.thy
+  hwl:
+    - !Substitute
+      session: ref_AttackedSystem_HLR2_AttackedSystem_HLR1_substitute
+      theory: ref_AttackedSystem_HLR2_rough_AttackedSystem_HLR1.thy
+

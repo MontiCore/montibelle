@@ -1,0 +1,45 @@
+session "hwl_Buffer" in "buffer" = "sps_Buffer_HLR3" +
+    sessions "sps_Buffer_LLR" "Smart_Isabelle"
+    theories
+        hwl_Buffer
+
+session "hwl_Capacity" in "capacity" = "sps_Capacity_HLR3" +
+    sessions "sps_Capacity_LLR" "Smart_Isabelle"
+    theories
+        hwl_Capacity
+
+session "top" (system) = "eventcomponent" + 
+  sessions
+    sps_CometInterceptorSystem_HLR
+    sps_CometInterceptorSystem_LLR
+    sps_SpacecraftA_LLR
+    sps_SpacecraftA_HLR
+    sps_ProbeB1
+    sps_ProbeB2
+    sps_MIRMIS
+    sps_MANiaC
+    sps_DFP
+    sps_CometCamera
+    sps_TelecommandAndTelemetry_LLR
+    sps_TelecommandAndTelemetry_HLR
+    sps_Sorter
+    sps_Router
+    sps_Merge_LLR
+    sps_DLDF_HLR1
+    sps_DLDF_HLR2
+    sps_DLDF_HLR3
+    sps_DLDF_LLR
+    sps_Scheduler_HLR3
+    sps_Scheduler_LLR
+    sps_Buffer_HLR3
+    sps_Buffer_LLR
+    sps_Capacity_HLR3
+    sps_Capacity_LLR
+    SeLFiE
+    PSL
+    TBC
+    Abduction
+    Smart_Isabelle
+    generator
+  theories
+    Fake

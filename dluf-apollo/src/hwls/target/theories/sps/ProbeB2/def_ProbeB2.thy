@@ -1,0 +1,31 @@
+theory def_ProbeB2
+  imports
+    (* Core *) sps.SPSComp stream.EventStream
+    (* Gen  *) bundle_ProbeB2.def_ProbeB2_Input bundle_ProbeB2.def_ProbeB2_Output
+    (* Hwl  *)
+
+begin
+
+
+definition assumption_0 :: "unit \<Rightarrow> (Packet event stream) \<Rightarrow> (Packet event stream) \<Rightarrow> bool" where
+"assumption_0 \<equiv> \<lambda> () (channel_input_data_pattern) (channel_output_data_pattern) .
+    (((slen\<cdot>channel_input_data_pattern) = \<infinity>))"
+
+definition causality :: "(Packet event stream) \<Rightarrow> (Packet event stream) \<Rightarrow> bool" where
+"causality \<equiv> \<lambda> (channel_input_data_pattern) (channel_output_data_pattern) .
+    strongpred (channel_input_data_pattern) (channel_output_data_pattern)"
+
+lemmas predAndCausality_defs = causality_def
+
+definition wholePredicate :: "unit \<Rightarrow> (Packet event stream) \<Rightarrow> (Packet event stream) \<Rightarrow> bool" where
+"wholePredicate para input output = (
+  ((wellformed input\<and> assumption_0 para input output)
+      \<longrightarrow> True)
+  \<and> (causality input output))"
+
+definition Sps :: "unit \<Rightarrow> (def_ProbeB2_Input.channels\<^sup>\<Omega> \<rightarrow> def_ProbeB2_Output.channels\<^sup>\<Omega>) set" where
+"Sps \<equiv> \<lambda> (). {spf | spf. \<forall>sb.
+wholePredicate () (def_ProbeB2_Input.SB.getter\<cdot>sb) (def_ProbeB2_Output.SB.getter\<cdot>(spf\<cdot>sb))}"
+
+
+end

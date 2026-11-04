@@ -1,0 +1,19 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_HLR.Input",
+      "fullName": "SpacecraftA_HLR.Input",
+      "channelNames": [
+        "channel_SpacecraftA_HLR_b1In_data",
+        "channel_SpacecraftA_HLR_b2In_data",
+        "channel_SpacecraftA_HLR_groundIn_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_HLR.def_SpacecraftA_HLR_Input"
+    }
+  ]
+}

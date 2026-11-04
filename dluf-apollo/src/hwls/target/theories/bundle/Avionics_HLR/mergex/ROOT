@@ -1,0 +1,6 @@
+session "bundle_Avionics_HLR_mergex" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Avionics_HLR_mergex_Input
+        def_Avionics_HLR_mergex_Output
+

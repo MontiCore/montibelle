@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ stack_title }} - Preparing instance
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='instanceContainer.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid vh-100 d-flex flex-column">
+
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">{{ stack_title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbar" class="justify-content-end collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="row flex-grow-1 bg-light" style="padding-top: 55px;">
+    <div class="col flex-fill">
+      <div style="display: flex; justify-content: center; padding-top: 10%;">
+
+        <div class="flex-column align-items-center">
+          <div class="row">
+            <h3>Your demo environment is being prepared. Please wait..</h3>
+          </div>
+          <div class="row" style="justify-content: center;">
+            <div class="spinner-grow text-primary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    setTimeout(waitForInstance, 5000);
+
+    async function waitForInstance() {
+      try {
+        const podStateResponse = await fetch(
+          '{{ url_for("instance_state") }}?id={{ deployment_infos["id"] }}'
+        );
+        const podState = await podStateResponse.text();
+
+        if (podState == "Running") {
+          const instanceResponse = await fetch(
+            '{{ deployment_infos["link"] }}'
+          );
+
+          if (instanceResponse.status == 200) {
+            window.location.replace(
+              '{{ url_for("userinstance_codeserver", deployment_name=deployment_infos["id"]) + deployment_infos["instanceQuery"] }}'
+            );
+            return;
+          }
+        }
+      } catch (e) {
+        console.log(e);
+      }
+
+      setTimeout(waitForInstance, 1000);
+    }
+
+  </script>
+
+
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DLDF_HLR2.def_DLDF_HLR2_Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_DLDF_HLR2.def_DLDF_HLR2_Feedback",
+      "fullName": "bundle_DLDF_HLR2.def_DLDF_HLR2_Feedback",
+      "filename": "def_DLDF_HLR2_Feedback",
+      "sessionName": "bundle_DLDF_HLR2"
+    }
+  ]
+}

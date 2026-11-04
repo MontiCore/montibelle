@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Eve2_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_Eve2_HLR",
+      "fullName": "bundle_Eve2_HLR",
+      "path": [
+        "bundle",
+        "Eve2_HLR"
+      ]
+    }
+  ]
+}

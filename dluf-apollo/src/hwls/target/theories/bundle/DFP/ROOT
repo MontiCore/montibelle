@@ -1,0 +1,6 @@
+session "bundle_DFP" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_DFP_Input
+        def_DFP_Output
+

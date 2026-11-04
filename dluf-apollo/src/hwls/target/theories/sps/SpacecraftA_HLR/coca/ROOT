@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_HLR_coca" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_HLR_coca" "sps_SpacecraftA_HLR_coca_InputMap" "sps_SpacecraftA_HLR_coca_OutputMap" "sps_CometCamera"
+    theories
+        def_SpacecraftA_HLR_coca
+

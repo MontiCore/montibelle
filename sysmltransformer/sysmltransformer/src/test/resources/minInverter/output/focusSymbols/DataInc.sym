@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"DataInc","symbols":[{"kind":"montibelle.focus._symboltable.DataIncSymbol","name":"DataInc","fullName":"DataInc","channelNames":["BoolInverter.Input.channel_BoolInverter_input_val","BoolInverter.Output.channel_BoolInverter_output_val"],"theory":"data_inc.Data_inc"}]}

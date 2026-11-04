@@ -1,0 +1,8 @@
+session "sps_SecurityGate_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SecurityGate_LLR"
+    theories
+        def_SecurityGate_LLR
+        def_SecurityGate_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

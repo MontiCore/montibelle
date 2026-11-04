@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Scheduler_HLR3.capacity.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Scheduler_HLR3.capacity.Input",
+      "fullName": "Scheduler_HLR3.capacity.Input",
+      "channelNames": [
+        "channel_Scheduler_HLR3_capacity_input_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Scheduler_HLR3_capacity.def_Scheduler_HLR3_capacity_Input"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+session "requirement" (testing) = "tscomponent" +
+  options [quick_and_dirty=true]
+  sessions
+    io
+    specification
+    automaton
+    eventcomponent
+    component
+    liftedstreams
+    sps
+    spf
+    EventAutomatonInvariant
+  theories
+    Requirement
+    StateInvariant

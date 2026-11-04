@@ -1,0 +1,30 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Data_Bool_Tuple",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.FieldSymbol",
+      "name": "fst",
+      "fullName": "fst",
+      "typeName": "nat",
+      "pattern": "fst_pattern"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.FieldSymbol",
+      "name": "snd",
+      "fullName": "snd",
+      "typeName": "bool",
+      "pattern": "snd_pattern"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.UserDefinedStructSymbol",
+      "name": "Data_Bool_Tuple",
+      "fullName": "Data_Bool_Tuple",
+      "fieldNames": [
+        "fst",
+        "snd"
+      ],
+      "countable": true
+    }
+  ]
+}

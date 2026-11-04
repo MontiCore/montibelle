@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_LLR_scheduler3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_DLDF_LLR_scheduler3",
+      "fullName": "sps_DLDF_LLR_scheduler3",
+      "path": [
+        "sps",
+        "DLDF_LLR",
+        "scheduler3"
+      ]
+    }
+  ]
+}

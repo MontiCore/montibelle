@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Data_Bool_TupleEVENT",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelTypeSymbol",
+      "name": "Data_Bool_TupleEVENT",
+      "fullName": "Data_Bool_TupleEVENT",
+      "typeName": "Data_Bool_Tuple",
+      "timingName": "EVENT"
+    }
+  ]
+}

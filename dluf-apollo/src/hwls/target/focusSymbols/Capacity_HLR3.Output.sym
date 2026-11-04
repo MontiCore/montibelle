@@ -1,0 +1,18 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Capacity_HLR3.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Capacity_HLR3.Output",
+      "fullName": "Capacity_HLR3.Output",
+      "channelNames": [
+        "channel_Capacity_HLR3_control_data",
+        "channel_Capacity_HLR3_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "code_Capacity_HLR3.code_Capacity_HLR3_Output",
+      "theory": "bundle_Capacity_HLR3.def_Capacity_HLR3_Output"
+    }
+  ]
+}

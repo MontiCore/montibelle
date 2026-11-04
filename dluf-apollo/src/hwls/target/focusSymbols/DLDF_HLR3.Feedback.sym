@@ -1,0 +1,24 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DLDF_HLR3.Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "DLDF_HLR3.Feedback",
+      "fullName": "DLDF_HLR3.Feedback",
+      "channelNames": [
+        "channel_DLDF_HLR3_scheduler1_input_data",
+        "channel_DLDF_HLR3_scheduler2_input_data",
+        "channel_DLDF_HLR3_scheduler3_input_data",
+        "channel_DLDF_HLR3_scheduler4_input_data",
+        "channel_DLDF_HLR3_scheduler1_output_data",
+        "channel_DLDF_HLR3_scheduler2_output_data",
+        "channel_DLDF_HLR3_scheduler3_output_data",
+        "channel_DLDF_HLR3_scheduler4_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_DLDF_HLR3.def_DLDF_HLR3_Feedback"
+    }
+  ]
+}

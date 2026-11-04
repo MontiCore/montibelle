@@ -1,0 +1,80 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometInterceptorSystem_HLR.spacecrafta",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_HLR_groundIn_data",
+        "channel_SpacecraftA_HLR_b1In_data",
+        "channel_SpacecraftA_HLR_b2In_data"
+      ],
+      "theory": "sps_CometInterceptorSystem_HLR_spacecrafta_InputMap.def_CometInterceptorSystem_HLR_spacecrafta_InputMap",
+      "inputName": "CometInterceptorSystem_HLR.spacecrafta.Input",
+      "outputName": "SpacecraftA_HLR.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+        "channel_CometInterceptorSystem_HLR_spacecrafta_b1Out_data",
+        "channel_CometInterceptorSystem_HLR_spacecrafta_b2Out_data"
+      ],
+      "theory": "sps_CometInterceptorSystem_HLR_spacecrafta_OutputMap.def_CometInterceptorSystem_HLR_spacecrafta_OutputMap",
+      "inputName": "SpacecraftA_HLR.Output",
+      "outputName": "CometInterceptorSystem_HLR.spacecrafta.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_groundIn_data",
+      "fullName": "channel_SpacecraftA_HLR_groundIn_data",
+      "value": "channel_CometInterceptorSystem_HLR_spacecrafta_groundIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_b1In_data",
+      "fullName": "channel_SpacecraftA_HLR_b1In_data",
+      "value": "channel_CometInterceptorSystem_HLR_spacecrafta_b1In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_b2In_data",
+      "fullName": "channel_SpacecraftA_HLR_b2In_data",
+      "value": "channel_CometInterceptorSystem_HLR_spacecrafta_b2In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+      "fullName": "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+      "value": "channel_SpacecraftA_HLR_groundOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_CometInterceptorSystem_HLR_spacecrafta_b1Out_data",
+      "fullName": "channel_CometInterceptorSystem_HLR_spacecrafta_b1Out_data",
+      "value": "channel_SpacecraftA_HLR_b1Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_CometInterceptorSystem_HLR_spacecrafta_b2Out_data",
+      "fullName": "channel_CometInterceptorSystem_HLR_spacecrafta_b2Out_data",
+      "value": "channel_SpacecraftA_HLR_b2Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "CometInterceptorSystem_HLR.spacecrafta",
+      "fullName": "CometInterceptorSystem_HLR.spacecrafta",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "SpacecraftA_HLR",
+      "theory": "sps_CometInterceptorSystem_HLR_spacecrafta.def_CometInterceptorSystem_HLR_spacecrafta",
+      "strong": true,
+      "inputName": "CometInterceptorSystem_HLR.spacecrafta.Input",
+      "outputName": "CometInterceptorSystem_HLR.spacecrafta.Output"
+    }
+  ]
+}

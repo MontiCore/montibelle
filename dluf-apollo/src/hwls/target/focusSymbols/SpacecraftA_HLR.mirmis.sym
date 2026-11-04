@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.mirmis",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_MIRMIS_input_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_mirmis_InputMap.def_SpacecraftA_HLR_mirmis_InputMap",
+      "inputName": "SpacecraftA_HLR.mirmis.Input",
+      "outputName": "MIRMIS.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_HLR_mirmis_output_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_mirmis_OutputMap.def_SpacecraftA_HLR_mirmis_OutputMap",
+      "inputName": "MIRMIS.Output",
+      "outputName": "SpacecraftA_HLR.mirmis.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_MIRMIS_input_data",
+      "fullName": "channel_MIRMIS_input_data",
+      "value": "channel_SpacecraftA_HLR_mirmis_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_mirmis_output_data",
+      "fullName": "channel_SpacecraftA_HLR_mirmis_output_data",
+      "value": "channel_MIRMIS_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_HLR.mirmis",
+      "fullName": "SpacecraftA_HLR.mirmis",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "MIRMIS",
+      "theory": "sps_SpacecraftA_HLR_mirmis.def_SpacecraftA_HLR_mirmis",
+      "strong": true,
+      "inputName": "SpacecraftA_HLR.mirmis.Input",
+      "outputName": "SpacecraftA_HLR.mirmis.Output"
+    }
+  ]
+}

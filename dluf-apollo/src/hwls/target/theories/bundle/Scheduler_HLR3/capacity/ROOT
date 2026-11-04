@@ -1,0 +1,6 @@
+session "bundle_Scheduler_HLR3_capacity" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Scheduler_HLR3_capacity_Input
+        def_Scheduler_HLR3_capacity_Output
+

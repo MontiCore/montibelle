@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_LLR_bob_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_LLR_bob" "bundle_Bob_HLR"
+    theories
+        def_SecureProtocol_LLR_bob_InputMap
+

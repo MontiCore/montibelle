@@ -1,0 +1,5 @@
+session "sps_Router" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Router"
+    theories
+        def_Router
+

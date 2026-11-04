@@ -1,0 +1,8 @@
+session "VariableComprehension" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    VariableComprehension_States
+    VariableComprehension
+

@@ -1,0 +1,5 @@
+session "sps_Scheduler_HLR3" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Scheduler_HLR2" "sps_Scheduler_HLR3_connector" "sps_Scheduler_HLR3_buffer" "sps_Scheduler_HLR3_capacity" "bundle_Scheduler_HLR3"
+    theories
+        def_Scheduler_HLR3
+

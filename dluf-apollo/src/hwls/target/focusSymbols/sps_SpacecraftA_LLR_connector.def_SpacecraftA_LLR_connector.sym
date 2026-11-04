@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_connector.def_SpacecraftA_LLR_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SpacecraftA_LLR_connector.def_SpacecraftA_LLR_connector",
+      "fullName": "sps_SpacecraftA_LLR_connector.def_SpacecraftA_LLR_connector",
+      "filename": "def_SpacecraftA_LLR_connector",
+      "sessionName": "sps_SpacecraftA_LLR_connector"
+    }
+  ]
+}

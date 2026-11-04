@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_alice.def_SecureProtocol_HLR2_alice",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SecureProtocol_HLR2_alice.def_SecureProtocol_HLR2_alice",
+      "fullName": "sps_SecureProtocol_HLR2_alice.def_SecureProtocol_HLR2_alice",
+      "filename": "def_SecureProtocol_HLR2_alice",
+      "sessionName": "sps_SecureProtocol_HLR2_alice"
+    }
+  ]
+}

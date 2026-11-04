@@ -1,0 +1,6 @@
+session "bundle_Alice_HLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Alice_HLR_Input
+        def_Alice_HLR_Output
+

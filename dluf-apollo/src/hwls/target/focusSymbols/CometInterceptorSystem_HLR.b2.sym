@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometInterceptorSystem_HLR.b2",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_ProbeB2_input_data"
+      ],
+      "theory": "sps_CometInterceptorSystem_HLR_b2_InputMap.def_CometInterceptorSystem_HLR_b2_InputMap",
+      "inputName": "CometInterceptorSystem_HLR.b2.Input",
+      "outputName": "ProbeB2.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_CometInterceptorSystem_HLR_b2_output_data"
+      ],
+      "theory": "sps_CometInterceptorSystem_HLR_b2_OutputMap.def_CometInterceptorSystem_HLR_b2_OutputMap",
+      "inputName": "ProbeB2.Output",
+      "outputName": "CometInterceptorSystem_HLR.b2.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_ProbeB2_input_data",
+      "fullName": "channel_ProbeB2_input_data",
+      "value": "channel_CometInterceptorSystem_HLR_b2_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_CometInterceptorSystem_HLR_b2_output_data",
+      "fullName": "channel_CometInterceptorSystem_HLR_b2_output_data",
+      "value": "channel_ProbeB2_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "CometInterceptorSystem_HLR.b2",
+      "fullName": "CometInterceptorSystem_HLR.b2",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "ProbeB2",
+      "theory": "sps_CometInterceptorSystem_HLR_b2.def_CometInterceptorSystem_HLR_b2",
+      "strong": true,
+      "inputName": "CometInterceptorSystem_HLR.b2.Input",
+      "outputName": "CometInterceptorSystem_HLR.b2.Output"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+01-18 17:15 prove      DEBUG    Gathered all theories: {'/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy'}
+01-18 17:15 asyncio    DEBUG    run shell command 'cd .;isabelle server -c -n as_ijhnaltzay' stdin=<pipe> stdout=stderr=<pipe>
+01-18 17:15 asyncio    DEBUG    process 'cd .;isabelle server -c -n as_ijhnaltzay' created: pid 62882
+01-18 17:15 asyncio    DEBUG    Write pipe 7 connected: (<_UnixWritePipeTransport fd=7 idle bufsize=0>, <WriteSubprocessPipeProto fd=0 pipe=<_UnixWritePipeTransport fd=7 idle bufsize=0>>)
+01-18 17:15 asyncio    DEBUG    Read pipe 8 connected: (<_UnixReadPipeTransport fd=8 polling>, <ReadSubprocessPipeProto fd=1 pipe=<_UnixReadPipeTransport fd=8 polling>>)
+01-18 17:15 asyncio    INFO     run shell command 'cd .;isabelle server -c -n as_ijhnaltzay': <_UnixSubprocessTransport pid=62882 running stdin=<_UnixWritePipeTransport fd=7 idle bufsize=0> stdout=<_UnixReadPipeTransport fd=8 polling>>
+01-18 17:15 client_server DEBUG    [out] server "as_ijhnaltzay" = 127.0.0.1:55963 (password "ace9d423-2f11-498d-b14d-11b2eb99fe29")
+01-18 17:15 client_server DEBUG    [out] OK {"isabelle_id":"1ac2416e8432","isabelle_name":"Isabelle2022"}
+01-18 17:15 client_server DEBUG    [in]: session_start {"session": "HOLCF", "include_session": false, "verbose": true, "options": ["quick_and_dirty=true"]}
+01-18 17:15 client_server DEBUG    [out] OK {"task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 prove      INFO     Session Pure/Pure
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session Pure/Pure","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 prove      INFO     Session Misc/Tools
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session Misc/Tools","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 client_server DEBUG    [out] 105
+01-18 17:15 prove      INFO     Session HOL/HOL (main)
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOL (main)","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 client_server DEBUG    [out] 120
+01-18 17:15 prove      INFO     Session HOL/HOL-Library (main timing)
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOL-Library (main timing)","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 client_server DEBUG    [out] 114
+01-18 17:15 prove      INFO     Session HOL/HOLCF (main timing)
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Session HOL/HOLCF (main timing)","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 client_server DEBUG    [out] 109
+01-18 17:15 prove      INFO     Starting session HOLCF ...
+01-18 17:15 client_server DEBUG    [out] NOTE {"kind":"writeln","message":"Starting session HOLCF ...","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 client_server DEBUG    [out] 177
+01-18 17:15 client_server DEBUG    [out] FINISHED {"session_id":"91ef491c-bfdd-424c-a500-f3ad15d337ac","tmp_dir":"/tmp/isabelle-mathias/server_session2234474218385446159","task":"b98b8db1-df02-4456-957a-f7e790ffafc1"}
+01-18 17:15 prove      INFO     Session started.
+01-18 17:15 prove      INFO     Processing theory resources/tmp/simple/BadContext.thy
+01-18 17:15 prove      INFO     Proving lemma 1/1
+01-18 17:15 prove      DEBUG    Injecting line 7 with 'sledgehammer [timeout=1]'
+01-18 17:15 client_server DEBUG    [in]: use_theories {"session_id": "91ef491c-bfdd-424c-a500-f3ad15d337ac", "theories": ["/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext"]}
+01-18 17:15 client_server DEBUG    [out] OK {"task":"5578665f-54fb-490f-8b85-01a6cfa22497"}
+01-18 17:15 client_server DEBUG    [out] 167
+01-18 17:15 client_server DEBUG    Theory Draft.BadContext: 99%
+01-18 17:15 client_server DEBUG    [out] NOTE {"percentage":99,"task":"5578665f-54fb-490f-8b85-01a6cfa22497","message":"theory Draft.BadContext 99%","kind":"writeln","session":"","theory":"Draft.BadContext"}
+01-18 17:15 client_server DEBUG    [out] 169
+01-18 17:15 client_server DEBUG    Theory Draft.BadContext: 100%
+01-18 17:15 client_server INFO     Finished loading theories
+01-18 17:15 client_server DEBUG    [out] NOTE {"percentage":100,"task":"5578665f-54fb-490f-8b85-01a6cfa22497","message":"theory Draft.BadContext 100%","kind":"writeln","session":"","theory":"Draft.BadContext"}
+01-18 17:15 client_server DEBUG    [out] 1057
+01-18 17:15 client_server DEBUG    [out] FINISHED {"ok":false,"errors":[{"kind":"error","message":"Bad context for command \"sorry\"\\<^here> -- using reset state","pos":{"line":9,"offset":127,"end_offset":132,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}}],"nodes":[{"messages":[{"kind":"warning","message":"No proof state","pos":{"line":8,"offset":83,"end_offset":95,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}},{"kind":"error","message":"Bad context for command \"sorry\"\\<^here> -- using reset state","pos":{"line":9,"offset":127,"end_offset":132,"file":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}}],"exports":[],"status":{"percentage":100,"unprocessed":0,"running":0,"finished":12,"failed":1,"total":14,"consolidated":true,"canceled":false,"ok":false,"warned":1},"theory_name":"Draft.BadContext","node_name":"/Users/mathias/Montibelle/autosledgi-python/tests/resources/tmp/simple/BadContext.thy"}],"task":"5578665f-54fb-490f-8b85-01a6cfa22497"}
+01-18 17:15 prove      INFO     There is no goal to solve. We are done here.
+01-18 17:15 client_server DEBUG    [in]: session_stop {"session_id": "91ef491c-bfdd-424c-a500-f3ad15d337ac"}
+01-18 17:15 client_server DEBUG    [out] OK {"task":"cd565182-642b-4094-8b5e-37de101e1f4a"}
+01-18 17:15 client_server DEBUG    [out] FINISHED {"ok":true,"return_code":0,"task":"cd565182-642b-4094-8b5e-37de101e1f4a"}
+01-18 17:15 client_server DEBUG    [in]: shutdown
+01-18 17:15 asyncio    DEBUG    process 62882 exited with returncode -9
+01-18 17:15 asyncio    INFO     <_UnixSubprocessTransport pid=62882 running stdin=<_UnixWritePipeTransport fd=7 idle bufsize=0> stdout=<_UnixReadPipeTransport fd=8 polling>> exited with return code -9

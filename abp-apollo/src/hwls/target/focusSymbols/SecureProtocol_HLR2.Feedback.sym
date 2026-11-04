@@ -1,0 +1,34 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_HLR2.Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SecureProtocol_HLR2.Feedback",
+      "fullName": "SecureProtocol_HLR2.Feedback",
+      "channelNames": [
+        "channel_SecureProtocol_HLR2_alice_control_val",
+        "channel_SecureProtocol_HLR2_alice_input_val",
+        "channel_SecureProtocol_HLR2_bob_input_val",
+        "channel_SecureProtocol_HLR2_decrypt1_input_val",
+        "channel_SecureProtocol_HLR2_decrypt2_input_val",
+        "channel_SecureProtocol_HLR2_encrypt1_input_val",
+        "channel_SecureProtocol_HLR2_encrypt2_input_val",
+        "channel_SecureProtocol_HLR2_eve1_input_val",
+        "channel_SecureProtocol_HLR2_eve2_input_val",
+        "channel_SecureProtocol_HLR2_alice_output_val",
+        "channel_SecureProtocol_HLR2_encrypt1_output_val",
+        "channel_SecureProtocol_HLR2_eve1_output_val",
+        "channel_SecureProtocol_HLR2_decrypt1_output_val",
+        "channel_SecureProtocol_HLR2_bob_control_val",
+        "channel_SecureProtocol_HLR2_bob_output_val",
+        "channel_SecureProtocol_HLR2_encrypt2_output_val",
+        "channel_SecureProtocol_HLR2_eve2_output_val",
+        "channel_SecureProtocol_HLR2_decrypt2_output_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SecureProtocol_HLR2.def_SecureProtocol_HLR2_Feedback"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+session "test_session" =
+  export_files (in "./export/dir") [2]
+    "export1"
+    "export2"
+  export_files
+    "export3"

@@ -1,0 +1,5 @@
+session "sps_Scheduler_LLR_capacity_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Scheduler_LLR_capacity" "bundle_Capacity_HLR3"
+    theories
+        def_Scheduler_LLR_capacity_InputMap
+

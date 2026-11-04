@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometCamera.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "CometCamera.Input",
+      "fullName": "CometCamera.Input",
+      "channelNames": [
+        "channel_CometCamera_input_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_CometCamera.def_CometCamera_Input"
+    }
+  ]
+}

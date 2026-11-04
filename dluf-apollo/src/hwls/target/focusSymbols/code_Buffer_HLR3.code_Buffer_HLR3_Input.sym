@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "code_Buffer_HLR3.code_Buffer_HLR3_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "code_Buffer_HLR3.code_Buffer_HLR3_Input",
+      "fullName": "code_Buffer_HLR3.code_Buffer_HLR3_Input",
+      "filename": "code_Buffer_HLR3_Input",
+      "sessionName": "code_Buffer_HLR3"
+    }
+  ]
+}

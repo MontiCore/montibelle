@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_LLR_encrypt1_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_LLR_encrypt1_OutputMap",
+      "fullName": "sps_SecureProtocol_LLR_encrypt1_OutputMap",
+      "path": [
+        "sps",
+        "SecureProtocol_LLR",
+        "encrypt1",
+        "OutputMap"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Scheduler_LLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Scheduler_LLR",
+      "fullName": "Scheduler_LLR",
+      "directRefinements": [
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "Scheduler_HLR3"
+        },
+        {
+          "kind": "de.monticore.types.check.SymTypeOfObject",
+          "objName": "Scheduler_HLR2"
+        }
+      ],
+      "requirementType": "LLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "buffer",
+            "fullName": "Scheduler_LLR.buffer",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Buffer_LLR"
+              }
+            ]
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PartUsageSymbol",
+            "name": "capacity",
+            "fullName": "Scheduler_LLR.capacity",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Capacity_LLR"
+              }
+            ],
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+                  "name": "cap",
+                  "fullName": "Scheduler_LLR.capacity.cap",
+                  "in": true
+                }
+              ]
+            }
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "capacity",
+            "fullName": "Scheduler_LLR.capacity",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "nat"
+              }
+            ],
+            "in": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Scheduler_LLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Scheduler_LLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Packets"
+              }
+            ],
+            "strong": true
+          }
+        ]
+      }
+    }
+  ]
+}

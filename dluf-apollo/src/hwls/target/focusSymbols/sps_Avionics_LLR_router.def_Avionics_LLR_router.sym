@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR_router.def_Avionics_LLR_router",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Avionics_LLR_router.def_Avionics_LLR_router",
+      "fullName": "sps_Avionics_LLR_router.def_Avionics_LLR_router",
+      "filename": "def_Avionics_LLR_router",
+      "sessionName": "sps_Avionics_LLR_router"
+    }
+  ]
+}

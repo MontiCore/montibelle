@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Capacity_HLR3_control_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Capacity_HLR3_control_data",
+      "fullName": "channel_Capacity_HLR3_control_data",
+      "localName": "channel_control_data",
+      "typeName": "CtrlEnumEVENT",
+      "pattern": "channel_control_data_pattern"
+    }
+  ]
+}

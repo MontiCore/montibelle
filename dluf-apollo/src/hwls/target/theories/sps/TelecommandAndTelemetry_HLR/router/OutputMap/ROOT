@@ -1,0 +1,5 @@
+session "sps_TelecommandAndTelemetry_HLR_router_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Router" "bundle_TelecommandAndTelemetry_HLR_router"
+    theories
+        def_TelecommandAndTelemetry_HLR_router_OutputMap
+

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Scheduler_LLR_capacity_InputMap.def_Scheduler_LLR_capacity_InputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Scheduler_LLR_capacity_InputMap.def_Scheduler_LLR_capacity_InputMap",
+      "fullName": "sps_Scheduler_LLR_capacity_InputMap.def_Scheduler_LLR_capacity_InputMap",
+      "filename": "def_Scheduler_LLR_capacity_InputMap",
+      "sessionName": "sps_Scheduler_LLR_capacity_InputMap"
+    }
+  ]
+}

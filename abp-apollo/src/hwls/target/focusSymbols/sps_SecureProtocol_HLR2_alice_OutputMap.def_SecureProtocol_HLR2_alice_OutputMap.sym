@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_alice_OutputMap.def_SecureProtocol_HLR2_alice_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SecureProtocol_HLR2_alice_OutputMap.def_SecureProtocol_HLR2_alice_OutputMap",
+      "fullName": "sps_SecureProtocol_HLR2_alice_OutputMap.def_SecureProtocol_HLR2_alice_OutputMap",
+      "filename": "def_SecureProtocol_HLR2_alice_OutputMap",
+      "sessionName": "sps_SecureProtocol_HLR2_alice_OutputMap"
+    }
+  ]
+}

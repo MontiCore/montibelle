@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_HLR2_eve1.def_AttackedSystem_HLR2_eve1_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_AttackedSystem_HLR2_eve1.def_AttackedSystem_HLR2_eve1_Input",
+      "fullName": "bundle_AttackedSystem_HLR2_eve1.def_AttackedSystem_HLR2_eve1_Input",
+      "filename": "def_AttackedSystem_HLR2_eve1_Input",
+      "sessionName": "bundle_AttackedSystem_HLR2_eve1"
+    }
+  ]
+}

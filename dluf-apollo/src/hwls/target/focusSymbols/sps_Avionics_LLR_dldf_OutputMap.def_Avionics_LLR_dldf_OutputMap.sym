@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR_dldf_OutputMap.def_Avionics_LLR_dldf_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Avionics_LLR_dldf_OutputMap.def_Avionics_LLR_dldf_OutputMap",
+      "fullName": "sps_Avionics_LLR_dldf_OutputMap.def_Avionics_LLR_dldf_OutputMap",
+      "filename": "def_Avionics_LLR_dldf_OutputMap",
+      "sessionName": "sps_Avionics_LLR_dldf_OutputMap"
+    }
+  ]
+}

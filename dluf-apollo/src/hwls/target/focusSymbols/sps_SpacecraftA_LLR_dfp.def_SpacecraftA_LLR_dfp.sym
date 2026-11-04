@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_dfp.def_SpacecraftA_LLR_dfp",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SpacecraftA_LLR_dfp.def_SpacecraftA_LLR_dfp",
+      "fullName": "sps_SpacecraftA_LLR_dfp.def_SpacecraftA_LLR_dfp",
+      "filename": "def_SpacecraftA_LLR_dfp",
+      "sessionName": "sps_SpacecraftA_LLR_dfp"
+    }
+  ]
+}

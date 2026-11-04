@@ -1,0 +1,1 @@
+{"generated-using":"www.MontiCore.de technology","name":"Alice_HLR.Output","symbols":[{"kind":"montibelle.focus._symboltable.BundleSymbol","name":"Alice_HLR.Output","fullName":"Alice_HLR.Output","channelNames":["channel_Alice_HLR_output_val"],"timingName":"SYNC","codeTheory":"null","theory":"bundle_Alice_HLR.def_Alice_HLR_Output"}]}

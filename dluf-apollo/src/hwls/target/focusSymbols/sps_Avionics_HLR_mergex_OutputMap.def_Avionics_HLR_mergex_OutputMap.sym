@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_HLR_mergex_OutputMap.def_Avionics_HLR_mergex_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Avionics_HLR_mergex_OutputMap.def_Avionics_HLR_mergex_OutputMap",
+      "fullName": "sps_Avionics_HLR_mergex_OutputMap.def_Avionics_HLR_mergex_OutputMap",
+      "filename": "def_Avionics_HLR_mergex_OutputMap",
+      "sessionName": "sps_Avionics_HLR_mergex_OutputMap"
+    }
+  ]
+}

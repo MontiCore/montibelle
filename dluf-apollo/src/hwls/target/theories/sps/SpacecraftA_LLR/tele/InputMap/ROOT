@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_LLR_tele_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_LLR_tele" "bundle_TelecommandAndTelemetry_HLR"
+    theories
+        def_SpacecraftA_LLR_tele_InputMap
+

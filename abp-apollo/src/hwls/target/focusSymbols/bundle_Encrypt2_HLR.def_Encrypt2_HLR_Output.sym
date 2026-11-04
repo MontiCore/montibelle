@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Encrypt2_HLR.def_Encrypt2_HLR_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Encrypt2_HLR.def_Encrypt2_HLR_Output",
+      "fullName": "bundle_Encrypt2_HLR.def_Encrypt2_HLR_Output",
+      "filename": "def_Encrypt2_HLR_Output",
+      "sessionName": "bundle_Encrypt2_HLR"
+    }
+  ]
+}

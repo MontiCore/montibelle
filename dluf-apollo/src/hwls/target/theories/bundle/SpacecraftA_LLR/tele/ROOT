@@ -1,0 +1,6 @@
+session "bundle_SpacecraftA_LLR_tele" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_SpacecraftA_LLR_tele_Input
+        def_SpacecraftA_LLR_tele_Output
+

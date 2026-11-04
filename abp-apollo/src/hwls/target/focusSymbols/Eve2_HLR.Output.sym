@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Eve2_HLR.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Eve2_HLR.Output",
+      "fullName": "Eve2_HLR.Output",
+      "channelNames": [
+        "channel_Eve2_HLR_output_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Eve2_HLR.def_Eve2_HLR_Output"
+    }
+  ]
+}

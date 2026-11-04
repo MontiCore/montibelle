@@ -1,0 +1,75 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Scheduler_LLR.capacity",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_capacity",
+      "fullName": "var_capacity",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Capacity_HLR3_input_data"
+      ],
+      "theory": "sps_Scheduler_LLR_capacity_InputMap.def_Scheduler_LLR_capacity_InputMap",
+      "inputName": "Scheduler_LLR.capacity.Input",
+      "outputName": "Capacity_HLR3.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_Scheduler_LLR_capacity_output_data",
+        "channel_Scheduler_LLR_capacity_control_data"
+      ],
+      "theory": "sps_Scheduler_LLR_capacity_OutputMap.def_Scheduler_LLR_capacity_OutputMap",
+      "inputName": "Capacity_HLR3.Output",
+      "outputName": "Scheduler_LLR.capacity.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Capacity_HLR3_input_data",
+      "fullName": "channel_Capacity_HLR3_input_data",
+      "value": "channel_Scheduler_LLR_capacity_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_LLR_capacity_output_data",
+      "fullName": "channel_Scheduler_LLR_capacity_output_data",
+      "value": "channel_Capacity_HLR3_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_LLR_capacity_control_data",
+      "fullName": "channel_Scheduler_LLR_capacity_control_data",
+      "value": "channel_Capacity_HLR3_control_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "Scheduler_LLR.capacity",
+      "fullName": "Scheduler_LLR.capacity",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "parameterValues": [
+        "val_cap"
+      ],
+      "spsName": "Capacity_LLR",
+      "theory": "sps_Scheduler_LLR_capacity.def_Scheduler_LLR_capacity",
+      "strong": true,
+      "inputName": "Scheduler_LLR.capacity.Input",
+      "outputName": "Scheduler_LLR.capacity.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "val_cap",
+      "fullName": "val_cap",
+      "value": "var_capacity",
+      "definition": "Capacity_LLR.cap"
+    }
+  ]
+}

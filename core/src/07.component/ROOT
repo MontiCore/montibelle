@@ -1,0 +1,33 @@
+chapter MontiBelle
+
+session "eventcomponent" (mustWork) in "event" = "sps" +
+  description "Lemmata for Components Event-Timing"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    EventAutomaton
+    EventAutomatonExec
+    EventAutomaton_AddChannel
+    BundleMerge
+    GeneralBundleMerge
+    EventLocale
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "tscomponent" (mustWork) in "timeslice" = "bundlelocale" +
+  description "Lemmata for Components Timeslice-Timing"
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    TsAutomaton
+    TsAutomatonExec
+    TsLocale
+    TsExecLocale
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+
+session "untimedcomponent_SORRY" in "untimed" = "eventcomponent" +
+  options [quick_and_dirty = true, browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="lemma%lemma,lemmas%lemmas",show_question_marks = false]
+  theories
+    BundleMergeUntimed
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"
+

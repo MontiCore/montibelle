@@ -1,0 +1,5 @@
+session "sps_Part" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Part"
+    theories
+        def_Part
+

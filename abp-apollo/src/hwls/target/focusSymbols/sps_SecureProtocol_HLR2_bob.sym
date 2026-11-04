@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_bob",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_HLR2_bob",
+      "fullName": "sps_SecureProtocol_HLR2_bob",
+      "path": [
+        "sps",
+        "SecureProtocol_HLR2",
+        "bob"
+      ]
+    }
+  ]
+}

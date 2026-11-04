@@ -1,0 +1,7 @@
+session "code_Alice_LLR" (generated code) = "component" +
+    sessions "data_inc" "user" "sps_Alice_LLR" "bundle_Alice_LLR"
+    theories
+        code_Alice_LLR
+        code_Alice_LLR_Input
+        code_Alice_LLR_Output
+

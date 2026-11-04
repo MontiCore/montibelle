@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometCamera",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "CometCamera",
+      "fullName": "CometCamera",
+      "assumptionsLen": 1,
+      "theory": "sps_CometCamera.def_CometCamera",
+      "strong": true,
+      "inputName": "CometCamera.Input",
+      "outputName": "CometCamera.Output"
+    }
+  ]
+}

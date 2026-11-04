@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.maniac",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_MANiaC_input_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_maniac_InputMap.def_SpacecraftA_HLR_maniac_InputMap",
+      "inputName": "SpacecraftA_HLR.maniac.Input",
+      "outputName": "MANiaC.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_HLR_maniac_output_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_maniac_OutputMap.def_SpacecraftA_HLR_maniac_OutputMap",
+      "inputName": "MANiaC.Output",
+      "outputName": "SpacecraftA_HLR.maniac.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_MANiaC_input_data",
+      "fullName": "channel_MANiaC_input_data",
+      "value": "channel_SpacecraftA_HLR_maniac_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_maniac_output_data",
+      "fullName": "channel_SpacecraftA_HLR_maniac_output_data",
+      "value": "channel_MANiaC_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_HLR.maniac",
+      "fullName": "SpacecraftA_HLR.maniac",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "MANiaC",
+      "theory": "sps_SpacecraftA_HLR_maniac.def_SpacecraftA_HLR_maniac",
+      "strong": true,
+      "inputName": "SpacecraftA_HLR.maniac.Input",
+      "outputName": "SpacecraftA_HLR.maniac.Output"
+    }
+  ]
+}

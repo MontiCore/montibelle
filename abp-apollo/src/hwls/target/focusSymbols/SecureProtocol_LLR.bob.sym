@@ -1,0 +1,59 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_LLR.bob",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Bob_HLR_input_val"
+      ],
+      "theory": "sps_SecureProtocol_LLR_bob_InputMap.def_SecureProtocol_LLR_bob_InputMap",
+      "inputName": "SecureProtocol_LLR.bob.Input",
+      "outputName": "Bob_HLR.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SecureProtocol_LLR_bob_control_val",
+        "channel_SecureProtocol_LLR_bob_output_val"
+      ],
+      "theory": "sps_SecureProtocol_LLR_bob_OutputMap.def_SecureProtocol_LLR_bob_OutputMap",
+      "inputName": "Bob_HLR.Output",
+      "outputName": "SecureProtocol_LLR.bob.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Bob_HLR_input_val",
+      "fullName": "channel_Bob_HLR_input_val",
+      "value": "channel_SecureProtocol_LLR_bob_input_val"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SecureProtocol_LLR_bob_control_val",
+      "fullName": "channel_SecureProtocol_LLR_bob_control_val",
+      "value": "channel_Bob_HLR_control_val"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SecureProtocol_LLR_bob_output_val",
+      "fullName": "channel_SecureProtocol_LLR_bob_output_val",
+      "value": "channel_Bob_HLR_output_val"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SecureProtocol_LLR.bob",
+      "fullName": "SecureProtocol_LLR.bob",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "Bob_LLR",
+      "theory": "sps_SecureProtocol_LLR_bob.def_SecureProtocol_LLR_bob",
+      "strong": true,
+      "inputName": "SecureProtocol_LLR.bob.Input",
+      "outputName": "SecureProtocol_LLR.bob.Output"
+    }
+  ]
+}

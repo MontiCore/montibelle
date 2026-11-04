@@ -1,0 +1,47 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CtrlEnum",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.EnumDefSymbol",
+      "name": "CtrlEnum",
+      "fullName": "CtrlEnum",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.EnumUsageSymbol",
+            "name": "ACK",
+            "fullName": "CtrlEnum.ACK"
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.EnumUsageSymbol",
+            "name": "NAK",
+            "fullName": "CtrlEnum.NAK"
+          },
+          {
+            "kind": "de.monticore.symbols.oosymbols._symboltable.FieldSymbol",
+            "name": "ACK",
+            "fullName": "CtrlEnum.ACK",
+            "isPublic": true,
+            "isStatic": true,
+            "type": {
+              "kind": "de.monticore.types.check.SymTypeOfObject",
+              "objName": "CtrlEnum"
+            }
+          },
+          {
+            "kind": "de.monticore.symbols.oosymbols._symboltable.FieldSymbol",
+            "name": "NAK",
+            "fullName": "CtrlEnum.NAK",
+            "isPublic": true,
+            "isStatic": true,
+            "type": {
+              "kind": "de.monticore.types.check.SymTypeOfObject",
+              "objName": "CtrlEnum"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

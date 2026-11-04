@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SpacecraftA_LLR_tele.def_SpacecraftA_LLR_tele_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SpacecraftA_LLR_tele.def_SpacecraftA_LLR_tele_Output",
+      "fullName": "bundle_SpacecraftA_LLR_tele.def_SpacecraftA_LLR_tele_Output",
+      "filename": "def_SpacecraftA_LLR_tele_Output",
+      "sessionName": "bundle_SpacecraftA_LLR_tele"
+    }
+  ]
+}

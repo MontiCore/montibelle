@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_LLR.def_DLDF_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_DLDF_LLR.def_DLDF_LLR",
+      "fullName": "sps_DLDF_LLR.def_DLDF_LLR",
+      "filename": "def_DLDF_LLR",
+      "sessionName": "sps_DLDF_LLR"
+    }
+  ]
+}

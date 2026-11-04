@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DLDF_LLR_scheduler4.def_DLDF_LLR_scheduler4_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_DLDF_LLR_scheduler4.def_DLDF_LLR_scheduler4_Input",
+      "fullName": "bundle_DLDF_LLR_scheduler4.def_DLDF_LLR_scheduler4_Input",
+      "filename": "def_DLDF_LLR_scheduler4_Input",
+      "sessionName": "bundle_DLDF_LLR_scheduler4"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_HLR.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "TelecommandAndTelemetry_HLR.Input",
+      "fullName": "TelecommandAndTelemetry_HLR.Input",
+      "channelNames": [
+        "channel_TelecommandAndTelemetry_HLR_b1In_data",
+        "channel_TelecommandAndTelemetry_HLR_b2In_data",
+        "channel_TelecommandAndTelemetry_HLR_cocaIn_data",
+        "channel_TelecommandAndTelemetry_HLR_dfpIn_data",
+        "channel_TelecommandAndTelemetry_HLR_groundIn_data",
+        "channel_TelecommandAndTelemetry_HLR_maniacIn_data",
+        "channel_TelecommandAndTelemetry_HLR_mirmisIn_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_TelecommandAndTelemetry_HLR.def_TelecommandAndTelemetry_HLR_Input"
+    }
+  ]
+}

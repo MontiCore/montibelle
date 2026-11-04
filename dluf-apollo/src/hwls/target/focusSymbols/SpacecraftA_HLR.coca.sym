@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.coca",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_CometCamera_input_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_coca_InputMap.def_SpacecraftA_HLR_coca_InputMap",
+      "inputName": "SpacecraftA_HLR.coca.Input",
+      "outputName": "CometCamera.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_HLR_coca_output_data"
+      ],
+      "theory": "sps_SpacecraftA_HLR_coca_OutputMap.def_SpacecraftA_HLR_coca_OutputMap",
+      "inputName": "CometCamera.Output",
+      "outputName": "SpacecraftA_HLR.coca.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_CometCamera_input_data",
+      "fullName": "channel_CometCamera_input_data",
+      "value": "channel_SpacecraftA_HLR_coca_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_HLR_coca_output_data",
+      "fullName": "channel_SpacecraftA_HLR_coca_output_data",
+      "value": "channel_CometCamera_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_HLR.coca",
+      "fullName": "SpacecraftA_HLR.coca",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "CometCamera",
+      "theory": "sps_SpacecraftA_HLR_coca.def_SpacecraftA_HLR_coca",
+      "strong": true,
+      "inputName": "SpacecraftA_HLR.coca.Input",
+      "outputName": "SpacecraftA_HLR.coca.Output"
+    }
+  ]
+}

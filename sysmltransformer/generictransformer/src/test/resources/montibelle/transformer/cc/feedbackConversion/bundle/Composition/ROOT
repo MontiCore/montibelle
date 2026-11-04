@@ -1,0 +1,7 @@
+session "bundle_Composition" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Composition_Input
+        def_Composition_Output
+        def_Composition_Feedback
+

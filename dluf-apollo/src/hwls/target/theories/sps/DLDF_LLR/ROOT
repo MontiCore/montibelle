@@ -1,0 +1,5 @@
+session "sps_DLDF_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_DLDF_HLR1" "sps_DLDF_LLR_connector" "sps_DLDF_LLR_scheduler1" "sps_DLDF_LLR_scheduler2" "sps_DLDF_LLR_scheduler3" "sps_DLDF_LLR_scheduler4" "bundle_DLDF_LLR"
+    theories
+        def_DLDF_LLR
+

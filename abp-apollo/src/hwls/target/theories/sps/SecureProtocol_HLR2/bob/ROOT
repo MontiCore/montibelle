@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR2_bob" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_HLR2_bob" "sps_SecureProtocol_HLR2_bob_InputMap" "sps_SecureProtocol_HLR2_bob_OutputMap" "sps_Bob_HLR"
+    theories
+        def_SecureProtocol_HLR2_bob
+

@@ -1,0 +1,7 @@
+session "code_SecurityGate_LLR" (generated code) = "component" +
+    sessions "data_inc" "user" "sps_SecurityGate_LLR" "bundle_SecurityGate_LLR"
+    theories
+        code_SecurityGate_LLR
+        code_SecurityGate_LLR_Input
+        code_SecurityGate_LLR_Output
+

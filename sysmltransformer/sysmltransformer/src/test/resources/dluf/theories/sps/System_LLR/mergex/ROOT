@@ -1,0 +1,5 @@
+session "sps_System_LLR_mergex" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_System_LLR_mergex" "sps_System_LLR_mergex_InputMap" "sps_System_LLR_mergex_OutputMap" "sps_Merge_LLR"
+    theories
+        def_System_LLR_mergex
+

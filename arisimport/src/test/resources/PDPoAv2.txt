@@ -1,0 +1,411 @@
+
+Model information
+Date: 3/4/25
+
+
+1. PDPoA
+1.1. Properties
+Type                                               BPMN process
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:50 PM
+Last user                                          amelie.rath@rwth-aachen.de
+1.2. Objects
+1.2.1. End event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:50 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                 Object name                                       Object type
+is created by                                     ACT                                               Function
+1.2.2. Start event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:50 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                  Object name                                        Object type
+activates                                          PLAN                                               Function
+1.2.3. ACT
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:00:20 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Subprocess
+Subprocess type                                    Subprocess
+Relationships
+Relationship type                               Object name                                     Object type
+creates                                         End event                                       Event
+follows                                         CHECK                                           Function
+1.2.4. CHECK
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 1:59:04 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Subprocess
+Subprocess type                                    Subprocess
+Relationships
+Relationship type                               Object name                                     Object type
+follows                                         DO                                              Function
+is predecessor of                               ACT                                             Function
+1.2.5. DO
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 1:57:39 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Subprocess
+Subprocess type                                    Subprocess
+Relationships
+Relationship type                              Object name                                    Object type
+follows                                        PLAN                                           Function
+is predecessor of                              CHECK                                          Function
+1.2.6. PLAN
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:50 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Subprocess
+Subprocess type                                    Subprocess
+Relationships
+Relationship type                              Object name                                    Object type
+is activated by                                Start event                                    Event
+is predecessor of                              DO                                             Function
+1.3. Graphic
+
+2. ACT
+2.1. Properties
+Type                                               BPMN subprocess
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+2.2. Objects
+2.2.1. End event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                Object name                                      Object type
+is dependent on                                  Gateway-PR6                                      Rule
+2.2.2. Start event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                              Object name                                    Object type
+activates                                      Production & Product Justification             Function
+2.2.3. Production & Product Justification
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                            Object name                                  Object type
+leads to                                     Gateway-PR6                                  Rule
+is activated by                              Start event                                  Event
+is activated by                              Gateway-PR5                                  Rule
+leads to                                     Gateway-PR5                                  Rule
+2.2.4. Gateway-PR5
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR5
+Last change                                        Mar 4 2025 4:48:05 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                           Object name                                 Object type
+activates                                   Production & Product Justification          Function
+is associated with                          PR5                                         Text annotation
+is assigned to                              Production & Product Justification          Function
+2.2.5. Gateway-PR6
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR6
+Last change                                        Mar 4 2025 4:48:05 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                            Object name                                  Object type
+is assigned to                               Production & Product Justification           Function
+leads to                                     End event                                    Event
+is associated with                           PR6                                          Text annotation
+2.2.6. PR5
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR5                                      Rule
+2.2.7. PR6
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:47 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR6                                      Rule
+2.3. Graphic
+
+3. CHECK
+3.1. Properties
+Type                                               BPMN subprocess
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:46 PM
+Last user                                          amelie.rath@rwth-aachen.de
+3.2. Objects
+3.2.1. End event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:46 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                Object name                                      Object type
+is dependent on                                  Gateway-PR4                                      Rule
+3.2.2. Start event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:46 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                              Object name                                    Object type
+activates                                      Development Validation & Verification          Function
+3.2.3. Development Validation & Verification
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:46 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+leads to                                       Gateway-PR4                                    Rule
+is activated by                                Start event                                    Event
+3.2.4. Gateway-PR4
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR4
+Last change                                        Mar 4 2025 4:47:32 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                            Object name                                  Object type
+is assigned to                               Development Validation & Verification        Function
+is associated with                           PR4                                          Text annotation
+leads to                                     End event                                    Event
+3.2.5. PR4
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:46 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR4                                      Rule
+3.3. Graphic
+
+4. DO
+4.1. Properties
+Type                                               BPMN subprocess
+Group                                              PDPoA in ARIS
+Last change                                        Mar 4 2025 4:44:51 PM
+Last user                                          amelie.rath@rwth-aachen.de
+4.2. Objects
+4.2.1. End event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:40 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                Object name                                      Object type
+is dependent on                                  Gateway-PR3                                      Rule
+4.2.2. Start event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:40 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                               Object name                                     Object type
+activates                                       Development Concept Phase                       Function
+4.2.3. Development Concept Phase
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:40 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+leads to                                       Gateway-PR2                                    Rule
+is activated by                                Start event                                    Event
+4.2.4. Development Detail Design Phase
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:40 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+is activated by                                Gateway-PR2                                    Rule
+leads to                                       Gateway-PR3                                    Rule
+4.2.5. Gateway-PR2
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR2
+Last change                                        Mar 4 2025 4:44:51 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                           Object name                                 Object type
+activates                                   Development Detail Design Phase             Function
+is assigned to                              Development Concept Phase                   Function
+is associated with                          PR2                                         Text annotation
+4.2.6. Gateway-PR3
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR3
+Last change                                        Mar 4 2025 4:47:15 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                            Object name                                  Object type
+leads to                                     End event                                    Event
+is associated with                           PR3                                          Text annotation
+is assigned to                               Development Detail Design Phase              Function
+4.2.7. PR2
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Mar 4 2025 4:44:51 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR2                                      Rule
+4.2.8. PR3
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:40 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR3                                      Rule
+4.3. Graphic
+
+5. PLAN
+5.1. Properties
+Type                                               BPMN subprocess
+Group                                              PDPoA in ARIS
+Last change                                        Mar 4 2025 4:35:09 PM
+Last user                                          amelie.rath@rwth-aachen.de
+5.2. Objects
+5.2.1. End event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:44 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                Object name                                      Object type
+is dependent on                                  Gateway-PR1                                      Rule
+5.2.2. Start event
+Properties
+Type                                               Event
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:44 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Event definition                                   none
+Relationships
+Relationship type                                 Object name                                       Object type
+activates                                         Feasability                                       Function
+5.2.3. Feasability
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:44 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                             Object name                                   Object type
+is activated by                               Start event                                   Event
+is predecessor of                             Project Definition                            Function
+5.2.4. Project Definition
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:44 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+is predecessor of                              Project Setup                                  Function
+follows                                        Feasability                                    Function
+5.2.5. Project Setup
+Properties
+Type                                               Function
+Group                                              PDPoA in ARIS
+Last change                                        Feb 24 2025 2:10:44 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+leads to                                       Gateway-PR1                                    Rule
+follows                                        Project Definition                             Function
+5.2.6. Gateway-PR1
+Properties
+Type                                               Rule
+Group                                              PDPoA in ARIS
+Description/Definition                             PR1
+Last change                                        Mar 4 2025 4:46:38 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                            Object name                                  Object type
+is associated with                           PR1                                          Text annotation
+is assigned to                               Project Setup                                Function
+leads to                                     End event                                    Event
+5.2.7. PR1
+Properties
+Type                                               Text annotation
+Group                                              PDPoA in ARIS
+Last change                                        Feb 27 2025 3:38:19 PM
+Last user                                          amelie.rath@rwth-aachen.de
+Relationships
+Relationship type                                Object name                                      Object type
+is associated with                               Gateway-PR1                                      Rule
+5.3. Graphic
+
+

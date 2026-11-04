@@ -1,0 +1,18 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_LLR.alice.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SecureProtocol_LLR.alice.Input",
+      "fullName": "SecureProtocol_LLR.alice.Input",
+      "channelNames": [
+        "channel_SecureProtocol_LLR_alice_control_val",
+        "channel_SecureProtocol_LLR_alice_input_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SecureProtocol_LLR_alice.def_SecureProtocol_LLR_alice_Input"
+    }
+  ]
+}

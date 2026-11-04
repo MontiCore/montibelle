@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_TelecommandAndTelemetry_HLR_mergex.def_TelecommandAndTelemetry_HLR_mergex",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_TelecommandAndTelemetry_HLR_mergex.def_TelecommandAndTelemetry_HLR_mergex",
+      "fullName": "sps_TelecommandAndTelemetry_HLR_mergex.def_TelecommandAndTelemetry_HLR_mergex",
+      "filename": "def_TelecommandAndTelemetry_HLR_mergex",
+      "sessionName": "sps_TelecommandAndTelemetry_HLR_mergex"
+    }
+  ]
+}

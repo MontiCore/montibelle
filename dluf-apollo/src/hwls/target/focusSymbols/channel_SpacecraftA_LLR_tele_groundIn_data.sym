@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_SpacecraftA_LLR_tele_groundIn_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_SpacecraftA_LLR_tele_groundIn_data",
+      "fullName": "channel_SpacecraftA_LLR_tele_groundIn_data",
+      "localName": "channel_tele_groundIn_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_tele_groundIn_data_pattern"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+session "sps_Capacity_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Capacity_HLR3"
+    theories
+        def_Capacity_LLR
+        def_Capacity_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

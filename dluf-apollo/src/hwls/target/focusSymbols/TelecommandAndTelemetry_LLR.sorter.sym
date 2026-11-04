@@ -1,0 +1,108 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_LLR.sorter",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Sorter_b1In_data",
+        "channel_Sorter_b2In_data",
+        "channel_Sorter_cocaIn_data",
+        "channel_Sorter_maniacIn_data",
+        "channel_Sorter_dfpIn_data",
+        "channel_Sorter_mirmisIn_data"
+      ],
+      "theory": "sps_TelecommandAndTelemetry_LLR_sorter_InputMap.def_TelecommandAndTelemetry_LLR_sorter_InputMap",
+      "inputName": "TelecommandAndTelemetry_LLR.sorter.Input",
+      "outputName": "Sorter.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_TelecommandAndTelemetry_LLR_sorter_prio1_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_prio2_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_prio3_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_prio4_data"
+      ],
+      "theory": "sps_TelecommandAndTelemetry_LLR_sorter_OutputMap.def_TelecommandAndTelemetry_LLR_sorter_OutputMap",
+      "inputName": "Sorter.Output",
+      "outputName": "TelecommandAndTelemetry_LLR.sorter.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_b1In_data",
+      "fullName": "channel_Sorter_b1In_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_b1In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_b2In_data",
+      "fullName": "channel_Sorter_b2In_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_b2In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_cocaIn_data",
+      "fullName": "channel_Sorter_cocaIn_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_cocaIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_maniacIn_data",
+      "fullName": "channel_Sorter_maniacIn_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_maniacIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_dfpIn_data",
+      "fullName": "channel_Sorter_dfpIn_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_dfpIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_mirmisIn_data",
+      "fullName": "channel_Sorter_mirmisIn_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_mirmisIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_prio1_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_prio1_data",
+      "value": "channel_Sorter_prio1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_prio2_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_prio2_data",
+      "value": "channel_Sorter_prio2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_prio3_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_prio3_data",
+      "value": "channel_Sorter_prio3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_prio4_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_prio4_data",
+      "value": "channel_Sorter_prio4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "TelecommandAndTelemetry_LLR.sorter",
+      "fullName": "TelecommandAndTelemetry_LLR.sorter",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "Sorter",
+      "theory": "sps_TelecommandAndTelemetry_LLR_sorter.def_TelecommandAndTelemetry_LLR_sorter",
+      "strong": true,
+      "inputName": "TelecommandAndTelemetry_LLR.sorter.Input",
+      "outputName": "TelecommandAndTelemetry_LLR.sorter.Output"
+    }
+  ]
+}

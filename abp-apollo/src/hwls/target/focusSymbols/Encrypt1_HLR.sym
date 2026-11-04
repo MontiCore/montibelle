@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Encrypt1_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "Encrypt1_HLR",
+      "fullName": "Encrypt1_HLR",
+      "predicatesLen": 1,
+      "theory": "sps_Encrypt1_HLR.def_Encrypt1_HLR",
+      "strong": true,
+      "inputName": "Encrypt1_HLR.Input",
+      "outputName": "Encrypt1_HLR.Output"
+    }
+  ]
+}

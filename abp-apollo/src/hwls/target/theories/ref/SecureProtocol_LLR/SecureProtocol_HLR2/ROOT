@@ -1,0 +1,5 @@
+session "ref_SecureProtocol_LLR_refines_SecureProtocol_HLR2" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "generator" "sps_SecureProtocol_HLR2" "sps_SecureProtocol_LLR" "ref_Bob_LLR_refines_Bob_HLR"
+    theories
+        ref_SecureProtocol_LLR_rough_SecureProtocol_HLR2
+

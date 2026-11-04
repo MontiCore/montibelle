@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Avionics_HLR_sorter_dfpIn_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Avionics_HLR_sorter_dfpIn_data",
+      "fullName": "channel_Avionics_HLR_sorter_dfpIn_data",
+      "localName": "channel_sorter_dfpIn_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_sorter_dfpIn_data_pattern"
+    }
+  ]
+}

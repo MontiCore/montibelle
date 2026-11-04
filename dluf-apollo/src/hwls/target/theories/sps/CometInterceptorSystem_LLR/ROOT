@@ -1,0 +1,5 @@
+session "sps_CometInterceptorSystem_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_CometInterceptorSystem_HLR" "sps_CometInterceptorSystem_LLR_connector" "sps_CometInterceptorSystem_LLR_spacecrafta" "sps_CometInterceptorSystem_LLR_b1" "sps_CometInterceptorSystem_LLR_b2" "bundle_CometInterceptorSystem_LLR"
+    theories
+        def_CometInterceptorSystem_LLR
+

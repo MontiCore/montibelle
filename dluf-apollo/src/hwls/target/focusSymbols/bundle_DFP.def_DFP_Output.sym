@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DFP.def_DFP_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_DFP.def_DFP_Output",
+      "fullName": "bundle_DFP.def_DFP_Output",
+      "filename": "def_DFP_Output",
+      "sessionName": "bundle_DFP"
+    }
+  ]
+}

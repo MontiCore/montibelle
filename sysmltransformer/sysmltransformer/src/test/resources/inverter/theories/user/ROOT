@@ -1,0 +1,4 @@
+session "user" (generated system) = "inc" +
+    theories
+        Datatypes
+

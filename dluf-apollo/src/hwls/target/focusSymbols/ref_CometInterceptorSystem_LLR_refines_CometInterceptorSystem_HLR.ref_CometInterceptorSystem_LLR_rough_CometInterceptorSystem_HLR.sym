@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_CometInterceptorSystem_LLR_refines_CometInterceptorSystem_HLR.ref_CometInterceptorSystem_LLR_rough_CometInterceptorSystem_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "ref_CometInterceptorSystem_LLR_refines_CometInterceptorSystem_HLR.ref_CometInterceptorSystem_LLR_rough_CometInterceptorSystem_HLR",
+      "fullName": "ref_CometInterceptorSystem_LLR_refines_CometInterceptorSystem_HLR.ref_CometInterceptorSystem_LLR_rough_CometInterceptorSystem_HLR",
+      "filename": "ref_CometInterceptorSystem_LLR_rough_CometInterceptorSystem_HLR",
+      "sessionName": "ref_CometInterceptorSystem_LLR_refines_CometInterceptorSystem_HLR"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_HLR2_connector",
+      "fullName": "sps_SecureProtocol_HLR2_connector",
+      "path": [
+        "sps",
+        "SecureProtocol_HLR2",
+        "connector"
+      ]
+    }
+  ]
+}

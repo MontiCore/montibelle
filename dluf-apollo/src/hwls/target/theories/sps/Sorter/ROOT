@@ -1,0 +1,5 @@
+session "sps_Sorter" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Sorter"
+    theories
+        def_Sorter
+

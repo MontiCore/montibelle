@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Router_input_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Router_input_data",
+      "fullName": "channel_Router_input_data",
+      "localName": "channel_input_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_input_data_pattern"
+    }
+  ]
+}

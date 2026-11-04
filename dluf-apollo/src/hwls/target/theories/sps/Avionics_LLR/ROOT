@@ -1,0 +1,5 @@
+session "sps_Avionics_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Avionics_HLR" "sps_Avionics_LLR_connector" "sps_Avionics_LLR_router" "sps_Avionics_LLR_sorter" "sps_Avionics_LLR_mergex" "sps_Avionics_LLR_dldf" "bundle_Avionics_LLR"
+    theories
+        def_Avionics_LLR
+

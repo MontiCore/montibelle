@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_LLR_alice" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_LLR_alice" "sps_SecureProtocol_LLR_alice_InputMap" "sps_SecureProtocol_LLR_alice_OutputMap" "sps_Alice_HLR"
+    theories
+        def_SecureProtocol_LLR_alice
+

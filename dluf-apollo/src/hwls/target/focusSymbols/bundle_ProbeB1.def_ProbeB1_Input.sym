@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_ProbeB1.def_ProbeB1_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_ProbeB1.def_ProbeB1_Input",
+      "fullName": "bundle_ProbeB1.def_ProbeB1_Input",
+      "filename": "def_ProbeB1_Input",
+      "sessionName": "bundle_ProbeB1"
+    }
+  ]
+}

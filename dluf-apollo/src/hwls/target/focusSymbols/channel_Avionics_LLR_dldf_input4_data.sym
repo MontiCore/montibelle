@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Avionics_LLR_dldf_input4_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Avionics_LLR_dldf_input4_data",
+      "fullName": "channel_Avionics_LLR_dldf_input4_data",
+      "localName": "channel_dldf_input4_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_dldf_input4_data_pattern"
+    }
+  ]
+}

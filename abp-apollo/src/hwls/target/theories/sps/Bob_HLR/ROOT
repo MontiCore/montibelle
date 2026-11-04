@@ -1,0 +1,5 @@
+session "sps_Bob_HLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Bob_HLR"
+    theories
+        def_Bob_HLR
+

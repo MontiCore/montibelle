@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_CometInterceptorSystem_LLR_b1_output_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_CometInterceptorSystem_LLR_b1_output_data",
+      "fullName": "channel_CometInterceptorSystem_LLR_b1_output_data",
+      "localName": "channel_b1_output_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_b1_output_data_pattern"
+    }
+  ]
+}

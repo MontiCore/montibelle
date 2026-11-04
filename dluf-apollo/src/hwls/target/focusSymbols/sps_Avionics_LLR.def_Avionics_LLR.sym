@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR.def_Avionics_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Avionics_LLR.def_Avionics_LLR",
+      "fullName": "sps_Avionics_LLR.def_Avionics_LLR",
+      "filename": "def_Avionics_LLR",
+      "sessionName": "sps_Avionics_LLR"
+    }
+  ]
+}

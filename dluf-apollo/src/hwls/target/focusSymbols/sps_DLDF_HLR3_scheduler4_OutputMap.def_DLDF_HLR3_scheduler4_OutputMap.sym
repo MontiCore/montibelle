@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_HLR3_scheduler4_OutputMap.def_DLDF_HLR3_scheduler4_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_DLDF_HLR3_scheduler4_OutputMap.def_DLDF_HLR3_scheduler4_OutputMap",
+      "fullName": "sps_DLDF_HLR3_scheduler4_OutputMap.def_DLDF_HLR3_scheduler4_OutputMap",
+      "filename": "def_DLDF_HLR3_scheduler4_OutputMap",
+      "sessionName": "sps_DLDF_HLR3_scheduler4_OutputMap"
+    }
+  ]
+}

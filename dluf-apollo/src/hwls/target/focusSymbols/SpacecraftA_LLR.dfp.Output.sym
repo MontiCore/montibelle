@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR.dfp.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_LLR.dfp.Output",
+      "fullName": "SpacecraftA_LLR.dfp.Output",
+      "channelNames": [
+        "channel_SpacecraftA_LLR_dfp_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_LLR_dfp.def_SpacecraftA_LLR_dfp_Output"
+    }
+  ]
+}

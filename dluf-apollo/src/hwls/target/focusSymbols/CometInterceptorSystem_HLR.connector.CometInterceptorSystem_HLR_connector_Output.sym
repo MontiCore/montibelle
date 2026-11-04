@@ -1,0 +1,22 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometInterceptorSystem_HLR.connector.CometInterceptorSystem_HLR_connector_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "CometInterceptorSystem_HLR.connector.CometInterceptorSystem_HLR_connector_Output",
+      "fullName": "CometInterceptorSystem_HLR.connector.CometInterceptorSystem_HLR_connector_Output",
+      "channelNames": [
+        "channel_CometInterceptorSystem_HLR_b1_input_data",
+        "channel_CometInterceptorSystem_HLR_b2_input_data",
+        "channel_CometInterceptorSystem_HLR_groundOut_data",
+        "channel_CometInterceptorSystem_HLR_spacecrafta_b1In_data",
+        "channel_CometInterceptorSystem_HLR_spacecrafta_b2In_data",
+        "channel_CometInterceptorSystem_HLR_spacecrafta_groundIn_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_CometInterceptorSystem_HLR_connector.def_CometInterceptorSystem_HLR_connector_CometInterceptorSystem_HLR_connector_Output"
+    }
+  ]
+}

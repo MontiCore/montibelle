@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_LLR_eve1_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_LLR_eve1" "bundle_Eve1_HLR"
+    theories
+        def_SecureProtocol_LLR_eve1_InputMap
+

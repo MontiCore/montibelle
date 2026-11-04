@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR_mergex",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Avionics_LLR_mergex",
+      "fullName": "sps_Avionics_LLR_mergex",
+      "path": [
+        "sps",
+        "Avionics_LLR",
+        "mergex"
+      ]
+    }
+  ]
+}

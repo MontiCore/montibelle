@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "code_Capacity_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "code_Capacity_LLR",
+      "fullName": "code_Capacity_LLR",
+      "path": [
+        "code",
+        "Capacity_LLR"
+      ]
+    }
+  ]
+}

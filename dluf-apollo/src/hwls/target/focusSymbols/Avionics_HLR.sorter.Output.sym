@@ -1,0 +1,20 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_HLR.sorter.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Avionics_HLR.sorter.Output",
+      "fullName": "Avionics_HLR.sorter.Output",
+      "channelNames": [
+        "channel_Avionics_HLR_sorter_prio1_data",
+        "channel_Avionics_HLR_sorter_prio2_data",
+        "channel_Avionics_HLR_sorter_prio3_data",
+        "channel_Avionics_HLR_sorter_prio4_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Avionics_HLR_sorter.def_Avionics_HLR_sorter_Output"
+    }
+  ]
+}

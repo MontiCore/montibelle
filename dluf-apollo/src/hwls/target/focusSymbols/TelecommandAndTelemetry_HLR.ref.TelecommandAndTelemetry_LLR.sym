@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_HLR.ref.TelecommandAndTelemetry_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "TelecommandAndTelemetry_HLR.ref.TelecommandAndTelemetry_LLR",
+      "fullName": "TelecommandAndTelemetry_HLR.ref.TelecommandAndTelemetry_LLR",
+      "theory": "ref_TelecommandAndTelemetry_LLR_refines_TelecommandAndTelemetry_HLR.ref_TelecommandAndTelemetry_LLR_rough_TelecommandAndTelemetry_HLR"
+    }
+  ]
+}

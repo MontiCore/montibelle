@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_TelecommandAndTelemetry_LLR_refines_TelecommandAndTelemetry_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_TelecommandAndTelemetry_LLR_refines_TelecommandAndTelemetry_HLR",
+      "fullName": "ref_TelecommandAndTelemetry_LLR_refines_TelecommandAndTelemetry_HLR",
+      "path": [
+        "ref",
+        "TelecommandAndTelemetry_LLR",
+        "TelecommandAndTelemetry_HLR"
+      ]
+    }
+  ]
+}

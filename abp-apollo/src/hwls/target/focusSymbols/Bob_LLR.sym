@@ -1,0 +1,30 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Bob_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.StateVariableSymbol",
+      "name": "c",
+      "fullName": "c"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.StateSpaceSymbol",
+      "name": "Bob_LLR.States",
+      "fullName": "Bob_LLR.States",
+      "variableNames": [
+        "c"
+      ],
+      "theory": "sps_Bob_LLR.def_Bob_LLR_States"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.EventAutomatonSymbol",
+      "name": "Bob_LLR",
+      "fullName": "Bob_LLR",
+      "theory": "sps_Bob_LLR.def_Bob_LLR",
+      "strong": true,
+      "inputName": "Bob_HLR.Input",
+      "outputName": "Bob_HLR.Output",
+      "statespaceName": "Bob_LLR.States"
+    }
+  ]
+}

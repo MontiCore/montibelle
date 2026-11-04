@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_DLDF_LLR_refines_DLDF_HLR1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_DLDF_LLR_refines_DLDF_HLR1",
+      "fullName": "ref_DLDF_LLR_refines_DLDF_HLR1",
+      "path": [
+        "ref",
+        "DLDF_LLR",
+        "DLDF_HLR1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+session "NoTransition" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    NoTransition_States
+    NoTransition
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

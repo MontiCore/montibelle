@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_HLR2.decrypt1.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SecureProtocol_HLR2.decrypt1.Input",
+      "fullName": "SecureProtocol_HLR2.decrypt1.Input",
+      "channelNames": [
+        "channel_SecureProtocol_HLR2_decrypt1_input_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SecureProtocol_HLR2_decrypt1.def_SecureProtocol_HLR2_decrypt1_Input"
+    }
+  ]
+}

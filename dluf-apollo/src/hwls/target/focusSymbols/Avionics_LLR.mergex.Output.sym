@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_LLR.mergex.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Avionics_LLR.mergex.Output",
+      "fullName": "Avionics_LLR.mergex.Output",
+      "channelNames": [
+        "channel_Avionics_LLR_mergex_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Avionics_LLR_mergex.def_Avionics_LLR_mergex_Output"
+    }
+  ]
+}

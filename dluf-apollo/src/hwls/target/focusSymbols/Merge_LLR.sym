@@ -1,0 +1,24 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Merge_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.StateSpaceSymbol",
+      "name": "Merge_LLR.States",
+      "fullName": "Merge_LLR.States",
+      "theory": "sps_Merge_LLR.def_Merge_LLR_States"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.EventAutomatonSymbol",
+      "name": "Merge_LLR",
+      "fullName": "Merge_LLR",
+      "theory": "sps_Merge_LLR.def_Merge_LLR",
+      "strong": true,
+      "inputName": "Merge_LLR.Input",
+      "outputName": "Merge_LLR.Output",
+      "finite": true,
+      "codeTheoryName": "code_Merge_LLR.code_Merge_LLR",
+      "statespaceName": "Merge_LLR.States"
+    }
+  ]
+}

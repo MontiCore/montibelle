@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_LLR_mirmis_InputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_LLR_mirmis" "bundle_MIRMIS"
+    theories
+        def_SpacecraftA_LLR_mirmis_InputMap
+

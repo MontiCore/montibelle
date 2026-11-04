@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Bob_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Bob_LLR",
+      "fullName": "sps_Bob_LLR",
+      "path": [
+        "sps",
+        "Bob_LLR"
+      ]
+    }
+  ]
+}

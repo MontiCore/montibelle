@@ -1,0 +1,5 @@
+session "sps_MIRMIS" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_MIRMIS"
+    theories
+        def_MIRMIS
+

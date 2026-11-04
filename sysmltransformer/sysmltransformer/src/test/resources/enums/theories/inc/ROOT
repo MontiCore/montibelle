@@ -1,0 +1,4 @@
+session "data_inc" (generated system) = "bundlelocale" +
+    theories
+        Data_inc
+

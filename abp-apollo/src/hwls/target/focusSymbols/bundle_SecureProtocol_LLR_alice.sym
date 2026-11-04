@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_LLR_alice",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_SecureProtocol_LLR_alice",
+      "fullName": "bundle_SecureProtocol_LLR_alice",
+      "path": [
+        "bundle",
+        "SecureProtocol_LLR",
+        "alice"
+      ]
+    }
+  ]
+}

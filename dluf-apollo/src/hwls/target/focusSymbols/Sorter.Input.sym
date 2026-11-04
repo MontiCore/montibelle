@@ -1,0 +1,22 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Sorter.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Sorter.Input",
+      "fullName": "Sorter.Input",
+      "channelNames": [
+        "channel_Sorter_b1In_data",
+        "channel_Sorter_b2In_data",
+        "channel_Sorter_cocaIn_data",
+        "channel_Sorter_dfpIn_data",
+        "channel_Sorter_maniacIn_data",
+        "channel_Sorter_mirmisIn_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Sorter.def_Sorter_Input"
+    }
+  ]
+}

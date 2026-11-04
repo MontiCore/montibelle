@@ -1,0 +1,14 @@
+chapter MontiBelle
+
+session "bundlelocale" (mustWork) in "locale" = "bundle" +
+  description "Locales to map from streams to bundles. Used by the generated code."
+  options [browser_info, document_variants="outline=-document,-theory,-lemma,-proof,-lemmas",document_tags="document%document,lemma%lemma,lemmas%lemmas",show_question_marks = true]
+  theories
+    SBGen
+    SBEGen
+    SBRenameGen
+    SBERenameGen
+    SBConvertGen
+    SBConnectGens
+  document_files (in "../../11.docinc")
+    "root.tex" "literatur.bib" "MontiBelle.sty" "glossary.tex"

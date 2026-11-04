@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Avionics_LLR.def_Avionics_LLR_Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Avionics_LLR.def_Avionics_LLR_Feedback",
+      "fullName": "bundle_Avionics_LLR.def_Avionics_LLR_Feedback",
+      "filename": "def_Avionics_LLR_Feedback",
+      "sessionName": "bundle_Avionics_LLR"
+    }
+  ]
+}

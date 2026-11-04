@@ -1,0 +1,6 @@
+session "bundle_TelecommandAndTelemetry_LLR_mergex" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_TelecommandAndTelemetry_LLR_mergex_Input
+        def_TelecommandAndTelemetry_LLR_mergex_Output
+

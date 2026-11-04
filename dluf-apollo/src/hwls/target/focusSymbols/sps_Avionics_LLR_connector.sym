@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Avionics_LLR_connector",
+      "fullName": "sps_Avionics_LLR_connector",
+      "path": [
+        "sps",
+        "Avionics_LLR",
+        "connector"
+      ]
+    }
+  ]
+}

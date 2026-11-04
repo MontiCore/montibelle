@@ -1,0 +1,59 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Eve1_HLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Eve1_HLR",
+      "fullName": "Eve1_HLR",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Eve1_HLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Eve1_HLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Data_Bool_Tuples"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlconstraints._symboltable.RequirementUsageSymbol",
+            "name": "MsgProcessing",
+            "fullName": "Eve1_HLR.MsgProcessing",
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "ValidInput",
+                  "fullName": "Eve1_HLR.MsgProcessing.ValidInput"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "OutputIsSubset",
+                  "fullName": "Eve1_HLR.MsgProcessing.OutputIsSubset"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+grammar EPC extends Aris {
+
+  token EmailName =
+    ( 'a'..'z' | 'A'..'Z' | '_' | '$' )
+    ( 'a'..'z' | 'A'..'Z' | '_' | '0'..'9' | '$' )*;
+
+  Email =
+    (EmailName || "." )+ "@" (EmailName || "." )+ {noSpace()}?;
+
+  @Override
+  token Name
+    = '"' (StringCharacters)? '"'
+    : {
+        String res = getText().substring(1, getText().length() - 1);
+        res = res.replace("\\\"", "\"");
+        setText(res);
+      } ;
+
+  @Override
+  token String = "doNotParseThisEverAgainKThxBye" ;
+
+  start Model;
+
+  Model = ModelInformation Diagram+;
+
+  ModelInformation =
+     "Model information"
+     "Date:" Date
+    ("Model:" Name)? ;
+
+  symbol scope Diagram =
+    Name
+    Properties
+    Objects
+    Graphic;
+
+  Properties =
+    "Properties"
+    "Properties"
+    "Type"               type:Name
+    "Group"              group:Name
+     Description?
+    "Time of generation" generation:DateTime
+    "Creator"            creator:Email
+    "Last change"        change:DateTime
+    "Last user"          lastUser:Email;
+
+  Objects =
+    "Objects"
+    Object*;
+
+  symbol scope Object =
+    Name
+    "Properties"
+    "Type"               type:Name
+    "Group"              group:Name
+     Description?
+     Title?
+     Link?
+    "Time of generation" generation:DateTime
+    "Creator"            creator:Email
+    "Last change"        change:DateTime
+    "Last user"          lastUser:Email
+    "Relationships"
+    "Relationship type" "Object name" "Object type"
+    Relationship* ;
+
+  Description =
+    "Description/Definition" Name;
+
+  Title =
+    "Title 1" Name ;
+
+  Link =
+    "Link 1" Name ;
+
+  interface Relationship = name:Name@Object type:Name ;
+
+  Outgoing implements Relationship =
+    ( ["activates"]
+    | ["leads_to"]
+    | ["creates"]
+    | ["is_predecessor_of"]
+    | ["is_input_for"]
+    | ["provides_input_for"]
+    | ["defines_status"]
+    | ["links"]
+    | ["supports"]
+    | ["has_as_output"]
+    | ["has_consulting_role_in"]
+    | ["must_be_informed_about"]
+    | ["is_responsible_for"]
+    | ["is_accountable_for"]
+    | ["is_evaluated_by"]
+    )  name:Name@Object type:Name ;
+
+  Incoming implements Relationship =
+    ( ["is_defined"]
+    | ["is_activated_by"]
+    | ["evaluates"]
+    | ["is_linked_by"]
+    | ["is_assigned_to"]
+    | ["is_created_by"]
+    | ["follows"]
+    | ["is_dependent_on"]
+    | ["has_as_input"]
+    | ["is_supported_by_consulting_role_of"]
+    | ["is_supported_by"]
+    | ["receives_input_from"]
+    | ["is_under_responsibility_of"]
+    | ["is_output_of"]
+    | ["is_decided_by"]
+    | ["result_is_forwarded_to"]
+    ) name:Name@Object type:Name ;
+
+  Association implements Relationship =
+    "\"is associated with\"" name:Name@Object type:Name;
+
+  Graphic = "Graphic";
+
+}

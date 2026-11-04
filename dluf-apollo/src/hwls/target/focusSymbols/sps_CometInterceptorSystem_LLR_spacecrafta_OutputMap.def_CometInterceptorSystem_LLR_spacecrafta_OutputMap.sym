@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_CometInterceptorSystem_LLR_spacecrafta_OutputMap.def_CometInterceptorSystem_LLR_spacecrafta_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_CometInterceptorSystem_LLR_spacecrafta_OutputMap.def_CometInterceptorSystem_LLR_spacecrafta_OutputMap",
+      "fullName": "sps_CometInterceptorSystem_LLR_spacecrafta_OutputMap.def_CometInterceptorSystem_LLR_spacecrafta_OutputMap",
+      "filename": "def_CometInterceptorSystem_LLR_spacecrafta_OutputMap",
+      "sessionName": "sps_CometInterceptorSystem_LLR_spacecrafta_OutputMap"
+    }
+  ]
+}

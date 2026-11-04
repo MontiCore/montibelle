@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR.dfp",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_DFP_input_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_dfp_InputMap.def_SpacecraftA_LLR_dfp_InputMap",
+      "inputName": "SpacecraftA_LLR.dfp.Input",
+      "outputName": "DFP.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_LLR_dfp_output_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_dfp_OutputMap.def_SpacecraftA_LLR_dfp_OutputMap",
+      "inputName": "DFP.Output",
+      "outputName": "SpacecraftA_LLR.dfp.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DFP_input_data",
+      "fullName": "channel_DFP_input_data",
+      "value": "channel_SpacecraftA_LLR_dfp_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_dfp_output_data",
+      "fullName": "channel_SpacecraftA_LLR_dfp_output_data",
+      "value": "channel_DFP_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_LLR.dfp",
+      "fullName": "SpacecraftA_LLR.dfp",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "DFP",
+      "theory": "sps_SpacecraftA_LLR_dfp.def_SpacecraftA_LLR_dfp",
+      "strong": true,
+      "inputName": "SpacecraftA_LLR.dfp.Input",
+      "outputName": "SpacecraftA_LLR.dfp.Output"
+    }
+  ]
+}

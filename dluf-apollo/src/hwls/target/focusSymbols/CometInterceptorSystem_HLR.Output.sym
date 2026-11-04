@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "CometInterceptorSystem_HLR.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "CometInterceptorSystem_HLR.Output",
+      "fullName": "CometInterceptorSystem_HLR.Output",
+      "channelNames": [
+        "channel_CometInterceptorSystem_HLR_groundOut_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_CometInterceptorSystem_HLR.def_CometInterceptorSystem_HLR_Output"
+    }
+  ]
+}

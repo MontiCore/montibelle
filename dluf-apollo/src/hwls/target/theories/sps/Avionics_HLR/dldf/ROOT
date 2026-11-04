@@ -1,0 +1,5 @@
+session "sps_Avionics_HLR_dldf" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_Avionics_HLR_dldf" "sps_Avionics_HLR_dldf_InputMap" "sps_Avionics_HLR_dldf_OutputMap" "sps_DLDF_HLR1"
+    theories
+        def_Avionics_HLR_dldf
+

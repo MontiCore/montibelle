@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_DLDF_LLR_scheduler2_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_DLDF_LLR_scheduler2_OutputMap",
+      "fullName": "sps_DLDF_LLR_scheduler2_OutputMap",
+      "path": [
+        "sps",
+        "DLDF_LLR",
+        "scheduler2",
+        "OutputMap"
+      ]
+    }
+  ]
+}

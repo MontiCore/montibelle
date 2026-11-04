@@ -1,0 +1,9 @@
+session "MultipleInitialStates" (testing) = "tscomponent" +
+  sessions
+    io
+    liftedstreams
+  theories
+    MultipleInitialStates_States
+    MultipleInitialStates
+  export_files (in "../../../../../../../../scala/export") [2]
+    "*:**scalaExec.scala"

@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Avionics_LLR_router_maniacOut_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Avionics_LLR_router_maniacOut_data",
+      "fullName": "channel_Avionics_LLR_router_maniacOut_data",
+      "localName": "channel_router_maniacOut_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_router_maniacOut_data_pattern"
+    }
+  ]
+}

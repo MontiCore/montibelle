@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_LLR_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_SecureProtocol_LLR_connector",
+      "fullName": "bundle_SecureProtocol_LLR_connector",
+      "path": [
+        "bundle",
+        "SecureProtocol_LLR",
+        "connector"
+      ]
+    }
+  ]
+}

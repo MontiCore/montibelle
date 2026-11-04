@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Buffer_HLR3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "Buffer_HLR3",
+      "fullName": "Buffer_HLR3",
+      "predicatesLen": 2,
+      "assumptionsLen": 2,
+      "theory": "sps_Buffer_HLR3.def_Buffer_HLR3",
+      "inputName": "Buffer_HLR3.Input",
+      "outputName": "Buffer_HLR3.Output"
+    }
+  ]
+}

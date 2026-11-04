@@ -1,0 +1,5 @@
+session "ref_Scheduler_LLR_refines_Scheduler_HLR3" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "generator" "sps_Scheduler_HLR3" "sps_Scheduler_LLR" "ref_Buffer_LLR_refines_Buffer_HLR3" "ref_Capacity_LLR_refines_Capacity_HLR3"
+    theories
+        ref_Scheduler_LLR_rough_Scheduler_HLR3
+

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_CometCamera.def_CometCamera",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_CometCamera.def_CometCamera",
+      "fullName": "sps_CometCamera.def_CometCamera",
+      "filename": "def_CometCamera",
+      "sessionName": "sps_CometCamera"
+    }
+  ]
+}

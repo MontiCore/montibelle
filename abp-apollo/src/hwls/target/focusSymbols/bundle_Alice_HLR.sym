@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Alice_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_Alice_HLR",
+      "fullName": "bundle_Alice_HLR",
+      "path": [
+        "bundle",
+        "Alice_HLR"
+      ]
+    }
+  ]
+}

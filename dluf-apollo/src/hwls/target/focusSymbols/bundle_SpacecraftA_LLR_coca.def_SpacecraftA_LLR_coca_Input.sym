@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SpacecraftA_LLR_coca.def_SpacecraftA_LLR_coca_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SpacecraftA_LLR_coca.def_SpacecraftA_LLR_coca_Input",
+      "fullName": "bundle_SpacecraftA_LLR_coca.def_SpacecraftA_LLR_coca_Input",
+      "filename": "def_SpacecraftA_LLR_coca_Input",
+      "sessionName": "bundle_SpacecraftA_LLR_coca"
+    }
+  ]
+}

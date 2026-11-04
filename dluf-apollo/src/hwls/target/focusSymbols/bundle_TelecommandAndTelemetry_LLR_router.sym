@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_TelecommandAndTelemetry_LLR_router",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_TelecommandAndTelemetry_LLR_router",
+      "fullName": "bundle_TelecommandAndTelemetry_LLR_router",
+      "path": [
+        "bundle",
+        "TelecommandAndTelemetry_LLR",
+        "router"
+      ]
+    }
+  ]
+}

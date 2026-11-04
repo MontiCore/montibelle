@@ -1,0 +1,6 @@
+session "bundle_ProbeB2" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_ProbeB2_Input
+        def_ProbeB2_Output
+

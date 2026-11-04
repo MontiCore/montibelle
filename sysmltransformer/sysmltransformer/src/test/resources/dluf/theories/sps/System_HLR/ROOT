@@ -1,0 +1,5 @@
+session "sps_System_HLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_System_HLR" "sps_System_HLR_connector" "sps_System_HLR_dluf" "sps_System_HLR_mergex"
+    theories
+        def_System_HLR
+

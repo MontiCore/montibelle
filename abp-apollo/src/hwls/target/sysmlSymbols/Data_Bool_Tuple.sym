@@ -1,0 +1,39 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Data_Bool_Tuple",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeDefSymbol",
+      "name": "Data_Bool_Tuple",
+      "fullName": "Data_Bool_Tuple",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "fst",
+            "fullName": "Data_Bool_Tuple.fst",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "nat"
+              }
+            ],
+            "in": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.AttributeUsageSymbol",
+            "name": "snd",
+            "fullName": "Data_Bool_Tuple.snd",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypePrimitive",
+                "primitiveName": "boolean"
+              }
+            ],
+            "in": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Scheduler_HLR3_buffer_OutputMap.def_Scheduler_HLR3_buffer_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Scheduler_HLR3_buffer_OutputMap.def_Scheduler_HLR3_buffer_OutputMap",
+      "fullName": "sps_Scheduler_HLR3_buffer_OutputMap.def_Scheduler_HLR3_buffer_OutputMap",
+      "filename": "def_Scheduler_HLR3_buffer_OutputMap",
+      "sessionName": "sps_Scheduler_HLR3_buffer_OutputMap"
+    }
+  ]
+}

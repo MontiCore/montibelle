@@ -1,0 +1,41 @@
+package montibelle.backbone;
+
+classdiagram Hwl {
+
+  class OperationInput {
+
+    String workspaceId;
+
+    String targetTheorySession;
+
+    String targetTheoryName;
+
+    Boolean hwlType;
+
+    String hwlSession;
+
+    String hwlName;
+
+  }
+
+  class RetrievalInput {
+
+    String workspaceId;
+
+    String theorySession;
+
+    String theoryName;
+
+  }
+
+  interface Hwl {
+
+    void add(OperationInput input);
+
+    void remove(OperationInput input);
+
+    String[] getHwlsForTheory(RetrievalInput input);
+
+  }
+
+}

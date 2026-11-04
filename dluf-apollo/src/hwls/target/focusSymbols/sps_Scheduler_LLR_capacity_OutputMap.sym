@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Scheduler_LLR_capacity_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Scheduler_LLR_capacity_OutputMap",
+      "fullName": "sps_Scheduler_LLR_capacity_OutputMap",
+      "path": [
+        "sps",
+        "Scheduler_LLR",
+        "capacity",
+        "OutputMap"
+      ]
+    }
+  ]
+}

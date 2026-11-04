@@ -1,0 +1,20 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DLDF_HLR1.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "DLDF_HLR1.Output",
+      "fullName": "DLDF_HLR1.Output",
+      "channelNames": [
+        "channel_DLDF_HLR1_output1_data",
+        "channel_DLDF_HLR1_output2_data",
+        "channel_DLDF_HLR1_output3_data",
+        "channel_DLDF_HLR1_output4_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_DLDF_HLR1.def_DLDF_HLR1_Output"
+    }
+  ]
+}

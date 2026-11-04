@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.coca.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_HLR.coca.Output",
+      "fullName": "SpacecraftA_HLR.coca.Output",
+      "channelNames": [
+        "channel_SpacecraftA_HLR_coca_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_HLR_coca.def_SpacecraftA_HLR_coca_Output"
+    }
+  ]
+}

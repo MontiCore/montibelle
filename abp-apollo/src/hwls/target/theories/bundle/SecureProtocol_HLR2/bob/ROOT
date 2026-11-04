@@ -1,0 +1,6 @@
+session "bundle_SecureProtocol_HLR2_bob" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_SecureProtocol_HLR2_bob_Input
+        def_SecureProtocol_HLR2_bob_Output
+

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DLDF_HLR2_scheduler3.def_DLDF_HLR2_scheduler3_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_DLDF_HLR2_scheduler3.def_DLDF_HLR2_scheduler3_Input",
+      "fullName": "bundle_DLDF_HLR2_scheduler3.def_DLDF_HLR2_scheduler3_Input",
+      "filename": "def_DLDF_HLR2_scheduler3_Input",
+      "sessionName": "bundle_DLDF_HLR2_scheduler3"
+    }
+  ]
+}

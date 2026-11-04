@@ -1,0 +1,5 @@
+session "ref_Capacity_LLR_refines_Capacity_HLR3" (generated refinement) = "eventcomponent" +
+    sessions "hwl_Capacity" "data_inc" "user" "Smart_Isabelle" "sps_Capacity_HLR3" "sps_Capacity_LLR"
+    theories
+        ref_RateLimiter_LLR_rough_RateLimiter_HLR3
+

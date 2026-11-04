@@ -1,0 +1,18 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Buffer_HLR3.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Buffer_HLR3.Input",
+      "fullName": "Buffer_HLR3.Input",
+      "channelNames": [
+        "channel_Buffer_HLR3_control_data",
+        "channel_Buffer_HLR3_input_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "code_Buffer_HLR3.code_Buffer_HLR3_Input",
+      "theory": "bundle_Buffer_HLR3.def_Buffer_HLR3_Input"
+    }
+  ]
+}

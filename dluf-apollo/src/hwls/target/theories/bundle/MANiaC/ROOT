@@ -1,0 +1,6 @@
+session "bundle_MANiaC" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_MANiaC_Input
+        def_MANiaC_Output
+

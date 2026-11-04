@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_HLR2.encrypt1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Encrypt1_HLR_input_val"
+      ],
+      "theory": "sps_SecureProtocol_HLR2_encrypt1_InputMap.def_SecureProtocol_HLR2_encrypt1_InputMap",
+      "inputName": "SecureProtocol_HLR2.encrypt1.Input",
+      "outputName": "Encrypt1_HLR.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SecureProtocol_HLR2_encrypt1_output_val"
+      ],
+      "theory": "sps_SecureProtocol_HLR2_encrypt1_OutputMap.def_SecureProtocol_HLR2_encrypt1_OutputMap",
+      "inputName": "Encrypt1_HLR.Output",
+      "outputName": "SecureProtocol_HLR2.encrypt1.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Encrypt1_HLR_input_val",
+      "fullName": "channel_Encrypt1_HLR_input_val",
+      "value": "channel_SecureProtocol_HLR2_encrypt1_input_val"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SecureProtocol_HLR2_encrypt1_output_val",
+      "fullName": "channel_SecureProtocol_HLR2_encrypt1_output_val",
+      "value": "channel_Encrypt1_HLR_output_val"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SecureProtocol_HLR2.encrypt1",
+      "fullName": "SecureProtocol_HLR2.encrypt1",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "Encrypt1_HLR",
+      "theory": "sps_SecureProtocol_HLR2_encrypt1.def_SecureProtocol_HLR2_encrypt1",
+      "strong": true,
+      "inputName": "SecureProtocol_HLR2.encrypt1.Input",
+      "outputName": "SecureProtocol_HLR2.encrypt1.Output"
+    }
+  ]
+}

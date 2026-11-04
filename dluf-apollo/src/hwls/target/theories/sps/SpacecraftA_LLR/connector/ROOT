@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_LLR_connector" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_LLR_connector"
+    theories
+        def_SpacecraftA_LLR_connector
+

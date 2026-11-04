@@ -1,0 +1,11 @@
+session "composition" (testing) = "specification" +
+  sessions
+    data_inc
+    user
+    io
+    instance
+  theories
+    Composition
+    CompositionCodeGeneration
+    SerialComposition
+    FeedbackComposition

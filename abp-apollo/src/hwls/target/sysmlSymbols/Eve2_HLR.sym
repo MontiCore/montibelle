@@ -1,0 +1,59 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Eve2_HLR",
+  "symbols": [
+    {
+      "kind": "de.monticore.lang.sysmlparts._symboltable.PartDefSymbol",
+      "name": "Eve2_HLR",
+      "fullName": "Eve2_HLR",
+      "requirementType": "HLR",
+      "spannedScope": {
+        "symbols": [
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "input",
+            "fullName": "Eve2_HLR.input",
+            "conjugatedTypes": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Booleans"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlparts._symboltable.PortUsageSymbol",
+            "name": "output",
+            "fullName": "Eve2_HLR.output",
+            "types": [
+              {
+                "kind": "de.monticore.types.check.SymTypeOfObject",
+                "objName": "Booleans"
+              }
+            ],
+            "strong": true
+          },
+          {
+            "kind": "de.monticore.lang.sysmlconstraints._symboltable.RequirementUsageSymbol",
+            "name": "MsgProcessing",
+            "fullName": "Eve2_HLR.MsgProcessing",
+            "spannedScope": {
+              "symbols": [
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "ValidInput",
+                  "fullName": "Eve2_HLR.MsgProcessing.ValidInput"
+                },
+                {
+                  "kind": "de.monticore.lang.sysmlconstraints._symboltable.ConstraintUsageSymbol",
+                  "name": "OutputIsSubset",
+                  "fullName": "Eve2_HLR.MsgProcessing.OutputIsSubset"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

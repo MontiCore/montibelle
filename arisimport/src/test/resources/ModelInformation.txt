@@ -1,0 +1,70 @@
+
+Model information
+Date: 2/17/25
+Model: BPMN2
+
+
+1. BPMN2
+1.1. Properties
+Type                                               BPMN process
+Group                                              Content
+Last change                                        Feb 17 2025 12:14:58 PM
+Last user                                          loler47@hotmail.com
+1.2. Objects
+1.2.1. End event
+Properties
+Type                                               Event
+Group                                              Content
+Last change                                        Feb 17 2025 12:10:25 PM
+Last user                                          loler47@hotmail.com
+Event definition                                   none
+Relationships
+Relationship type                                  Object name                                        Object type
+is created by                                      B                                                  Function
+1.2.2. Start event
+Properties
+Type                                               Event
+Group                                              Content
+Last change                                        Feb 17 2025 12:10:25 PM
+Last user                                          loler47@hotmail.com
+Event definition                                   none
+Relationships
+Relationship type                                  Object name                                        Object type
+activates                                          A                                                  Function
+1.2.3. A
+Properties
+Type                                               Function
+Group                                              Content
+Last change                                        Feb 17 2025 12:10:25 PM
+Last user                                          loler47@hotmail.com
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                              Object name                                    Object type
+is activated by                                Start event                                    Event
+leads to                                       Gateway                                        Rule
+1.2.4. B
+Properties
+Type                                               Function
+Group                                              Content
+Last change                                        Feb 17 2025 12:10:25 PM
+Last user                                          loler47@hotmail.com
+Activity type                                      Task
+Task type                                          Abstract task
+Relationships
+Relationship type                               Object name                                     Object type
+creates                                         End event                                       Event
+is activated by                                 Gateway                                         Rule
+1.2.5. Gateway
+Properties
+Type                                               Rule
+Group                                              Content
+Last change                                        Feb 17 2025 12:10:25 PM
+Last user                                          loler47@hotmail.com
+Relationships
+Relationship type                               Object name                                     Object type
+is assigned to                                  A                                               Function
+activates                                       B                                               Function
+1.3. Graphic
+
+

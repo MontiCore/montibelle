@@ -1,0 +1,5 @@
+session "sps_DLDF_LLR_scheduler3_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Scheduler_HLR2" "bundle_DLDF_LLR_scheduler3"
+    theories
+        def_DLDF_LLR_scheduler3_OutputMap
+

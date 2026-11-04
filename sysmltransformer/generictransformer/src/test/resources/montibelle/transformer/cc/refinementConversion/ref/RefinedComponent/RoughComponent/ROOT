@@ -1,0 +1,5 @@
+session "ref_RefinedComponent_refines_RoughComponent" (generated refinement) = "eventcomponent" +
+    sessions "data_inc" "user" "Smart_Isabelle" "sps_RoughComponent" "sps_RefinedComponent"
+    theories
+        ref_RefinedComponent_rough_RoughComponent
+

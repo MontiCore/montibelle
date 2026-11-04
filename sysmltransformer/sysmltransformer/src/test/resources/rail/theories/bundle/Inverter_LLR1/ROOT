@@ -1,0 +1,6 @@
+session "bundle_Inverter_LLR1" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Inverter_LLR1_Input
+        def_Inverter_LLR1_Output
+

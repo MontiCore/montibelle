@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_dfp_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SpacecraftA_LLR_dfp_OutputMap",
+      "fullName": "sps_SpacecraftA_LLR_dfp_OutputMap",
+      "path": [
+        "sps",
+        "SpacecraftA_LLR",
+        "dfp",
+        "OutputMap"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_LLR_decrypt1.def_AttackedSystem_LLR_decrypt1_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_AttackedSystem_LLR_decrypt1.def_AttackedSystem_LLR_decrypt1_Output",
+      "fullName": "bundle_AttackedSystem_LLR_decrypt1.def_AttackedSystem_LLR_decrypt1_Output",
+      "filename": "def_AttackedSystem_LLR_decrypt1_Output",
+      "sessionName": "bundle_AttackedSystem_LLR_decrypt1"
+    }
+  ]
+}

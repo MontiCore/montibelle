@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_LLR_maniac_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SpacecraftA_LLR_maniac_OutputMap",
+      "fullName": "sps_SpacecraftA_LLR_maniac_OutputMap",
+      "path": [
+        "sps",
+        "SpacecraftA_LLR",
+        "maniac",
+        "OutputMap"
+      ]
+    }
+  ]
+}

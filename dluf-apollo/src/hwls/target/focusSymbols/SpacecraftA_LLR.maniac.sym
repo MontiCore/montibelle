@@ -1,0 +1,52 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR.maniac",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_MANiaC_input_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_maniac_InputMap.def_SpacecraftA_LLR_maniac_InputMap",
+      "inputName": "SpacecraftA_LLR.maniac.Input",
+      "outputName": "MANiaC.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_SpacecraftA_LLR_maniac_output_data"
+      ],
+      "theory": "sps_SpacecraftA_LLR_maniac_OutputMap.def_SpacecraftA_LLR_maniac_OutputMap",
+      "inputName": "MANiaC.Output",
+      "outputName": "SpacecraftA_LLR.maniac.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_MANiaC_input_data",
+      "fullName": "channel_MANiaC_input_data",
+      "value": "channel_SpacecraftA_LLR_maniac_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_SpacecraftA_LLR_maniac_output_data",
+      "fullName": "channel_SpacecraftA_LLR_maniac_output_data",
+      "value": "channel_MANiaC_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "SpacecraftA_LLR.maniac",
+      "fullName": "SpacecraftA_LLR.maniac",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "MANiaC",
+      "theory": "sps_SpacecraftA_LLR_maniac.def_SpacecraftA_LLR_maniac",
+      "strong": true,
+      "inputName": "SpacecraftA_LLR.maniac.Input",
+      "outputName": "SpacecraftA_LLR.maniac.Output"
+    }
+  ]
+}

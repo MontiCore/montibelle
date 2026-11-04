@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_MANiaC.def_MANiaC_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_MANiaC.def_MANiaC_Output",
+      "fullName": "bundle_MANiaC.def_MANiaC_Output",
+      "filename": "def_MANiaC_Output",
+      "sessionName": "bundle_MANiaC"
+    }
+  ]
+}

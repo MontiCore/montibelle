@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_LLR_bob",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_SecureProtocol_LLR_bob",
+      "fullName": "bundle_SecureProtocol_LLR_bob",
+      "path": [
+        "bundle",
+        "SecureProtocol_LLR",
+        "bob"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "code_Bob_HLR.code_Bob_HLR_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "code_Bob_HLR.code_Bob_HLR_Input",
+      "fullName": "code_Bob_HLR.code_Bob_HLR_Input",
+      "filename": "code_Bob_HLR_Input",
+      "sessionName": "code_Bob_HLR"
+    }
+  ]
+}

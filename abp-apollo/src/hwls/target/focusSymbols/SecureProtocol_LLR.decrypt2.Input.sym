@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_LLR.decrypt2.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SecureProtocol_LLR.decrypt2.Input",
+      "fullName": "SecureProtocol_LLR.decrypt2.Input",
+      "channelNames": [
+        "channel_SecureProtocol_LLR_decrypt2_input_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SecureProtocol_LLR_decrypt2.def_SecureProtocol_LLR_decrypt2_Input"
+    }
+  ]
+}

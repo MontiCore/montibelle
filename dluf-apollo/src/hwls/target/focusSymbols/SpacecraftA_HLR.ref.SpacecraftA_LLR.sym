@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.ref.SpacecraftA_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "SpacecraftA_HLR.ref.SpacecraftA_LLR",
+      "fullName": "SpacecraftA_HLR.ref.SpacecraftA_LLR",
+      "theory": "ref_SpacecraftA_LLR_refines_SpacecraftA_HLR.ref_SpacecraftA_LLR_rough_SpacecraftA_HLR"
+    }
+  ]
+}

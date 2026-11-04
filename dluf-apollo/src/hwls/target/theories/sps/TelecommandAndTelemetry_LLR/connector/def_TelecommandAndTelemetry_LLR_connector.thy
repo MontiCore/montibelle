@@ -1,0 +1,18 @@
+theory def_TelecommandAndTelemetry_LLR_connector
+  imports
+    (* Core *) sps.SPSFun
+    (* Gen  *) bundle_TelecommandAndTelemetry_LLR_connector.def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Input bundle_TelecommandAndTelemetry_LLR_connector.def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Output
+    (* Hwl  *)
+
+begin
+
+
+lift_definition connector :: "(Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream) \<rightarrow> (Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream \<times> Packet event stream)" is
+"\<lambda> (channel_b1In_data_pattern, channel_b2In_data_pattern, channel_cocaIn_data_pattern, channel_dfpIn_data_pattern, channel_dldf_output1_data_pattern, channel_dldf_output2_data_pattern, channel_dldf_output3_data_pattern, channel_dldf_output4_data_pattern, channel_groundIn_data_pattern, channel_maniacIn_data_pattern, channel_mergex_output_data_pattern, channel_mirmisIn_data_pattern, channel_router_b1Out_data_pattern, channel_router_b2Out_data_pattern, channel_router_cocaOut_data_pattern, channel_router_dfpOut_data_pattern, channel_router_maniacOut_data_pattern, channel_router_mirmisOut_data_pattern, channel_sorter_prio1_data_pattern, channel_sorter_prio2_data_pattern, channel_sorter_prio3_data_pattern, channel_sorter_prio4_data_pattern). (channel_router_b1Out_data_pattern, channel_router_b2Out_data_pattern, channel_router_cocaOut_data_pattern, channel_router_dfpOut_data_pattern, channel_sorter_prio1_data_pattern, channel_sorter_prio2_data_pattern, channel_sorter_prio3_data_pattern, channel_sorter_prio4_data_pattern, channel_mergex_output_data_pattern, channel_router_maniacOut_data_pattern, channel_dldf_output1_data_pattern, channel_dldf_output2_data_pattern, channel_dldf_output3_data_pattern, channel_dldf_output4_data_pattern, channel_router_mirmisOut_data_pattern, channel_groundIn_data_pattern, channel_b1In_data_pattern, channel_b2In_data_pattern, channel_cocaIn_data_pattern, channel_dfpIn_data_pattern, channel_maniacIn_data_pattern, channel_mirmisIn_data_pattern)"
+  by(intro cont2cont)
+
+definition Sps :: "unit \<Rightarrow> (def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Input.channels\<^sup>\<Omega> \<rightarrow> def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Output.channels\<^sup>\<Omega>) set" where
+"Sps \<equiv> \<lambda> (). { def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Output.SB.setter oo connector oo def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Input.SB.getter }"
+
+
+end

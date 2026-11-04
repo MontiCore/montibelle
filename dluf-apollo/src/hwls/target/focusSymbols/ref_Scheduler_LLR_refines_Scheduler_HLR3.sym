@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_Scheduler_LLR_refines_Scheduler_HLR3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_Scheduler_LLR_refines_Scheduler_HLR3",
+      "fullName": "ref_Scheduler_LLR_refines_Scheduler_HLR3",
+      "path": [
+        "ref",
+        "Scheduler_LLR",
+        "Scheduler_HLR3"
+      ]
+    }
+  ]
+}

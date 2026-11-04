@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_ProbeB2",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_ProbeB2",
+      "fullName": "bundle_ProbeB2",
+      "path": [
+        "bundle",
+        "ProbeB2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+session "bundle_Capacity_HLR3" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Capacity_HLR3_Input
+        def_Capacity_HLR3_Output
+

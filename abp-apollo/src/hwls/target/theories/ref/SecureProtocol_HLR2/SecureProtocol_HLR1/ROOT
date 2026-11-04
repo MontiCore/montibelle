@@ -1,0 +1,5 @@
+session "ref_SecureProtocol_HLR2_refines_SecureProtocol_HLR1" (generated refinement) = "eventcomponent" +
+    sessions "lemmas" "data_inc" "user" "Smart_Isabelle" "sps_SecureProtocol_HLR1" "sps_SecureProtocol_HLR2"
+    theories
+        ref_SecureProtocol_HLR2_rough_SecureProtocol_HLR1
+

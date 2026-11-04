@@ -1,0 +1,6 @@
+- session: session
+  theory: Filename
+  hwl:
+  - !Prologue
+    session: hwlSession
+    theory: HwlFile

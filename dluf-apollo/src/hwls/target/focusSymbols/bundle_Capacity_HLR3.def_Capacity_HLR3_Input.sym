@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Capacity_HLR3.def_Capacity_HLR3_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Capacity_HLR3.def_Capacity_HLR3_Input",
+      "fullName": "bundle_Capacity_HLR3.def_Capacity_HLR3_Input",
+      "filename": "def_Capacity_HLR3_Input",
+      "sessionName": "bundle_Capacity_HLR3"
+    }
+  ]
+}

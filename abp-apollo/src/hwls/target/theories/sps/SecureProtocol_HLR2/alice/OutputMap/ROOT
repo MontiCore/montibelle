@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR2_alice_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Alice_HLR" "bundle_SecureProtocol_HLR2_alice"
+    theories
+        def_SecureProtocol_HLR2_alice_OutputMap
+

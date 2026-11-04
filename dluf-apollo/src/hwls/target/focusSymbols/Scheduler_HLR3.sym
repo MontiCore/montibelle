@@ -1,0 +1,65 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Scheduler_HLR3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_capacity",
+      "fullName": "var_capacity",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.CompositionSymbol",
+      "name": "Scheduler_HLR3",
+      "fullName": "Scheduler_HLR3",
+      "partNames": [
+        "Scheduler_HLR3.buffer",
+        "Scheduler_HLR3.capacity"
+      ],
+      "connectorsName": "connector",
+      "feedbackName": "Scheduler_HLR3.Feedback",
+      "theory": "sps_Scheduler_HLR3.def_Scheduler_HLR3",
+      "strong": true,
+      "inputName": "Scheduler_HLR2.Input",
+      "outputName": "Scheduler_HLR2.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "connector",
+      "fullName": "connector",
+      "channelMappingNames": [
+        "channel_Scheduler_HLR3_buffer_input_data",
+        "channel_Scheduler_HLR3_capacity_input_data",
+        "channel_Scheduler_HLR3_buffer_control_data",
+        "channel_Scheduler_HLR2_output_data"
+      ],
+      "theory": "sps_Scheduler_HLR3_connector.def_Scheduler_HLR3_connector",
+      "inputName": "Scheduler_HLR3.connector.Scheduler_HLR3_connector_Input",
+      "outputName": "Scheduler_HLR3.connector.Scheduler_HLR3_connector_Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_HLR3_buffer_input_data",
+      "fullName": "channel_Scheduler_HLR3_buffer_input_data",
+      "value": "channel_Scheduler_HLR2_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_HLR3_capacity_input_data",
+      "fullName": "channel_Scheduler_HLR3_capacity_input_data",
+      "value": "channel_Scheduler_HLR3_buffer_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_HLR3_buffer_control_data",
+      "fullName": "channel_Scheduler_HLR3_buffer_control_data",
+      "value": "channel_Scheduler_HLR3_capacity_control_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_HLR2_output_data",
+      "fullName": "channel_Scheduler_HLR2_output_data",
+      "value": "channel_Scheduler_HLR3_capacity_output_data"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Router.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Router.Output",
+      "fullName": "Router.Output",
+      "channelNames": [
+        "channel_Router_b1Out_data",
+        "channel_Router_b2Out_data",
+        "channel_Router_cocaOut_data",
+        "channel_Router_dfpOut_data",
+        "channel_Router_maniacOut_data",
+        "channel_Router_mirmisOut_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Router.def_Router_Output"
+    }
+  ]
+}

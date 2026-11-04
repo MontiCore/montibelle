@@ -1,0 +1,5 @@
+session "sps_Avionics_LLR_router" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_Avionics_LLR_router" "sps_Avionics_LLR_router_InputMap" "sps_Avionics_LLR_router_OutputMap" "sps_Router"
+    theories
+        def_Avionics_LLR_router
+

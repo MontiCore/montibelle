@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Eve1_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "Eve1_HLR",
+      "fullName": "Eve1_HLR",
+      "predicatesLen": 1,
+      "assumptionsLen": 1,
+      "theory": "sps_Eve1_HLR.def_Eve1_HLR",
+      "strong": true,
+      "inputName": "Eve1_HLR.Input",
+      "outputName": "Eve1_HLR.Output"
+    }
+  ]
+}

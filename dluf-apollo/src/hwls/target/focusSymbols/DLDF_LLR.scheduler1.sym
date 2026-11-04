@@ -1,0 +1,86 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DLDF_LLR.scheduler1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap1",
+      "fullName": "var_cap1",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap2",
+      "fullName": "var_cap2",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap3",
+      "fullName": "var_cap3",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap4",
+      "fullName": "var_cap4",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Scheduler_HLR2_input_data"
+      ],
+      "theory": "sps_DLDF_LLR_scheduler1_InputMap.def_DLDF_LLR_scheduler1_InputMap",
+      "inputName": "DLDF_LLR.scheduler1.Input",
+      "outputName": "Scheduler_HLR2.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_DLDF_LLR_scheduler1_output_data"
+      ],
+      "theory": "sps_DLDF_LLR_scheduler1_OutputMap.def_DLDF_LLR_scheduler1_OutputMap",
+      "inputName": "Scheduler_HLR2.Output",
+      "outputName": "DLDF_LLR.scheduler1.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Scheduler_HLR2_input_data",
+      "fullName": "channel_Scheduler_HLR2_input_data",
+      "value": "channel_DLDF_LLR_scheduler1_input_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DLDF_LLR_scheduler1_output_data",
+      "fullName": "channel_DLDF_LLR_scheduler1_output_data",
+      "value": "channel_Scheduler_HLR2_output_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "DLDF_LLR.scheduler1",
+      "fullName": "DLDF_LLR.scheduler1",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "parameterValues": [
+        "val_capacity"
+      ],
+      "spsName": "Scheduler_LLR",
+      "theory": "sps_DLDF_LLR_scheduler1.def_DLDF_LLR_scheduler1",
+      "strong": true,
+      "inputName": "DLDF_LLR.scheduler1.Input",
+      "outputName": "DLDF_LLR.scheduler1.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "val_capacity",
+      "fullName": "val_capacity",
+      "value": "var_cap1",
+      "definition": "Scheduler_LLR.capacity"
+    }
+  ]
+}

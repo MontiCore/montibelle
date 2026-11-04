@@ -1,0 +1,525 @@
+package montibelle;
+
+import java.util.List;
+
+grammar Focus
+    extends de.monticore.MCBasics,
+            de.monticore.types.MCBasicTypes,
+            de.monticore.types.MCCollectionTypes,
+            de.monticore.types.MCFunctionTypes,
+            de.monticore.literals.MCCommonLiterals,
+            de.monticore.expressions.ExpressionsBasis,
+            de.monticore.symbols.BasicSymbols,
+            de.monticore.types.MCStructuralTypes
+{
+
+  start FocusElement;
+
+  interface FocusElement;
+
+  symbol EnumType implements FocusElement
+     = Name ["finite"]? literals:String*;
+
+  symbolrule EnumType =
+      countable: boolean
+      finite: boolean
+      finiteChoices: String*
+      ;
+
+  MCPrimitiveTypeWithNat extends MCPrimitiveType implements MCType =
+    primitive : [ "boolean" | "byte" | "short" | key("int")
+    | "long" | "char" |"float" | "double" | key("nat") ];
+
+  symbol Field
+    = MCType Name "(" pattern:Name ")" ";" ;
+
+  symbolrule Field =
+    symType: de.monticore.types.check.SymTypeExpression
+    pattern: Name
+  ;
+
+  symbol Theory implements FocusElement
+    = sessionName:Name@Session filename:Name;
+
+  symbolrule Theory =
+    filename: Name
+    sessionName: Name
+
+    method public SessionSymbol getSession() {
+      return getEnclosingScope().resolveSession(getSessionName()).get();
+    }
+  ;
+
+  astrule Theory =
+    method public String getName() {
+      return getSessionName() + "." + getFilename();
+    }
+    method public ASTSession getSession() {
+       return getSessionNameDefinition();
+    }
+  ;
+
+  interface symbol Element
+    = theory:Name@Theory;
+
+  symbolrule Element =
+    theory:Name
+    method public String getSimpleName() {
+      return de.se_rwth.commons.Names.getSimpleName(getName());
+    }
+    method public TheorySymbol getTheorizedBy() {
+      return getEnclosingScope().resolveTheory(getTheory()).get();
+    }
+    method public TheorySymbol getTheorySymbol() {
+      return getEnclosingScope().resolveTheory(getTheory()).get();
+    }
+  ;
+
+
+  symbol Datatypes implements Element, FocusElement
+    = channelTypes:Name@ChannelType*
+      userDefinedStructs:Name@UserDefinedStruct*
+      userDefinedEnums:Name@EnumType*
+      theory:Name@Theory
+      focusFunctions:Name@FocusFunction*;
+
+  astrule Datatypes =
+    method public String getName() {
+      return "Datatypes";
+    }
+  ;
+  symbolrule Datatypes =
+    userDefinedStructs: Name*
+    userDefinedEnums:Name*
+    channelTypes: Name*
+    functions: Name*
+  ;
+
+  symbol UserDefinedStruct implements FocusElement
+    = "struct" Name ["finite"]? finiteChoices:String*
+      "{" Field+ "}" ;
+
+  symbolrule UserDefinedStruct =
+    fieldNames: Name*
+    method public List<FieldSymbol> getFields () {
+      var fields = new ArrayList<FieldSymbol>();
+      for(var field: getFieldNamesList()) {
+        fields.add(getEnclosingScope().resolveField(field).get());
+      }
+      return fields;
+    }
+  ;
+
+  symbol ChannelType implements FocusElement
+    = Name MCType timing:Name@Timing;
+
+  symbolrule ChannelType =
+    timingName: Name
+    symType: de.monticore.types.check.SymTypeExpression
+    method public TimingSymbol getTimingSymbol() {
+      return getEnclosingScope().resolveTiming(getTimingName()).get();
+    }
+  ;
+
+  symbol DataInc implements Element, FocusElement
+    = channelTypes:Name@ChannelType* theory:Name@Theory;
+
+  astrule DataInc =
+    method public String getName() {
+      return "DataInc";
+    }
+  ;
+  symbolrule DataInc =
+    channelTypes:Name*
+  ;
+
+  symbol Channel implements FocusElement
+    = Name localName:Name type:Name@ChannelType pattern:Name;
+
+  symbolrule Channel =
+    localName: Name
+    typeName: Name
+    cardinality: int
+    pattern: Name
+    method public ChannelTypeSymbol getTypeSymbol() {
+      return getEnclosingScope().resolveChannelType(getTypeName()).get();
+    }
+  ;
+
+  symbol Session implements FocusElement
+    = Name path: String*;
+
+  symbolrule Session =
+    path: String*
+  ;
+
+  symbol Parameter = Name ":" MCType;
+
+  symbolrule Parameter =
+    symType: de.monticore.types.check.SymTypeExpression
+  ;
+
+  symbol Sps astimplements montibelle.transformer.generic.meta.sps.ISps implements Element
+    = fqn:Name
+      strongCausal:["strong"]? Parameter* theory:Name@Theory
+      inputBundle:Name@Bundle outputBundle:Name@Bundle codeTheory:Name@Theory?;
+
+  symbolrule Sps =
+    strong: boolean
+    inputName: Name
+    outputName: Name
+    method public BundleSymbol getInput() {
+      return getEnclosingScope().resolveBundle(getInputName()).get();
+    }
+    method public BundleSymbol getOutput() {
+      return getEnclosingScope().resolveBundle(getOutputName()).get();
+    }
+    method public List<ParameterSymbol> getParameters() {
+      return getEnclosingScope().getLocalParameterSymbols();
+    }
+  ;
+
+  astrule Sps =
+    method public  String getName() {
+      return de.se_rwth.commons.Names.getSimpleName(getFqn());
+    }
+    method public List<String> getPackage() {
+      var qualifier = de.se_rwth.commons.Names.getQualifier(getFqn());
+      if(qualifier.isEmpty()) {
+        return new ArrayList<>();
+      }
+      return com.google.common.collect.Lists.newArrayList(de.se_rwth.commons.Splitters.DOT.split(qualifier));
+    }
+    method public ASTBundle getInput() {
+      return getInputBundleDefinition();
+    }
+    method public ASTBundle getOutput() {
+      return getOutputBundleDefinition();
+    }
+  ;
+
+  symbol Bundle implements Element, FocusElement
+                astimplements montibelle.transformer.generic.meta.bundle.IBundle
+    = "bundle" name:String "{"
+       ("channels" channels:Name@Channel* ";")?
+        "timing" timing:Name@Timing ";"
+        "theory" theory:Name@Theory ";"
+        ("codeTheory" codeTheory:Name@Theory ";")?
+      "}";
+
+  symbolrule Bundle =
+    channelNames:Name*
+    timingName:Name
+    codeTheory:Name
+  ;
+
+  interface symbol Timing astextends montibelle.transformer.generic.meta.bundle.channel.ITiming ;
+
+  SyncronousTiming implements Timing = "sync" ;
+  astrule SyncronousTiming =
+    method public String getName() {
+      return "SYNC";
+    }
+    method public boolean isTimeSyncronous() {
+      return true;
+    }
+    method public String toString() {
+      return getName();
+    }
+  ;
+
+  StrictlySyncronousTiming implements Timing = "tone" ;
+  astrule StrictlySyncronousTiming =
+    method public String getName() {
+      return "TONE";
+    }
+    method public boolean isStrictlyTimeSyncronous() {
+      return true;
+    }
+    method public String toString() {
+      return getName();
+    }
+  ;
+
+  EventTiming implements Timing = "event" ;
+  astrule EventTiming =
+    method public String getName() {
+      return "EVENT";
+    }
+    method public boolean isEventBased() {
+      return true;
+    }
+    method public String toString() {
+      return getName();
+    }
+  ;
+
+  @NonConservative
+  symbol Specification astimplements montibelle.transformer.generic.meta.sps.ISpecification extends Sps implements FocusElement
+    = assumptions:String* predicates:String* theory:Name@Theory;
+  symbolrule Specification =
+    predicatesLen:int
+    assumptionsLen:int
+  ;
+
+  symbol Refinement implements Element, FocusElement
+    = Name roughName:Name@Sps refinedName:Name@Sps transitiveRefinement:Name@Refinement* theory:Name@Theory;
+
+  @NonConservative
+  symbol Composition astimplements montibelle.transformer.generic.meta.sps.IComposition extends Sps implements FocusElement
+    = Connectors parts:Name@Instance* feedbackBundle:Name@Bundle theory:Name@Theory;
+
+  symbolrule Composition =
+    partNames:Name*
+    connectorsName:Name
+    feedbackName:Name
+    method public List<InstanceSymbol> getParts() {
+      java.util.List<InstanceSymbol> list =  new ArrayList<>();
+      for (var optPart: getPartNamesList()){
+        list.add(getEnclosingScope().resolveInstance(optPart).get());
+      }
+      return list;
+    }
+    method public ConnectorsSymbol getConnectors() {
+      return getEnclosingScope().resolveConnectors(getConnectorsName()).get();
+    }
+    method public BundleSymbol getFeedback() {
+      return getEnclosingScope().resolveBundle(getFeedbackName()).get();
+    }
+  ;
+
+  @NonConservative
+  symbol Connectors astimplements montibelle.transformer.generic.meta.sps.IConnector extends Sps
+    = ChannelMapping* theory:Name@Theory;
+
+  symbolrule Connectors =
+    channelMappingNames:Name*
+    method public List<ChannelMappingSymbol> getChannelMappings() {
+      java.util.List<ChannelMappingSymbol> list =  new ArrayList<>();
+      for (var optMap: getChannelMappingNamesList()){
+        list.add(getEnclosingScope().resolveChannelMapping(optMap).get());
+      }
+      return list;
+    }
+    method public List<ParameterSymbol> getParameters() {
+      return new ArrayList<>();
+    }
+  ;
+
+  symbol ChannelMapping
+    = key:Name@Channel value:Name@Channel;
+
+  astrule ChannelMapping =
+    method public String getName() {
+      return getKey();
+    }
+  ;
+  symbolrule ChannelMapping =
+    value:Name
+    method public ChannelSymbol getKeyChannel() {
+      return getEnclosingScope().resolveChannel(getName()).get();
+    }
+    method public ChannelSymbol getValueChannel() {
+      return getEnclosingScope().resolveChannel(getValue()).get();
+    }
+  ;
+
+  @NonConservative
+  symbol Instance astimplements montibelle.transformer.generic.meta.sps.IInstance extends Sps implements FocusElement
+    = inputMap:ChannelMapping* outputMap:ChannelMapping* inputConnectors:Connectors outputConnectors:Connectors
+      sSps:Name@Sps ParameterValue* theory:Name@Theory;
+
+  symbolrule Instance =
+    inputMapName:Name
+    outputMapName:Name
+    parameterValues:Name*
+    spsName:Name
+    method public  List<ParameterValueSymbol> getParameterValues() {
+      java.util.List<ParameterValueSymbol> list =  new ArrayList<>();
+      for (var optPara: getParameterValuesList()){
+        list.add(getEnclosingScope().resolveParameterValue(optPara).get());
+      }
+        return list;
+    }
+    method public ConnectorsSymbol getInputMap() {
+      return getEnclosingScope().resolveConnectors(getInputMapName()).get();
+    }
+    method public ConnectorsSymbol getOutputMap() {
+      return getEnclosingScope().resolveConnectors(getOutputMapName()).get();
+    }
+    method public SpsSymbol getSps() {
+      return getEnclosingScope().resolveSps(getSpsName()).get();
+    }
+  ;
+
+  symbol ParameterValue
+    = Name value:String definition:Name@Parameter;
+
+  symbolrule ParameterValue =
+    value: String
+    definition: Name
+  ;
+
+
+
+  astrule Specification =
+    method String getName() {
+      return super.getName();
+    }
+    method List<String> getAssumptions() {
+      return getAssumptionsList();
+    }
+    method List<String> getPredicates() {
+      return getPredicatesList();
+    }
+  ;
+
+  astrule Refinement =
+    method public montibelle.focus._symboltable.SpsSymbol getRough() {
+      return getRoughNameSymbol();
+    }
+    method public montibelle.focus._symboltable.SpsSymbol getRefined() {
+      return getRefinedNameSymbol();
+    }
+  ;
+
+  astrule Composition =
+
+    method public String getName(){
+      return super.getName();
+    }
+    method public List<montibelle.transformer.generic.meta.sps.IInstance> getParts() {
+      return new ArrayList<>(getPartsDefinitionListUnsafe());
+    }
+    method public List<ASTInstance> getPartsDefinitionListUnsafe() {
+      java.util.List<ASTInstance> list = new ArrayList<>();
+      for (var optPart : getPartsDefinitionList()) {
+        list.add(optPart.get());
+      }
+      return list;
+    }
+    method public ASTBundle getFeedback() {
+      return getFeedbackBundleDefinition();
+    }
+  ;
+  astrule Connectors =
+    method public String getName() {
+      return super.getName();
+    }
+  ;
+  astrule Instance =
+    method public montibelle.focus._symboltable.SpsSymbol getSpsSymbol() {
+      return getSSpsSymbol();
+    }
+    method public String getName() {
+      return super.getName();
+    }
+    method public ASTSps getSps() {
+      return getSSpsDefinition();
+    }
+    method public ASTConnectors getInputMap() {
+      return getInputConnectors();
+    }
+    method public ASTConnectors getOutputMap() {
+      return getOutputConnectors();
+    }
+  ;
+  astrule ParameterValue =
+    method public ASTParameter getParameter() {
+      return getDefinitionDefinition();
+    }
+  ;
+
+  symbol StateVariable = "(" Name pattern:String MCType ")" ;
+
+  symbolrule StateVariable =
+      symType: de.monticore.types.check.SymTypeExpression
+  ;
+
+  symbol StateSpace implements Element =
+    Name states:Name* StateVariable* theory:Name@Theory;
+
+  astrule StateSpace =
+    method public  String getSimpleName() {
+      return de.se_rwth.commons.Names.getSimpleName(getName());
+    }
+    method public List<String> getPackage() {
+      var qualifier = de.se_rwth.commons.Names.getQualifier(getName());
+      if(qualifier.isEmpty()) {
+        return new ArrayList<>();
+      }
+      return com.google.common.collect.Lists.newArrayList(de.se_rwth.commons.Splitters.DOT.split(qualifier));
+    }
+
+    method public boolean isStateless() {
+      return getStateVariableList().isEmpty() && getStatesList().size() == 1;
+    }
+  ;
+
+  symbolrule StateSpace =
+    variableNames: Name*
+  ;
+
+  VariableValue = definition:Name@StateVariable value:String ["isComprehension"]?;
+
+  Output = channel:Name@Channel value:String ["isListValue"]? ["isComprehension"]?;
+
+  State = Name VariableValue*;
+
+  Configuration = State Output*;
+
+  @NonConservative
+  symbol IAutomaton extends Sps implements Element, FocusElement =
+    initial:Configuration+ states:StateSpace ["finite"]? theory:Name@Theory;
+
+  symbolrule IAutomaton =
+    finite: boolean
+    codeTheoryName: Name
+    statespaceName: Name
+
+    method StateSpaceSymbol getStates() {
+      return getEnclosingScope().resolveStateSpace(getStatespaceName()).get();
+    }
+  ;
+
+  Transition = start:Name guard:String result:Configuration documentation:String;
+
+  @NonConservative
+  symbol Automaton extends IAutomaton =
+    Transition* theory:Name@Theory;
+
+  astrule Automaton =
+    method String getName() {
+      return super.getName();
+    }
+  ;
+
+  EventTransition = key:Name@Channel value:Transition*;
+
+  @NonConservative
+  symbol EventAutomaton extends Automaton =
+    EventTransition* tickTransitions:Transition* theory:Name@Theory;
+
+  astrule EventAutomaton =
+    method String getName() {
+      return super.getName();
+    }
+  ;
+
+  symbol Requirement implements FocusElement, Element
+    = [isStateInvariant:"invariant"]? "requirement" Name "{"
+      "theory" theory:Name@Theory ";"
+      "subject" subject:Name@Sps ";"
+      "assumptions" assumptions:String* ";"
+      "guarantee" guarantee:String ";"
+      ("proofStartHint" proofStartHint:String* ";")?
+    "}" ;
+
+  symbol FocusFunction implements FocusElement
+    = "fun" Name "(" (Parameter || "," )* ")"
+      MCType "=" String;
+
+  symbolrule FocusFunction =
+    symType: de.monticore.types.check.SymTypeExpression
+  ;
+}

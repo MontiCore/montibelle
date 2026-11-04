@@ -1,0 +1,6 @@
+session "code_Bob_HLR" (generated code) = "sps" +
+    sessions "data_inc" "user" "bundle_Bob_HLR"
+    theories
+        code_Bob_HLR_Input
+        code_Bob_HLR_Output
+

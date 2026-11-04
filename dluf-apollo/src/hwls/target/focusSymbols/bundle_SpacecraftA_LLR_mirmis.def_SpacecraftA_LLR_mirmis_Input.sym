@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SpacecraftA_LLR_mirmis.def_SpacecraftA_LLR_mirmis_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SpacecraftA_LLR_mirmis.def_SpacecraftA_LLR_mirmis_Input",
+      "fullName": "bundle_SpacecraftA_LLR_mirmis.def_SpacecraftA_LLR_mirmis_Input",
+      "filename": "def_SpacecraftA_LLR_mirmis_Input",
+      "sessionName": "bundle_SpacecraftA_LLR_mirmis"
+    }
+  ]
+}

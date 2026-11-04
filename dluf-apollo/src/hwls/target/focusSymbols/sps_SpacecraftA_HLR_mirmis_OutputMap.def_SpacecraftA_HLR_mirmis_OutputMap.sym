@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SpacecraftA_HLR_mirmis_OutputMap.def_SpacecraftA_HLR_mirmis_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SpacecraftA_HLR_mirmis_OutputMap.def_SpacecraftA_HLR_mirmis_OutputMap",
+      "fullName": "sps_SpacecraftA_HLR_mirmis_OutputMap.def_SpacecraftA_HLR_mirmis_OutputMap",
+      "filename": "def_SpacecraftA_HLR_mirmis_OutputMap",
+      "sessionName": "sps_SpacecraftA_HLR_mirmis_OutputMap"
+    }
+  ]
+}

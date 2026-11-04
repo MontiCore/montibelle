@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_Avionics_LLR_refines_Avionics_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_Avionics_LLR_refines_Avionics_HLR",
+      "fullName": "ref_Avionics_LLR_refines_Avionics_HLR",
+      "path": [
+        "ref",
+        "Avionics_LLR",
+        "Avionics_HLR"
+      ]
+    }
+  ]
+}

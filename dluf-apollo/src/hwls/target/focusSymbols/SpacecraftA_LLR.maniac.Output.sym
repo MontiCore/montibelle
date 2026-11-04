@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_LLR.maniac.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_LLR.maniac.Output",
+      "fullName": "SpacecraftA_LLR.maniac.Output",
+      "channelNames": [
+        "channel_SpacecraftA_LLR_maniac_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_LLR_maniac.def_SpacecraftA_LLR_maniac_Output"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_LLR_encrypt1.def_SecureProtocol_LLR_encrypt1_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SecureProtocol_LLR_encrypt1.def_SecureProtocol_LLR_encrypt1_Input",
+      "fullName": "bundle_SecureProtocol_LLR_encrypt1.def_SecureProtocol_LLR_encrypt1_Input",
+      "filename": "def_SecureProtocol_LLR_encrypt1_Input",
+      "sessionName": "bundle_SecureProtocol_LLR_encrypt1"
+    }
+  ]
+}

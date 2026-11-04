@@ -1,0 +1,6 @@
+session "bundle_Lambdas" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Lambdas_Input
+        def_Lambdas_Output
+

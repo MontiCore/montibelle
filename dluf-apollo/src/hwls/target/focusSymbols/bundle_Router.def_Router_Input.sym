@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Router.def_Router_Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_Router.def_Router_Input",
+      "fullName": "bundle_Router.def_Router_Input",
+      "filename": "def_Router_Input",
+      "sessionName": "bundle_Router"
+    }
+  ]
+}

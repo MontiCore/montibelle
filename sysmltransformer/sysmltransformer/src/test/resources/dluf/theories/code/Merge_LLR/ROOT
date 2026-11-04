@@ -1,0 +1,7 @@
+session "code_Merge_LLR" (generated code) = "component" +
+    sessions "data_inc" "user" "sps_Merge_LLR" "bundle_Merge_LLR"
+    theories
+        code_Merge_LLR
+        code_Merge_LLR_Input
+        code_Merge_LLR_Output
+

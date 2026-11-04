@@ -1,0 +1,6 @@
+session "bundle_EmptyAutOneState" (generated system) = "sps" +
+    options [quick_and_dirty=true]
+    sessions "data_inc" "user"
+    theories
+        def_EmptyAutOneState_Input
+        def_EmptyAutOneState_Output

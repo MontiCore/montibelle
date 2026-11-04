@@ -1,0 +1,7 @@
+session "bundle_CometInterceptorSystem_HLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_CometInterceptorSystem_HLR_Input
+        def_CometInterceptorSystem_HLR_Output
+        def_CometInterceptorSystem_HLR_Feedback
+

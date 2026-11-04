@@ -1,0 +1,7 @@
+session "bundle_Avionics_HLR" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_Avionics_HLR_Input
+        def_Avionics_HLR_Output
+        def_Avionics_HLR_Feedback
+

@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Scheduler_HLR2.ref.Scheduler_HLR3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "Scheduler_HLR2.ref.Scheduler_HLR3",
+      "fullName": "Scheduler_HLR2.ref.Scheduler_HLR3",
+      "theory": "ref_Scheduler_HLR3_refines_Scheduler_HLR2.ref_Scheduler_HLR3_rough_Scheduler_HLR2"
+    }
+  ]
+}

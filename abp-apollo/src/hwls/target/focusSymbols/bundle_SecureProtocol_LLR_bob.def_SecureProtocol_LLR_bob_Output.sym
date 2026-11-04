@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_LLR_bob.def_SecureProtocol_LLR_bob_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SecureProtocol_LLR_bob.def_SecureProtocol_LLR_bob_Output",
+      "fullName": "bundle_SecureProtocol_LLR_bob.def_SecureProtocol_LLR_bob_Output",
+      "filename": "def_SecureProtocol_LLR_bob_Output",
+      "sessionName": "bundle_SecureProtocol_LLR_bob"
+    }
+  ]
+}

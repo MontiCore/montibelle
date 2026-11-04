@@ -1,0 +1,18 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SecureProtocol_LLR.bob.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SecureProtocol_LLR.bob.Output",
+      "fullName": "SecureProtocol_LLR.bob.Output",
+      "channelNames": [
+        "channel_SecureProtocol_LLR_bob_control_val",
+        "channel_SecureProtocol_LLR_bob_output_val"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SecureProtocol_LLR_bob.def_SecureProtocol_LLR_bob_Output"
+    }
+  ]
+}

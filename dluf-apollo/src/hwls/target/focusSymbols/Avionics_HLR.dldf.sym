@@ -1,0 +1,128 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_HLR.dldf",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_DLDF_HLR1_input1_data",
+        "channel_DLDF_HLR1_input2_data",
+        "channel_DLDF_HLR1_input3_data",
+        "channel_DLDF_HLR1_input4_data"
+      ],
+      "theory": "sps_Avionics_HLR_dldf_InputMap.def_Avionics_HLR_dldf_InputMap",
+      "inputName": "Avionics_HLR.dldf.Input",
+      "outputName": "DLDF_HLR1.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_Avionics_HLR_dldf_output1_data",
+        "channel_Avionics_HLR_dldf_output2_data",
+        "channel_Avionics_HLR_dldf_output3_data",
+        "channel_Avionics_HLR_dldf_output4_data"
+      ],
+      "theory": "sps_Avionics_HLR_dldf_OutputMap.def_Avionics_HLR_dldf_OutputMap",
+      "inputName": "DLDF_HLR1.Output",
+      "outputName": "Avionics_HLR.dldf.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DLDF_HLR1_input1_data",
+      "fullName": "channel_DLDF_HLR1_input1_data",
+      "value": "channel_Avionics_HLR_dldf_input1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DLDF_HLR1_input2_data",
+      "fullName": "channel_DLDF_HLR1_input2_data",
+      "value": "channel_Avionics_HLR_dldf_input2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DLDF_HLR1_input3_data",
+      "fullName": "channel_DLDF_HLR1_input3_data",
+      "value": "channel_Avionics_HLR_dldf_input3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_DLDF_HLR1_input4_data",
+      "fullName": "channel_DLDF_HLR1_input4_data",
+      "value": "channel_Avionics_HLR_dldf_input4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_dldf_output1_data",
+      "fullName": "channel_Avionics_HLR_dldf_output1_data",
+      "value": "channel_DLDF_HLR1_output1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_dldf_output2_data",
+      "fullName": "channel_Avionics_HLR_dldf_output2_data",
+      "value": "channel_DLDF_HLR1_output2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_dldf_output3_data",
+      "fullName": "channel_Avionics_HLR_dldf_output3_data",
+      "value": "channel_DLDF_HLR1_output3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_dldf_output4_data",
+      "fullName": "channel_Avionics_HLR_dldf_output4_data",
+      "value": "channel_DLDF_HLR1_output4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "Avionics_HLR.dldf",
+      "fullName": "Avionics_HLR.dldf",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "parameterValues": [
+        "VarValue_cap1",
+        "VarValue_cap2",
+        "VarValue_cap3",
+        "VarValue_cap4"
+      ],
+      "spsName": "DLDF_HLR1",
+      "theory": "sps_Avionics_HLR_dldf.def_Avionics_HLR_dldf",
+      "strong": true,
+      "inputName": "Avionics_HLR.dldf.Input",
+      "outputName": "Avionics_HLR.dldf.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "VarValue_cap1",
+      "fullName": "VarValue_cap1",
+      "value": "400",
+      "definition": "DLDF_HLR1.cap1"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "VarValue_cap2",
+      "fullName": "VarValue_cap2",
+      "value": "300",
+      "definition": "DLDF_HLR1.cap2"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "VarValue_cap3",
+      "fullName": "VarValue_cap3",
+      "value": "200",
+      "definition": "DLDF_HLR1.cap3"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterValueSymbol",
+      "name": "VarValue_cap4",
+      "fullName": "VarValue_cap4",
+      "value": "100",
+      "definition": "DLDF_HLR1.cap4"
+    }
+  ]
+}

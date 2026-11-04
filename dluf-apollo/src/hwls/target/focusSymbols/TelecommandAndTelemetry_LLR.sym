@@ -1,0 +1,187 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "TelecommandAndTelemetry_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.CompositionSymbol",
+      "name": "TelecommandAndTelemetry_LLR",
+      "fullName": "TelecommandAndTelemetry_LLR",
+      "partNames": [
+        "TelecommandAndTelemetry_LLR.router",
+        "TelecommandAndTelemetry_LLR.sorter",
+        "TelecommandAndTelemetry_LLR.mergex",
+        "TelecommandAndTelemetry_LLR.dldf"
+      ],
+      "connectorsName": "connector",
+      "feedbackName": "TelecommandAndTelemetry_LLR.Feedback",
+      "theory": "sps_TelecommandAndTelemetry_LLR.def_TelecommandAndTelemetry_LLR",
+      "strong": true,
+      "inputName": "TelecommandAndTelemetry_HLR.Input",
+      "outputName": "TelecommandAndTelemetry_HLR.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "connector",
+      "fullName": "connector",
+      "channelMappingNames": [
+        "channel_TelecommandAndTelemetry_LLR_router_input_data",
+        "channel_TelecommandAndTelemetry_HLR_cocaOut_data",
+        "channel_TelecommandAndTelemetry_HLR_maniacOut_data",
+        "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+        "channel_TelecommandAndTelemetry_HLR_mirmisOut_data",
+        "channel_TelecommandAndTelemetry_HLR_b1Out_data",
+        "channel_TelecommandAndTelemetry_HLR_b2Out_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_b1In_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_b2In_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_cocaIn_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_maniacIn_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_dfpIn_data",
+        "channel_TelecommandAndTelemetry_LLR_sorter_mirmisIn_data",
+        "channel_TelecommandAndTelemetry_LLR_dldf_input1_data",
+        "channel_TelecommandAndTelemetry_LLR_dldf_input2_data",
+        "channel_TelecommandAndTelemetry_LLR_dldf_input3_data",
+        "channel_TelecommandAndTelemetry_LLR_dldf_input4_data",
+        "channel_TelecommandAndTelemetry_LLR_mergex_input1_data",
+        "channel_TelecommandAndTelemetry_LLR_mergex_input2_data",
+        "channel_TelecommandAndTelemetry_LLR_mergex_input3_data",
+        "channel_TelecommandAndTelemetry_LLR_mergex_input4_data",
+        "channel_TelecommandAndTelemetry_HLR_groundOut_data"
+      ],
+      "theory": "sps_TelecommandAndTelemetry_LLR_connector.def_TelecommandAndTelemetry_LLR_connector",
+      "inputName": "TelecommandAndTelemetry_LLR.connector.TelecommandAndTelemetry_LLR_connector_Input",
+      "outputName": "TelecommandAndTelemetry_LLR.connector.TelecommandAndTelemetry_LLR_connector_Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_router_input_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_router_input_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_groundIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_cocaOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_cocaOut_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_cocaOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_maniacOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_maniacOut_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_maniacOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_dfpOut_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_dfpOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_mirmisOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_mirmisOut_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_mirmisOut_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_b1Out_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_b1Out_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_b1Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_b2Out_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_b2Out_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_router_b2Out_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_b1In_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_b1In_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_b1In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_b2In_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_b2In_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_b2In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_cocaIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_cocaIn_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_cocaIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_maniacIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_maniacIn_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_maniacIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_dfpIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_dfpIn_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_dfpIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_sorter_mirmisIn_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_sorter_mirmisIn_data",
+      "value": "channel_TelecommandAndTelemetry_HLR_mirmisIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_dldf_input1_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_dldf_input1_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_prio1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_dldf_input2_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_dldf_input2_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_prio2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_dldf_input3_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_dldf_input3_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_prio3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_dldf_input4_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_dldf_input4_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_sorter_prio4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_mergex_input1_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_mergex_input1_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_dldf_output1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_mergex_input2_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_mergex_input2_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_dldf_output2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_mergex_input3_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_mergex_input3_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_dldf_output3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_LLR_mergex_input4_data",
+      "fullName": "channel_TelecommandAndTelemetry_LLR_mergex_input4_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_dldf_output4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_TelecommandAndTelemetry_HLR_groundOut_data",
+      "fullName": "channel_TelecommandAndTelemetry_HLR_groundOut_data",
+      "value": "channel_TelecommandAndTelemetry_LLR_mergex_output_data"
+    }
+  ]
+}

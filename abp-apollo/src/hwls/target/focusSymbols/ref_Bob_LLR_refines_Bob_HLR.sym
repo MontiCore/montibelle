@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ref_Bob_LLR_refines_Bob_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "ref_Bob_LLR_refines_Bob_HLR",
+      "fullName": "ref_Bob_LLR_refines_Bob_HLR",
+      "path": [
+        "ref",
+        "Bob_LLR",
+        "Bob_HLR"
+      ]
+    }
+  ]
+}

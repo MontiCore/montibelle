@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_Scheduler_LLR_capacity",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_Scheduler_LLR_capacity",
+      "fullName": "bundle_Scheduler_LLR_capacity",
+      "path": [
+        "bundle",
+        "Scheduler_LLR",
+        "capacity"
+      ]
+    }
+  ]
+}

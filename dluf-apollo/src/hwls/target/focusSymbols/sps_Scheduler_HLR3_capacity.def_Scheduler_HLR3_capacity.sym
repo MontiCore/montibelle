@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Scheduler_HLR3_capacity.def_Scheduler_HLR3_capacity",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_Scheduler_HLR3_capacity.def_Scheduler_HLR3_capacity",
+      "fullName": "sps_Scheduler_HLR3_capacity.def_Scheduler_HLR3_capacity",
+      "filename": "def_Scheduler_HLR3_capacity",
+      "sessionName": "sps_Scheduler_HLR3_capacity"
+    }
+  ]
+}

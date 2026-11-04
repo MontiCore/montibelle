@@ -1,0 +1,22 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_LLR.router.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "Avionics_LLR.router.Output",
+      "fullName": "Avionics_LLR.router.Output",
+      "channelNames": [
+        "channel_Avionics_LLR_router_b1Out_data",
+        "channel_Avionics_LLR_router_b2Out_data",
+        "channel_Avionics_LLR_router_cocaOut_data",
+        "channel_Avionics_LLR_router_dfpOut_data",
+        "channel_Avionics_LLR_router_maniacOut_data",
+        "channel_Avionics_LLR_router_mirmisOut_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_Avionics_LLR_router.def_Avionics_LLR_router_Output"
+    }
+  ]
+}

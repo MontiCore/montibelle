@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_TelecommandAndTelemetry_HLR_router.def_TelecommandAndTelemetry_HLR_router",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_TelecommandAndTelemetry_HLR_router.def_TelecommandAndTelemetry_HLR_router",
+      "fullName": "sps_TelecommandAndTelemetry_HLR_router.def_TelecommandAndTelemetry_HLR_router",
+      "filename": "def_TelecommandAndTelemetry_HLR_router",
+      "sessionName": "sps_TelecommandAndTelemetry_HLR_router"
+    }
+  ]
+}

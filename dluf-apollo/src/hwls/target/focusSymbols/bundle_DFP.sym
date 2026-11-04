@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_DFP",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_DFP",
+      "fullName": "bundle_DFP",
+      "path": [
+        "bundle",
+        "DFP"
+      ]
+    }
+  ]
+}

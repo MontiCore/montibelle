@@ -1,0 +1,14 @@
+session "connector" (testing) = "tscomponent" +
+  sessions
+    io
+    sps
+  theories
+    InputMap
+    OutputMap
+    Connectors
+    InputMap2
+    OutputMap2
+    Connectors_Serial
+    InputMap3
+    OutputMap3
+    Connectors_Feedback

@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Bob_HLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "Bob_HLR",
+      "fullName": "Bob_HLR",
+      "predicatesLen": 1,
+      "assumptionsLen": 1,
+      "theory": "sps_Bob_HLR.def_Bob_HLR",
+      "strong": true,
+      "inputName": "Bob_HLR.Input",
+      "outputName": "Bob_HLR.Output"
+    }
+  ]
+}

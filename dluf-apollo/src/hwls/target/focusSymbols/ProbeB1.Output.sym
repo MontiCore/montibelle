@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "ProbeB1.Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "ProbeB1.Output",
+      "fullName": "ProbeB1.Output",
+      "channelNames": [
+        "channel_ProbeB1_output_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_ProbeB1.def_ProbeB1_Output"
+    }
+  ]
+}

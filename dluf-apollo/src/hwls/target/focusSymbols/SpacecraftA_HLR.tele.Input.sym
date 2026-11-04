@@ -1,0 +1,23 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.tele.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_HLR.tele.Input",
+      "fullName": "SpacecraftA_HLR.tele.Input",
+      "channelNames": [
+        "channel_SpacecraftA_HLR_tele_b1In_data",
+        "channel_SpacecraftA_HLR_tele_b2In_data",
+        "channel_SpacecraftA_HLR_tele_cocaIn_data",
+        "channel_SpacecraftA_HLR_tele_dfpIn_data",
+        "channel_SpacecraftA_HLR_tele_groundIn_data",
+        "channel_SpacecraftA_HLR_tele_maniacIn_data",
+        "channel_SpacecraftA_HLR_tele_mirmisIn_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_HLR_tele.def_SpacecraftA_HLR_tele_Input"
+    }
+  ]
+}

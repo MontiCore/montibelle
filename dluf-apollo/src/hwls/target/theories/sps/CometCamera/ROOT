@@ -1,0 +1,5 @@
+session "sps_CometCamera" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_CometCamera"
+    theories
+        def_CometCamera
+

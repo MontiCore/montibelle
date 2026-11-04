@@ -1,0 +1,6 @@
+session "test_session" =
+  theories [option1, option2 = value]
+    Theory 1
+  theories
+    Theory 2
+    Theory 3 (global)

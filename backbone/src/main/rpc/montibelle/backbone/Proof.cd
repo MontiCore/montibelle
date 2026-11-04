@@ -1,0 +1,37 @@
+package montibelle.backbone;
+
+classdiagram Proof {
+
+  class ProveDefinition {
+
+    String workspaceId;
+
+    String theoryFile;
+
+    String session;
+
+    String[] sessionDirectories;
+
+    <<Opt>> Integer timeout;
+
+    <<Opt>> Boolean cloud;
+
+  }
+
+  class ProofProgress {
+    Integer progress;
+    String message;
+  }
+
+  interface Proof {
+
+    String verify(ProveDefinition input);
+
+    void cancelVerify(String theoryFile);
+
+    String getProofState(String theoryFile);
+
+    ProofProgress getProofProgress(String theoryFile);
+  }
+
+}

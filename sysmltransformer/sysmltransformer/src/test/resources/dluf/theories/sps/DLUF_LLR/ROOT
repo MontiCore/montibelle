@@ -1,0 +1,5 @@
+session "sps_DLUF_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_DLUF_HLR1" "sps_DLUF_LLR_connector" "sps_DLUF_LLR_scheduler1" "sps_DLUF_LLR_scheduler2" "sps_DLUF_LLR_scheduler3" "sps_DLUF_LLR_scheduler4" "bundle_DLUF_LLR"
+    theories
+        def_DLUF_LLR
+

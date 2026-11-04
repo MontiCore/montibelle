@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.maniac.Input",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_HLR.maniac.Input",
+      "fullName": "SpacecraftA_HLR.maniac.Input",
+      "channelNames": [
+        "channel_SpacecraftA_HLR_maniac_input_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_HLR_maniac.def_SpacecraftA_HLR_maniac_Input"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_Router_cocaOut_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_Router_cocaOut_data",
+      "fullName": "channel_Router_cocaOut_data",
+      "localName": "channel_cocaOut_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_cocaOut_data_pattern"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "SpacecraftA_HLR.Feedback",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.BundleSymbol",
+      "name": "SpacecraftA_HLR.Feedback",
+      "fullName": "SpacecraftA_HLR.Feedback",
+      "channelNames": [
+        "channel_SpacecraftA_HLR_coca_input_data",
+        "channel_SpacecraftA_HLR_dfp_input_data",
+        "channel_SpacecraftA_HLR_maniac_input_data",
+        "channel_SpacecraftA_HLR_mirmis_input_data",
+        "channel_SpacecraftA_HLR_tele_b1In_data",
+        "channel_SpacecraftA_HLR_tele_b2In_data",
+        "channel_SpacecraftA_HLR_tele_cocaIn_data",
+        "channel_SpacecraftA_HLR_tele_dfpIn_data",
+        "channel_SpacecraftA_HLR_tele_groundIn_data",
+        "channel_SpacecraftA_HLR_tele_maniacIn_data",
+        "channel_SpacecraftA_HLR_tele_mirmisIn_data",
+        "channel_SpacecraftA_HLR_coca_output_data",
+        "channel_SpacecraftA_HLR_maniac_output_data",
+        "channel_SpacecraftA_HLR_dfp_output_data",
+        "channel_SpacecraftA_HLR_mirmis_output_data",
+        "channel_SpacecraftA_HLR_tele_b1Out_data",
+        "channel_SpacecraftA_HLR_tele_b2Out_data",
+        "channel_SpacecraftA_HLR_tele_cocaOut_data",
+        "channel_SpacecraftA_HLR_tele_dfpOut_data",
+        "channel_SpacecraftA_HLR_tele_groundOut_data",
+        "channel_SpacecraftA_HLR_tele_maniacOut_data",
+        "channel_SpacecraftA_HLR_tele_mirmisOut_data"
+      ],
+      "timingName": "EVENT",
+      "codeTheory": "null",
+      "theory": "bundle_SpacecraftA_HLR.def_SpacecraftA_HLR_Feedback"
+    }
+  ]
+}

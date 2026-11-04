@@ -1,0 +1,108 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_HLR.sorter",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "InputMap",
+      "fullName": "InputMap",
+      "channelMappingNames": [
+        "channel_Sorter_b1In_data",
+        "channel_Sorter_b2In_data",
+        "channel_Sorter_cocaIn_data",
+        "channel_Sorter_maniacIn_data",
+        "channel_Sorter_dfpIn_data",
+        "channel_Sorter_mirmisIn_data"
+      ],
+      "theory": "sps_Avionics_HLR_sorter_InputMap.def_Avionics_HLR_sorter_InputMap",
+      "inputName": "Avionics_HLR.sorter.Input",
+      "outputName": "Sorter.Input"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ConnectorsSymbol",
+      "name": "OutputMap",
+      "fullName": "OutputMap",
+      "channelMappingNames": [
+        "channel_Avionics_HLR_sorter_prio1_data",
+        "channel_Avionics_HLR_sorter_prio2_data",
+        "channel_Avionics_HLR_sorter_prio3_data",
+        "channel_Avionics_HLR_sorter_prio4_data"
+      ],
+      "theory": "sps_Avionics_HLR_sorter_OutputMap.def_Avionics_HLR_sorter_OutputMap",
+      "inputName": "Sorter.Output",
+      "outputName": "Avionics_HLR.sorter.Output"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_b1In_data",
+      "fullName": "channel_Sorter_b1In_data",
+      "value": "channel_Avionics_HLR_sorter_b1In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_b2In_data",
+      "fullName": "channel_Sorter_b2In_data",
+      "value": "channel_Avionics_HLR_sorter_b2In_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_cocaIn_data",
+      "fullName": "channel_Sorter_cocaIn_data",
+      "value": "channel_Avionics_HLR_sorter_cocaIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_maniacIn_data",
+      "fullName": "channel_Sorter_maniacIn_data",
+      "value": "channel_Avionics_HLR_sorter_maniacIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_dfpIn_data",
+      "fullName": "channel_Sorter_dfpIn_data",
+      "value": "channel_Avionics_HLR_sorter_dfpIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Sorter_mirmisIn_data",
+      "fullName": "channel_Sorter_mirmisIn_data",
+      "value": "channel_Avionics_HLR_sorter_mirmisIn_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_sorter_prio1_data",
+      "fullName": "channel_Avionics_HLR_sorter_prio1_data",
+      "value": "channel_Sorter_prio1_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_sorter_prio2_data",
+      "fullName": "channel_Avionics_HLR_sorter_prio2_data",
+      "value": "channel_Sorter_prio2_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_sorter_prio3_data",
+      "fullName": "channel_Avionics_HLR_sorter_prio3_data",
+      "value": "channel_Sorter_prio3_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ChannelMappingSymbol",
+      "name": "channel_Avionics_HLR_sorter_prio4_data",
+      "fullName": "channel_Avionics_HLR_sorter_prio4_data",
+      "value": "channel_Sorter_prio4_data"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.InstanceSymbol",
+      "name": "Avionics_HLR.sorter",
+      "fullName": "Avionics_HLR.sorter",
+      "inputMapName": "InputMap",
+      "outputMapName": "OutputMap",
+      "spsName": "Sorter",
+      "theory": "sps_Avionics_HLR_sorter.def_Avionics_HLR_sorter",
+      "strong": true,
+      "inputName": "Avionics_HLR.sorter.Input",
+      "outputName": "Avionics_HLR.sorter.Output"
+    }
+  ]
+}

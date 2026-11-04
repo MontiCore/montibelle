@@ -1,0 +1,8 @@
+session "sps_Buffer_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Buffer_HLR3"
+    theories
+        def_Buffer_LLR
+        def_Buffer_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

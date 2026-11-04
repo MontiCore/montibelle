@@ -1,0 +1,8 @@
+session "sps_Bob_LLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Bob_HLR"
+    theories
+        def_Bob_LLR
+        def_Bob_LLR_States
+    export_files (in "export") [2]
+        "*:**scalaExec.scala"
+

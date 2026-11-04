@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Avionics_LLR_sorter",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Avionics_LLR_sorter",
+      "fullName": "sps_Avionics_LLR_sorter",
+      "path": [
+        "sps",
+        "Avionics_LLR",
+        "sorter"
+      ]
+    }
+  ]
+}

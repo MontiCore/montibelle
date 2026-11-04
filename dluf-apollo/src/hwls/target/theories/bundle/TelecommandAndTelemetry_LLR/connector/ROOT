@@ -1,0 +1,6 @@
+session "bundle_TelecommandAndTelemetry_LLR_connector" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Input
+        def_TelecommandAndTelemetry_LLR_connector_TelecommandAndTelemetry_LLR_connector_Output
+

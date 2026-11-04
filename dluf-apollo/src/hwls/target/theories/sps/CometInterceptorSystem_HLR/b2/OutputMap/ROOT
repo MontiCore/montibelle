@@ -1,0 +1,5 @@
+session "sps_CometInterceptorSystem_HLR_b2_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_ProbeB2" "bundle_CometInterceptorSystem_HLR_b2"
+    theories
+        def_CometInterceptorSystem_HLR_b2_OutputMap
+

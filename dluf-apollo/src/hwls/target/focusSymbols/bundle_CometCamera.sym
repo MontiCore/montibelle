@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_CometCamera",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_CometCamera",
+      "fullName": "bundle_CometCamera",
+      "path": [
+        "bundle",
+        "CometCamera"
+      ]
+    }
+  ]
+}

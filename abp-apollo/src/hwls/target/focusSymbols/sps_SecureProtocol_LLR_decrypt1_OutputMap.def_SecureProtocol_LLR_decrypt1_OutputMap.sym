@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_LLR_decrypt1_OutputMap.def_SecureProtocol_LLR_decrypt1_OutputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_SecureProtocol_LLR_decrypt1_OutputMap.def_SecureProtocol_LLR_decrypt1_OutputMap",
+      "fullName": "sps_SecureProtocol_LLR_decrypt1_OutputMap.def_SecureProtocol_LLR_decrypt1_OutputMap",
+      "filename": "def_SecureProtocol_LLR_decrypt1_OutputMap",
+      "sessionName": "sps_SecureProtocol_LLR_decrypt1_OutputMap"
+    }
+  ]
+}

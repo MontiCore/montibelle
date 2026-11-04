@@ -1,0 +1,14 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ChannelSymbol",
+      "name": "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+      "fullName": "channel_CometInterceptorSystem_HLR_spacecrafta_groundOut_data",
+      "localName": "channel_spacecrafta_groundOut_data",
+      "typeName": "PacketEVENT",
+      "pattern": "channel_spacecrafta_groundOut_data_pattern"
+    }
+  ]
+}

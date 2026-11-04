@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Scheduler_HLR3_capacity",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Scheduler_HLR3_capacity",
+      "fullName": "sps_Scheduler_HLR3_capacity",
+      "path": [
+        "sps",
+        "Scheduler_HLR3",
+        "capacity"
+      ]
+    }
+  ]
+}

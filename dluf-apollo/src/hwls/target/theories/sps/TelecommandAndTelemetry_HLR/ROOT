@@ -1,0 +1,5 @@
+session "sps_TelecommandAndTelemetry_HLR" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_TelecommandAndTelemetry_HLR" "sps_TelecommandAndTelemetry_HLR_connector" "sps_TelecommandAndTelemetry_HLR_router" "sps_TelecommandAndTelemetry_HLR_sorter" "sps_TelecommandAndTelemetry_HLR_mergex" "sps_TelecommandAndTelemetry_HLR_dldf"
+    theories
+        def_TelecommandAndTelemetry_HLR
+

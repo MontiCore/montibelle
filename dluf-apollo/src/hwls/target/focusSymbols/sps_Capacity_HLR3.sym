@@ -1,0 +1,15 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_Capacity_HLR3",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_Capacity_HLR3",
+      "fullName": "sps_Capacity_HLR3",
+      "path": [
+        "sps",
+        "Capacity_HLR3"
+      ]
+    }
+  ]
+}

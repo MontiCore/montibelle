@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_SecureProtocol_HLR2_eve2.def_SecureProtocol_HLR2_eve2_Output",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "bundle_SecureProtocol_HLR2_eve2.def_SecureProtocol_HLR2_eve2_Output",
+      "fullName": "bundle_SecureProtocol_HLR2_eve2.def_SecureProtocol_HLR2_eve2_Output",
+      "filename": "def_SecureProtocol_HLR2_eve2_Output",
+      "sessionName": "bundle_SecureProtocol_HLR2_eve2"
+    }
+  ]
+}

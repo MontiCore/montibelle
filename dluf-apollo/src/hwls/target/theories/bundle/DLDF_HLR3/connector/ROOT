@@ -1,0 +1,6 @@
+session "bundle_DLDF_HLR3_connector" (generated system) = "sps" +
+    sessions "data_inc" "user"
+    theories
+        def_DLDF_HLR3_connector_DLDF_HLR3_connector_Input
+        def_DLDF_HLR3_connector_DLDF_HLR3_connector_Output
+

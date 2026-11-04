@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_CometInterceptorSystem_LLR.def_CometInterceptorSystem_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_CometInterceptorSystem_LLR.def_CometInterceptorSystem_LLR",
+      "fullName": "sps_CometInterceptorSystem_LLR.def_CometInterceptorSystem_LLR",
+      "filename": "def_CometInterceptorSystem_LLR",
+      "sessionName": "sps_CometInterceptorSystem_LLR"
+    }
+  ]
+}

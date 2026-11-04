@@ -1,0 +1,5 @@
+session "sps_TelecommandAndTelemetry_LLR_mergex_OutputMap" (generated system) = "component" +
+    sessions "data_inc" "user" "bundle_Merge_LLR" "bundle_TelecommandAndTelemetry_LLR_mergex"
+    theories
+        def_TelecommandAndTelemetry_LLR_mergex_OutputMap
+

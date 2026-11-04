@@ -1,0 +1,30 @@
+session "refinement" (testing) = "data_inc" +
+  description "TODO HlrDecomposition ist noch kaputt"
+  options [quick_and_dirty=true]
+  sessions
+    tscomponent
+    eventcomponent
+    MultipleParameters
+    MultipleInitialStates
+    EventAutomatonInvariant
+    Event
+    specification
+    composition
+    requirement
+    generator
+  theories
+    AutomaticHlrNarrowing
+    EventAutomatonRefinement
+    EventAutomatonRefinement_StateMapping
+    EventAutomatonRefinement_ParamMapping
+    EventAutomatonRefinement_StateInv
+    RefinementInvariant
+    RefinementInvariant_StateMapping
+    RefinementInvariant_ParamMapping
+    RefinementInvariant_StateInv
+    TimesliceAutomatonRefinement
+    TimesliceAutomatonRefinement_StateMapping
+    TimesliceAutomatonRefinement_ParamMapping
+    TimesliceAutomatonRefinement_StateInv
+    HlrDecomposition
+    CompositeHlrNarrowing

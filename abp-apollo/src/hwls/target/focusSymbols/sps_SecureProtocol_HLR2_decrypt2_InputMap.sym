@@ -1,0 +1,17 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_SecureProtocol_HLR2_decrypt2_InputMap",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "sps_SecureProtocol_HLR2_decrypt2_InputMap",
+      "fullName": "sps_SecureProtocol_HLR2_decrypt2_InputMap",
+      "path": [
+        "sps",
+        "SecureProtocol_HLR2",
+        "decrypt2",
+        "InputMap"
+      ]
+    }
+  ]
+}

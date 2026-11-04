@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_AttackedSystem_HLR2_decrypt2",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_AttackedSystem_HLR2_decrypt2",
+      "fullName": "bundle_AttackedSystem_HLR2_decrypt2",
+      "path": [
+        "bundle",
+        "AttackedSystem_HLR2",
+        "decrypt2"
+      ]
+    }
+  ]
+}

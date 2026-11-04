@@ -1,0 +1,112 @@
+session "hwl_Bob" in "bob" = "sps_Bob_HLR" +
+  sessions "sps_Bob_LLR" "Smart_Isabelle"
+  theories
+    hwl_ref_Bob_LLR_rough_Bob_HLR
+
+session "move_to_core" in "move_to_core" = "eventcomponent" +
+  theories
+    hwl_core_ext
+    hwl_tsynSB2ustream
+    hwl_tsynSBBoolFilter
+    hwl_tsynSBRemDups
+    StreamExtension
+    TsynSBFunctionExtension
+    TsynStreamExtension
+
+session "lemmas" in "lemmas" = "eventcomponent" +
+  options
+    [quick_and_dirty=true]
+  sessions
+    sps_SecureProtocol_HLR1
+    sps_SecureProtocol_HLR2
+    move_to_core
+    to_be_generated
+  theories
+    hwl_eq_slen_eq_and_less
+    hwl_fin_i_eq_o
+    hwl_inf_i_eq_o
+    hwl_inf_x_ctrl
+    hwl_lemma_1
+    hwl_lemma_3
+    hwl_lemma_4
+    hwl_lemma_util
+    hwl_len1
+    hwl_len2
+    hwl_len3
+    hwl_live
+    hwl_med_nomed_eq
+    hwl_output_rewrite
+    hwl_refinement
+    hwl_S4
+    hwl_encrypt_decrypt
+
+session "lifted_only" in "lifted_only" = "eventcomponent" +
+  sessions
+    move_to_core
+    to_be_generated
+  theories
+    lo_lemma_0_Eve1
+    lo_lemma_0_Eve2
+    lo_lemma_3_Bob
+    lo_lemma_3_Eve1
+    lo_lemma_3_Eve2
+    lo_lemma_3
+    lo_lemma_util
+    lo_sps_Bob
+    lo_sps_Eve1
+    lo_sps_Eve2
+
+
+session "to_be_generated" (system) in "to_be_generated" = "sps_SecureProtocol_HLR2" +
+  sessions
+    move_to_core
+  theories
+    hwl_tsynchan_Attacked_in
+    hwl_tsynchan_Attacked_out
+    hwl_tsynchan_Alice_in
+    hwl_tsynchan_Alice_out
+    hwl_tsynchan_Attacked_Alice_out
+    hwl_tsynchan_Attacked_Bob_in
+    hwl_tsynchan_Attacked_Bob_out
+    hwl_tsynchan_Attacked_Eve1_in
+    hwl_tsynchan_Attacked_Eve1_out
+    hwl_tsynchan_Attacked_Eve2_in
+    hwl_tsynchan_Attacked_Eve2_out
+    hwl_tsynchan_Decrypt2_out
+    hwl_tsynchan_Attacked_Decrypt2_out
+    hwl_tsynchan_Bob_in
+    hwl_tsynchan_Bob_out
+    hwl_tsynchan_Eve1_in
+    hwl_tsynchan_Eve1_out
+    hwl_tsynchan_Eve2_in
+    hwl_tsynchan_Eve2_out
+    hwl_tsynSBlens
+    hwl_tsynSBRemDups_setter
+    tsynchans
+
+session "top" (system) = "eventcomponent" +
+  options
+    [quick_and_dirty=true]
+  sessions
+    sps_Alice_HLR
+    sps_SecureProtocol_HLR1
+    sps_SecureProtocol_HLR2
+    sps_SecureProtocol_LLR
+    sps_Bob_HLR
+    sps_Bob_LLR
+    sps_Eve1_HLR
+    sps_Eve2_HLR
+    bundle_SecureProtocol_HLR2_connector
+    bundle_SecureProtocol_HLR2_bob
+    bundle_Bob_HLR
+    SeLFiE
+    PSL
+    TBC
+    Abduction
+    Smart_Isabelle
+    generator
+    lemmas
+    hwl_Bob
+  theories
+    Fake
+

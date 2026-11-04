@@ -1,0 +1,13 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "sps_CometInterceptorSystem_LLR_connector.def_CometInterceptorSystem_LLR_connector",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.TheorySymbol",
+      "name": "sps_CometInterceptorSystem_LLR_connector.def_CometInterceptorSystem_LLR_connector",
+      "fullName": "sps_CometInterceptorSystem_LLR_connector.def_CometInterceptorSystem_LLR_connector",
+      "filename": "def_CometInterceptorSystem_LLR_connector",
+      "sessionName": "sps_CometInterceptorSystem_LLR_connector"
+    }
+  ]
+}

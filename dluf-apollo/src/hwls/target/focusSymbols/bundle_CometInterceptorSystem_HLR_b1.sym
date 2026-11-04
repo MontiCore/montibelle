@@ -1,0 +1,16 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "bundle_CometInterceptorSystem_HLR_b1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.SessionSymbol",
+      "name": "bundle_CometInterceptorSystem_HLR_b1",
+      "fullName": "bundle_CometInterceptorSystem_HLR_b1",
+      "path": [
+        "bundle",
+        "CometInterceptorSystem_HLR",
+        "b1"
+      ]
+    }
+  ]
+}

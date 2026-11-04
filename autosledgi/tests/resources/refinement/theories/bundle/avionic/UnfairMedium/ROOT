@@ -1,0 +1,9 @@
+session "bundle_avionic_UnfairMedium" (generated) = "sps" +
+    options [quick_and_dirty=true]
+    sessions "data_inc" "user"
+    theories
+        def_avionic_UnfairMedium_Input
+        def_avionic_UnfairMedium_Input_gen
+        def_avionic_UnfairMedium_Output
+        def_avionic_UnfairMedium_Output_gen
+

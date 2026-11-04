@@ -1,0 +1,5 @@
+session "sps_SpacecraftA_LLR_dfp" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SpacecraftA_LLR_dfp" "sps_SpacecraftA_LLR_dfp_InputMap" "sps_SpacecraftA_LLR_dfp_OutputMap" "sps_DFP"
+    theories
+        def_SpacecraftA_LLR_dfp
+

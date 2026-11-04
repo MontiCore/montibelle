@@ -1,0 +1,6 @@
+session "test_session" =
+  document_files ("./document/dir")
+    "document1"
+    "document2"
+  document_files
+    "document3"

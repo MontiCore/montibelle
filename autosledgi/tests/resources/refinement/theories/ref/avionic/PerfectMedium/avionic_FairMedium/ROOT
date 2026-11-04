@@ -1,0 +1,8 @@
+session "ref_avionic_PerfectMedium_refines_avionic_FairMedium" (refinement) = "eventcomponent" +
+    options [quick_and_dirty=true]
+    sessions "data_inc" "user" "sps_avionic_FairMedium" "sps_avionic_PerfectMedium"
+    theories
+        ref_avionic_PerfectMedium_rough_avionic_FairMedium
+        ref_avionic_PerfectMedium_rough_avionic_FairMedium_arec
+        ref_avionic_PerfectMedium_rough_avionic_FairMedium_StateMapping
+

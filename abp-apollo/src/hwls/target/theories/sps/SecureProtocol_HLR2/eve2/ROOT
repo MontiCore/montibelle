@@ -1,0 +1,5 @@
+session "sps_SecureProtocol_HLR2_eve2" (generated system) = "eventcomponent" +
+    sessions "data_inc" "user" "bundle_SecureProtocol_HLR2_eve2" "sps_SecureProtocol_HLR2_eve2_InputMap" "sps_SecureProtocol_HLR2_eve2_OutputMap" "sps_Eve2_HLR"
+    theories
+        def_SecureProtocol_HLR2_eve2
+

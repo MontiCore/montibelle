@@ -1,0 +1,41 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "DLDF_HLR1",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap1",
+      "fullName": "var_cap1",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap2",
+      "fullName": "var_cap2",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap3",
+      "fullName": "var_cap3",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.ParameterSymbol",
+      "name": "var_cap4",
+      "fullName": "var_cap4",
+      "typeName": "nat"
+    },
+    {
+      "kind": "montibelle.focus._symboltable.SpecificationSymbol",
+      "name": "DLDF_HLR1",
+      "fullName": "DLDF_HLR1",
+      "predicatesLen": 1,
+      "assumptionsLen": 3,
+      "theory": "sps_DLDF_HLR1.def_DLDF_HLR1",
+      "strong": true,
+      "inputName": "DLDF_HLR1.Input",
+      "outputName": "DLDF_HLR1.Output"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "generated-using": "www.MontiCore.de technology",
+  "name": "Avionics_HLR.ref.Avionics_LLR",
+  "symbols": [
+    {
+      "kind": "montibelle.focus._symboltable.RefinementSymbol",
+      "name": "Avionics_HLR.ref.Avionics_LLR",
+      "fullName": "Avionics_HLR.ref.Avionics_LLR",
+      "theory": "ref_Avionics_LLR_refines_Avionics_HLR.ref_Avionics_LLR_rough_Avionics_HLR"
+    }
+  ]
+}
